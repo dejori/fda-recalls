@@ -58,12 +58,168 @@
     </div>
     
     <div id="main-container" style="display: none;">
+        <div class="row">
+            <div id="monthly-chart">
+                <strong>By Month (2011 - 2013)</strong>
+            </div>
+        </div>
 
+        <div id="day-of-week-chart">
+            <strong>Day of Week</strong>
+            <a class="reset" href="javascript:dayOfWeekChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row">
+            <div id="reason-chart">
+                <strong>By Product Setting</strong>
+                <span class="reset" style="display: none;"> = <span class="filter"></span></span>
+                <a class="reset" href="javascript:reasonChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="brand-chart">
+                <strong>By Product Setting</strong>
+                <span class="reset" style="display: none;"> = <span class="filter"></span></span>
+                <a class="reset" href="javascript:brandChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
     </div>
 </div>
 <script type="text/javascript">
+    var dateFormat = d3.time.format("%m/%Y");
+    var numberFormat = d3.format(".2f");
+    var monthlyChart = dc.barChart("#monthly-chart");
+    var reasonChart = dc.pieChart("#reason-chart");
+    var brandChart = dc.pieChart("#brand-chart");
+   
+
+    d3.csv("data/RecallsDataSet.csv", function (csv) {
+        
+        $('#loading').css('visibility', 'hidden');
+
+        csv.forEach(function(d){
+        d.month = d3.time.month(dateFormat.parse(d["date"]));
+        });
+
+        var data = crossfilter(csv);
+
+        var all = data.groupAll().reduceSum(function (d) {
+            return 1;
+        });
 
 
+        var months = data.dimension(function (d) {
+            return d.month;
+        });
+
+        var monthGroup = months.group().reduce(//add
+            function (p, v) {
+                p.attestations += 1;
+                return p;
+            },
+            //remove
+            function (p, v) {
+                p.attestations -= 1;
+                return p;
+            },
+            //init
+            function () {
+                return {attestations: 0};
+            }
+        );
+
+
+        var reason = data.dimension(function (d) {
+        return d["reason"];
+        });
+        
+        var reasonGroup = reason.group().reduce(//add
+            function (p, v) {
+                p.attestations += 1;
+                return p;
+            },
+            //remove
+            function (p, v) {
+                p.attestations -= 1;
+                return p;
+            },
+            //init
+            function () {
+                return {attestations: 0};
+            }
+        );
+
+
+        var brand = data.dimension(function (d) {
+        return d["company"];
+        });
+        
+        var brandGroup = brand.group().reduce(//add
+            function (p, v) {
+                p.attestations += 1;
+                return p;
+            },
+            //remove
+            function (p, v) {
+                p.attestations -= 1;
+                return p;
+            },
+            //init
+            function () {
+                return {attestations: 0};
+            }
+        );
+
+        
+
+        monthlyChart.width(900)
+        .height(180)
+        .margins({top: 10, right: 0, bottom: 20, left: 100})
+        .valueAccessor(function(p) {return p.value.attestations;})
+        .dimension(months)
+        .group(monthGroup)
+        .centerBar(true)
+        .gap(0)
+        .brushOn(false)
+        .elasticY(true)
+        .x(d3.time.scale().domain([new Date(2009, 0, 2), new Date()]))
+        .round(d3.time.month.round)
+        .xUnits(d3.time.months)
+        .renderVerticalGridLines(false)
+        .title(function (d) {
+            return dateFormat(d.key) + "\nNumber of Attestations: " + Math.floor(d.value.attestations);
+        });
+
+        reasonChart.width(300)
+        .height(300)
+        .radius(120)
+        .innerRadius(60)
+        .valueAccessor(function(p) {return p.value.attestations;})
+        .dimension(reason)
+        .group(reasonGroup)
+        .label(function (d) {
+            return d.data.key;
+        });
+
+        brandChart.width(300)
+        .height(300)
+        .radius(120)
+        .innerRadius(60)
+        .valueAccessor(function(p) {return p.value.attestations;})
+        .dimension(brand)
+        .group(brandGroup)
+        .label(function (d) {
+            return d.data.key;
+        });
+       
+
+        dc.renderAll();
+        $('#main-container').show()
+    });
 
 
 </script>
