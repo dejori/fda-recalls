@@ -1,0 +1,56 @@
+{
+    "links": [
+        {
+            "source": 132,
+            "target": 302,
+            "value": 10
+        },
+        {
+            "source": 139,
+            "target": 352,
+            "value": 10
+        }
+    ],
+    "nodes": [
+        {
+            "company": "Missa Bay, LLC",
+            "date": "08/2012",
+            "group": 1,
+            "index": 352,
+            "name": "Ready Pac",
+            "product_description": "Apples",
+            "reason": "Listeria monocytogenes",
+            "url": "http://www.fda.gov/Safety/Recalls/ucm315249.htm"
+        },
+        {
+            "company": "Freshway Foods",
+            "date": "12/2012",
+            "group": 1,
+            "index": 139,
+            "name": "Freshway Foods",
+            "product_description": "Apples",
+            "reason": "Listeria monocytogenes",
+            "url": "http://www.fda.gov/Safety/Recalls/ucm331564.htm"
+        },
+        {
+            "company": "Performance Plus Marketing, Inc.",
+            "date": "12/2012",
+            "group": 1,
+            "index": 132,
+            "name": "Libigrow XXXtreme, Blue Diamond, Blue Diamond Platinum, Mojo Nights, Mojo Nights Supreme, and Casanova",
+            "product_description": "Dietary Supplement",
+            "reason": "Unapproved new drug",
+            "url": "http://www.fda.gov/Safety/Recalls/ucm332697.htm"
+        },
+        {
+            "company": "Body Basics, Inc.",
+            "date": "09/2012",
+            "group": 1,
+            "index": 302,
+            "name": "ACTRA-Sx 500",
+            "product_description": "Dietary Supplement",
+            "reason": "Unapproved new drug",
+            "url": "http://www.fda.gov/Safety/Recalls/ucm319697.htm"
+        }
+    ]
+}
