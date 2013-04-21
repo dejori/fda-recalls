@@ -109,7 +109,7 @@ d3.json("data/recalls.json", function(error, graph) {
       .call(force.drag);
 
   node.append("title")
-      .text(function(d) { return d.company+"\n"+d.name +"\n"+d.product_description; });
+      .text(function(d) { return "Company:"+ d.company+"\n"+d.name +"\n"+d.product_description+"\nReson: "+d.reason; });
 
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
