@@ -15,6 +15,16 @@
         padding-top: 60px;
       }
 
+        .node {
+          stroke: #fff;
+          stroke-width: 1.5px;
+        }
+
+        .link {
+          stroke: #999;
+          stroke-opacity: .6;
+        }
+
 
     </style>
 </head>
@@ -45,7 +55,7 @@
 
             <ul class="nav">
               <li class="active">
-                <a href="">Timeline</a>
+                <a href="">2012</a>
               </li>
             </ul>
                 <ul class="nav pull-right">
@@ -58,168 +68,59 @@
     </div>
     
     <div id="main-container" style="display: none;">
-        <div class="row">
-            <div id="monthly-chart">
-                <strong>By Month (2011 - 2013)</strong>
-            </div>
-        </div>
-
-        <div id="day-of-week-chart">
-            <strong>Day of Week</strong>
-            <a class="reset" href="javascript:dayOfWeekChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-
-            <div class="clearfix"></div>
-        </div>
-
-        <div class="row">
-            <div id="reason-chart">
-                <strong>By Product Setting</strong>
-                <span class="reset" style="display: none;"> = <span class="filter"></span></span>
-                <a class="reset" href="javascript:reasonChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                <div class="clearfix"></div>
-            </div>
-
-            <div id="brand-chart">
-                <strong>By Product Setting</strong>
-                <span class="reset" style="display: none;"> = <span class="filter"></span></span>
-                <a class="reset" href="javascript:brandChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                <div class="clearfix"></div>
-            </div>
-
+        <div id="pane" class="row">
+            
         </div>
     </div>
 </div>
 <script type="text/javascript">
-    var dateFormat = d3.time.format("%m/%Y");
-    var numberFormat = d3.format(".2f");
-    var monthlyChart = dc.barChart("#monthly-chart");
-    var reasonChart = dc.pieChart("#reason-chart");
-    var brandChart = dc.pieChart("#brand-chart");
-   
+    var width = 960,
+    height = 500;
 
-    d3.csv("data/RecallsDataSet.csv", function (csv) {
-        
-        $('#loading').css('visibility', 'hidden');
+var color = d3.scale.category20();
 
-        csv.forEach(function(d){
-        d.month = d3.time.month(dateFormat.parse(d["date"]));
-        });
+var force = d3.layout.force()
+    .charge(-120)
+    .linkDistance(30)
+    .size([width, height]);
 
-        var data = crossfilter(csv);
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-        var all = data.groupAll().reduceSum(function (d) {
-            return 1;
-        });
+d3.json("data/test.json", function(error, graph) {
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start();
 
+  var link = svg.selectAll(".link")
+      .data(graph.links)
+    .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-        var months = data.dimension(function (d) {
-            return d.month;
-        });
+  var node = svg.selectAll(".node")
+      .data(graph.nodes)
+    .enter().append("circle")
+      .attr("class", "node")
+      .attr("r", 5)
+      .style("fill", function(d) { return color(d.group); })
+      .call(force.drag);
 
-        var monthGroup = months.group().reduce(//add
-            function (p, v) {
-                p.attestations += 1;
-                return p;
-            },
-            //remove
-            function (p, v) {
-                p.attestations -= 1;
-                return p;
-            },
-            //init
-            function () {
-                return {attestations: 0};
-            }
-        );
+  node.append("title")
+      .text(function(d) { return d.name; });
 
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
 
-        var reason = data.dimension(function (d) {
-        return d["reason"];
-        });
-        
-        var reasonGroup = reason.group().reduce(//add
-            function (p, v) {
-                p.attestations += 1;
-                return p;
-            },
-            //remove
-            function (p, v) {
-                p.attestations -= 1;
-                return p;
-            },
-            //init
-            function () {
-                return {attestations: 0};
-            }
-        );
-
-
-        var brand = data.dimension(function (d) {
-        return d["company"];
-        });
-        
-        var brandGroup = brand.group().reduce(//add
-            function (p, v) {
-                p.attestations += 1;
-                return p;
-            },
-            //remove
-            function (p, v) {
-                p.attestations -= 1;
-                return p;
-            },
-            //init
-            function () {
-                return {attestations: 0};
-            }
-        );
-
-        
-
-        monthlyChart.width(900)
-        .height(180)
-        .margins({top: 10, right: 0, bottom: 20, left: 100})
-        .valueAccessor(function(p) {return p.value.attestations;})
-        .dimension(months)
-        .group(monthGroup)
-        .centerBar(true)
-        .gap(0)
-        .brushOn(false)
-        .elasticY(true)
-        .x(d3.time.scale().domain([new Date(2009, 0, 2), new Date()]))
-        .round(d3.time.month.round)
-        .xUnits(d3.time.months)
-        .renderVerticalGridLines(false)
-        .title(function (d) {
-            return dateFormat(d.key) + "\nNumber of Attestations: " + Math.floor(d.value.attestations);
-        });
-
-        reasonChart.width(300)
-        .height(300)
-        .radius(120)
-        .innerRadius(60)
-        .valueAccessor(function(p) {return p.value.attestations;})
-        .dimension(reason)
-        .group(reasonGroup)
-        .label(function (d) {
-            return d.data.key;
-        });
-
-        brandChart.width(300)
-        .height(300)
-        .radius(120)
-        .innerRadius(60)
-        .valueAccessor(function(p) {return p.value.attestations;})
-        .dimension(brand)
-        .group(brandGroup)
-        .label(function (d) {
-            return d.data.key;
-        });
-       
-
-        dc.renderAll();
-        $('#main-container').show()
-    });
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  });
+});
 
 
 </script>
