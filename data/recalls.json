@@ -18,7 +18,9 @@
     {
         "company": "Giant Food Stores, LLC and Martin&#39;s Food Markets",
         "date": "07/01/2013",
-        "imports": [],
+        "imports": [
+            "01.20"
+        ],
         "name": "01.2",
         "product_description": "Smoked Salmon",
         "reason": "Listeria monocytogenes"
@@ -164,10 +166,12 @@
     {
         "company": "Whole Foods Market",
         "date": "25/01/2013",
-        "imports": [],
+        "imports": [
+            "01.25"
+        ],
         "name": "01.20",
         "product_description": "Alaskan Sockeye Salmon",
-        "reason": "iListeria monocytogenes/i"
+        "reason": "Listeria monocytogenes"
     },
     {
         "company": "Hospira, Inc.",

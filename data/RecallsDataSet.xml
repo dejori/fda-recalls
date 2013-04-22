@@ -955,7 +955,7 @@
 	<DATE>Fri, 25 Jan 2013 00:00:00 -0500</DATE>
 	<BRAND_NAME><![CDATA[Whole Catch]]></BRAND_NAME>
 	<PRODUCT_DESCRIPTION><![CDATA[Alaskan Sockeye Salmon]]></PRODUCT_DESCRIPTION>
-	<REASON><![CDATA[&lt;i&gt;Listeria monocytogenes&lt;/i&gt;]]></REASON>
+	<REASON><![CDATA[&lt;&gt;Listeria monocytogenes&lt;&gt;]]></REASON>
 	<COMPANY><![CDATA[Whole Foods Market]]></COMPANY>
 	<COMPANY_RELEASE_LINK>http://www.fda.gov/Safety/Recalls/ucm336951.htm</COMPANY_RELEASE_LINK>
 	<PHOTOS_LINK>
