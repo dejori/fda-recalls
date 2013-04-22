@@ -11,7 +11,24 @@
     {
         "company": "ConAgra Foods",
         "date": "04/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.4",
+                "score": 1.0
+            },
+            {
+                "name": "01.5",
+                "score": 1.0
+            },
+            {
+                "name": "02.45",
+                "score": 1.0
+            },
+            {
+                "name": "03.99",
+                "score": 1.0
+            }
+        ],
         "name": "01.1",
         "product_description": "Hot Fries Snack",
         "reason": "Undeclared soy",
@@ -22,8 +39,16 @@
         "date": "07/01/2013",
         "imports": [
             {
+                "name": "01.16",
+                "score": 1.0
+            },
+            {
                 "name": "01.20",
-                "score": 0.75
+                "score": 1.5
+            },
+            {
+                "name": "01.25",
+                "score": 1.2
             }
         ],
         "name": "01.2",
@@ -34,7 +59,20 @@
     {
         "company": "Southwest Ice Cream Specialties",
         "date": "07/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.61",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.64",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.100",
+                "score": 1.1111111111111112
+            }
+        ],
         "name": "01.3",
         "product_description": "Ice Cream",
         "reason": "Undeclared soy, pecan, and wheat",
@@ -43,7 +81,32 @@
     {
         "company": "Woodstock",
         "date": "08/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.27",
+                "score": 1.0
+            },
+            {
+                "name": "02.41",
+                "score": 1.0
+            },
+            {
+                "name": "02.45",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.61",
+                "score": 1.0
+            },
+            {
+                "name": "02.64",
+                "score": 1.0
+            },
+            {
+                "name": "03.99",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "01.4",
         "product_description": "Almonds",
         "reason": "Undeclared soy",
@@ -52,7 +115,44 @@
     {
         "company": "Somersault Snack Co., LLC",
         "date": "08/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.6",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "01.10",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "01.27",
+                "score": 1.0
+            },
+            {
+                "name": "02.39",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.41",
+                "score": 1.0
+            },
+            {
+                "name": "02.60",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.101",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.103",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "01.5",
         "product_description": "Snack",
         "reason": "Undeclared milk",
@@ -61,7 +161,28 @@
     {
         "company": "Boba Direct (BD)",
         "date": "09/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.10",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.39",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.60",
+                "score": 1.0
+            },
+            {
+                "name": "03.101",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "01.6",
         "product_description": "Flavored powders",
         "reason": "Undeclared milk",
@@ -97,7 +218,36 @@
     {
         "company": "Island Delights, Inc.",
         "date": "11/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.27",
+                "score": 1.0
+            },
+            {
+                "name": "02.39",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.41",
+                "score": 1.0
+            },
+            {
+                "name": "02.60",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.101",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.103",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "01.10",
         "product_description": "Haystacks",
         "reason": "Undeclared milk",
@@ -124,7 +274,20 @@
     {
         "company": "BBU, Inc.",
         "date": "16/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "01.17",
+                "score": 1.0
+            },
+            {
+                "name": "02.51",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.57",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "01.13",
         "product_description": "Bagels",
         "reason": "Metal fragments",
@@ -133,7 +296,12 @@
     {
         "company": "Kinnikinnick Foods",
         "date": "17/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.42",
+                "score": 1.0
+            }
+        ],
         "name": "01.14",
         "product_description": "Frozen Pie Crust",
         "reason": "Undeclared eggs",
@@ -151,7 +319,12 @@
     {
         "company": "Knott&#39;s Fine Foods Inc.",
         "date": "21/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.96",
+                "score": 1.2
+            }
+        ],
         "name": "01.16",
         "product_description": "Chicken Salad Sandwiches",
         "reason": "Listeria monocytogenes",
@@ -160,7 +333,16 @@
     {
         "company": "Annie\u2019s Inc.",
         "date": "22/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.51",
+                "score": 1.0
+            },
+            {
+                "name": "02.57",
+                "score": 1.0
+            }
+        ],
         "name": "01.17",
         "product_description": "Frozen pizza products",
         "reason": "Metal fragments",
@@ -181,6 +363,10 @@
         "imports": [
             {
                 "name": "02.53",
+                "score": 2.0
+            },
+            {
+                "name": "03.92",
                 "score": 1.0
             }
         ],
@@ -195,7 +381,7 @@
         "imports": [
             {
                 "name": "01.25",
-                "score": 1.0
+                "score": 2.0
             }
         ],
         "name": "01.20",
@@ -224,7 +410,12 @@
     {
         "company": "Sprouters Northwest",
         "date": "28/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.30",
+                "score": 1.1111111111111112
+            }
+        ],
         "name": "01.23",
         "product_description": "Alfalfa, Clover, Brocco Sandwich Sprouts, and Spicy Sprouts.",
         "reason": "Listeria monocytogenes",
@@ -260,7 +451,32 @@
     {
         "company": "R-Kane products Inc.",
         "date": "30/01/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.39",
+                "score": 1.0
+            },
+            {
+                "name": "02.41",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.61",
+                "score": 1.2
+            },
+            {
+                "name": "02.64",
+                "score": 1.2
+            },
+            {
+                "name": "03.100",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.0
+            }
+        ],
         "name": "01.27",
         "product_description": "Protein Supplement",
         "reason": "Undeclared milk and soy",
@@ -299,15 +515,23 @@
         "imports": [
             {
                 "name": "02.36",
-                "score": 0.75
+                "score": 1.5
             },
             {
                 "name": "02.37",
-                "score": 0.75
+                "score": 1.5
             },
             {
                 "name": "02.38",
-                "score": 0.75
+                "score": 1.5
+            },
+            {
+                "name": "02.59",
+                "score": 1.0
+            },
+            {
+                "name": "02.65",
+                "score": 1.0
             }
         ],
         "name": "02.31",
@@ -357,11 +581,19 @@
         "imports": [
             {
                 "name": "02.37",
-                "score": 1.0
+                "score": 2.0
             },
             {
                 "name": "02.38",
-                "score": 0.75
+                "score": 1.5
+            },
+            {
+                "name": "02.59",
+                "score": 1.0
+            },
+            {
+                "name": "02.65",
+                "score": 1.0
             }
         ],
         "name": "02.36",
@@ -375,7 +607,15 @@
         "imports": [
             {
                 "name": "02.38",
-                "score": 0.75
+                "score": 1.5
+            },
+            {
+                "name": "02.59",
+                "score": 1.0
+            },
+            {
+                "name": "02.65",
+                "score": 1.0
             }
         ],
         "name": "02.37",
@@ -386,7 +626,16 @@
     {
         "company": "Domega NY International CO., LTD",
         "date": "13/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.59",
+                "score": 1.0
+            },
+            {
+                "name": "02.65",
+                "score": 1.0
+            }
+        ],
         "name": "02.38",
         "product_description": "Dried Coconut",
         "reason": "Undeclared sulfites",
@@ -395,7 +644,28 @@
     {
         "company": "Associated Milk Producers, Inc.",
         "date": "14/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.41",
+                "score": 1.0
+            },
+            {
+                "name": "02.60",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.101",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.103",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.39",
         "product_description": "Pudding",
         "reason": "Undeclared milk",
@@ -413,7 +683,24 @@
     {
         "company": "JS Pelmini OK, Inc.",
         "date": "14/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.61",
+                "score": 1.2
+            },
+            {
+                "name": "02.64",
+                "score": 1.2
+            },
+            {
+                "name": "03.100",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.0
+            }
+        ],
         "name": "02.41",
         "product_description": "Potato dumplings",
         "reason": "Undeclared milk and soy",
@@ -422,7 +709,12 @@
     {
         "company": "The Muffin &amp;quot;Mam&amp;quot; Inc.",
         "date": "15/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.95",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.42",
         "product_description": "Cake",
         "reason": "Undeclared egg",
@@ -440,7 +732,16 @@
     {
         "company": "Nature&#39;s Variety",
         "date": "15/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.54",
+                "score": 1.0
+            },
+            {
+                "name": "03.105",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.44",
         "product_description": "Pet food",
         "reason": "Plastic pieces",
@@ -451,8 +752,16 @@
         "date": "15/02/2013",
         "imports": [
             {
+                "name": "02.61",
+                "score": 1.0
+            },
+            {
+                "name": "02.64",
+                "score": 1.0
+            },
+            {
                 "name": "03.99",
-                "score": 0.75
+                "score": 1.5
             }
         ],
         "name": "02.45",
@@ -481,7 +790,12 @@
     {
         "company": "Kaytee Products",
         "date": "19/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.68",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.48",
         "product_description": "Bird treats",
         "reason": "Salmonella",
@@ -492,8 +806,16 @@
         "date": "19/02/2013",
         "imports": [
             {
+                "name": "02.52",
+                "score": 1.3333333333333333
+            },
+            {
                 "name": "02.55",
-                "score": 1.0
+                "score": 2.0
+            },
+            {
+                "name": "03.76",
+                "score": 1.3333333333333333
             }
         ],
         "name": "02.49",
@@ -507,7 +829,7 @@
         "imports": [
             {
                 "name": "02.66",
-                "score": 1.0
+                "score": 2.0
             }
         ],
         "name": "02.50",
@@ -518,7 +840,12 @@
     {
         "company": "Heartland Brands",
         "date": "20/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.57",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.51",
         "product_description": "Granola cereal",
         "reason": "Metal fragments",
@@ -529,8 +856,20 @@
         "date": "20/02/2013",
         "imports": [
             {
+                "name": "02.54",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "02.55",
+                "score": 1.3333333333333333
+            },
+            {
                 "name": "03.76",
-                "score": 1.0
+                "score": 2.0
+            },
+            {
+                "name": "03.88",
+                "score": 1.3333333333333333
             }
         ],
         "name": "02.52",
@@ -541,7 +880,12 @@
     {
         "company": "Olaax Corporation",
         "date": "21/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.92",
+                "score": 1.0
+            }
+        ],
         "name": "02.53",
         "product_description": "Dietary Supplement",
         "reason": "Unapproved new drug",
@@ -550,7 +894,24 @@
     {
         "company": "The Honest Kitchen",
         "date": "21/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.75",
+                "score": 1.0
+            },
+            {
+                "name": "03.76",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.88",
+                "score": 1.3333333333333333
+            },
+            {
+                "name": "03.105",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.54",
         "product_description": "Pet food products",
         "reason": "Salmonella",
@@ -559,7 +920,12 @@
     {
         "company": "Kasel Associated Industries",
         "date": "21/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.76",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.55",
         "product_description": "Dog Treats",
         "reason": "Salmonella",
@@ -595,7 +961,12 @@
     {
         "company": "Lion Pavilion Ltd.",
         "date": "22/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "02.65",
+                "score": 1.0
+            }
+        ],
         "name": "02.59",
         "product_description": "Ginger Slices",
         "reason": "Undeclared sulfites",
@@ -604,7 +975,16 @@
     {
         "company": "Herbalife International of America",
         "date": "22/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.101",
+                "score": 1.0
+            },
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.60",
         "product_description": "Nutritional shake",
         "reason": "Undeclared milk",
@@ -616,7 +996,15 @@
         "imports": [
             {
                 "name": "02.64",
+                "score": 2.0
+            },
+            {
+                "name": "03.99",
                 "score": 1.0
+            },
+            {
+                "name": "03.100",
+                "score": 1.4285714285714286
             }
         ],
         "name": "02.61",
@@ -645,7 +1033,16 @@
     {
         "company": "Bruce Foods Corporation",
         "date": "23/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.99",
+                "score": 1.0
+            },
+            {
+                "name": "03.100",
+                "score": 1.4285714285714286
+            }
+        ],
         "name": "02.64",
         "product_description": "Sauce",
         "reason": "Undeclared wheat and soy",
@@ -681,7 +1078,12 @@
     {
         "company": "United Pet Group, Inc.",
         "date": "27/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.88",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "02.68",
         "product_description": "Bird Food",
         "reason": "Salmonella",
@@ -729,7 +1131,7 @@
         "imports": [
             {
                 "name": "03.77",
-                "score": 1.0
+                "score": 2.0
             }
         ],
         "name": "03.73",
@@ -758,7 +1160,12 @@
     {
         "company": "Diggin&#39; Your Dog",
         "date": "07/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.88",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "03.76",
         "product_description": "Pet Treats",
         "reason": "Salmonella",
@@ -797,7 +1204,7 @@
         "imports": [
             {
                 "name": "03.97",
-                "score": 1.0
+                "score": 2.0
             }
         ],
         "name": "03.80",
@@ -817,7 +1224,12 @@
     {
         "company": "Bravo!",
         "date": "13/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.107",
+                "score": 1.4444444444444444
+            }
+        ],
         "name": "03.82",
         "product_description": "Chicken Blend-Raw Frozen Food Diet for Dogs and Cats",
         "reason": "Potential to be contaminated with Salmonella",
@@ -898,7 +1310,12 @@
     {
         "company": "Daesang America Inc.",
         "date": "19/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.92",
+                "score": 1.0
+            }
+        ],
         "name": "03.91",
         "product_description": "Soy Bean Paste",
         "reason": "Undeclared Peanuts",
@@ -988,7 +1405,12 @@
     {
         "company": "Lifestyle Evolution, Inc.",
         "date": "28/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.116",
+                "score": 1.3333333333333333
+            }
+        ],
         "name": "03.101",
         "product_description": "Dessert Bars",
         "reason": "Undeclared milk",
@@ -997,7 +1419,12 @@
     {
         "company": "Rich Products Corporation",
         "date": "28/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.109",
+                "score": 1.1111111111111112
+            }
+        ],
         "name": "03.102",
         "product_description": "Mozzarella Bites, Quesadillas, Pizza",
         "reason": "Escherichia coli O121",
@@ -1006,7 +1433,12 @@
     {
         "company": "Heartland Gourmet, LLC",
         "date": "28/03/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.116",
+                "score": 1.0
+            }
+        ],
         "name": "03.103",
         "product_description": "Cookie mix, Pizza mix",
         "reason": "Undeclared milk",
@@ -1078,7 +1510,12 @@
     {
         "company": "Green Valley Drugs",
         "date": "05/04/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.117",
+                "score": 1.0909090909090908
+            }
+        ],
         "name": "04.111",
         "product_description": "Sterile, compounded products",
         "reason": "Lack of sterility assurance and concerns associated with the quality control processes",
@@ -1132,7 +1569,12 @@
     {
         "company": "Apoth\u00e9Cure Inc.",
         "date": "15/04/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "04.118",
+                "score": 1.0
+            }
+        ],
         "name": "04.117",
         "product_description": "Sterile drug products",
         "reason": "Lack of sterility assurance",
