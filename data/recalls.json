@@ -1,304 +1,402 @@
 [
     {
+        "company": "ADM Alliance Nutrition, Inc.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.0",
-        "size": 1,
-        "title": "Excess copper"
+        "product_description": "18 Elite Lamb DC",
+        "reason": "Excess copper"
     },
     {
+        "company": "Kinnikinnick Foods",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.1",
-        "size": 1,
-        "title": "Undeclared eggs"
+        "product_description": "Frozen Pie Crust",
+        "reason": "Undeclared eggs"
     },
     {
+        "company": "Delifish S.A.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.2",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cold smoked salmon products",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Haig\u2019s Delicacies",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.3",
-        "size": 1,
-        "title": "Undeclared milk, eggs and wheat"
+        "product_description": "Tzatziki, Falafel, Spanakopita and Tyropita",
+        "reason": "Undeclared milk, eggs and wheat"
     },
     {
+        "company": "GE Healthcare, LLC",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.4",
-        "size": 1,
-        "title": "Disposable T-Piece circuits used with resuscitation systems are unable to achieve maximum Peak Inspiratory Pressure (PIP) during the pre-use check out procedure."
+        "product_description": "T-Piece Disposable Circuit Kit 10 pack; T-Piece Disposable",
+        "reason": "Disposable T-Piece circuits used with resuscitation systems are unable to achieve maximum Peak Inspiratory Pressure (PIP) during the pre-use check out procedure."
     },
     {
+        "company": "S&amp;M INTERNATIONAL INC",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.5",
-        "size": 1,
-        "title": "&lt;i&gt;Under processing potential Clostridium botulinum&lt;/i&gt;."
+        "product_description": "Cooked salted duck eggs",
+        "reason": "&lt;i&gt;Under processing potential Clostridium botulinum&lt;/i&gt;."
     },
     {
+        "company": "P&amp;J TRADING",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.6",
-        "size": 1,
-        "title": "Contain Sibutramine, an active drug ingredient not listed on label"
+        "product_description": "Dietary Supplements",
+        "reason": "Contain Sibutramine, an active drug ingredient not listed on label"
     },
     {
+        "company": "Mylan Inc.",
+        "date": "12/2012",
         "imports": [
             "12/2012.21"
         ],
         "name": "12/2012.7",
-        "size": 1,
-        "title": "tablets may exceed the weight requirement and could exceed the label claim potency requirements for the ingredients hydrocodone bitartrate and acetaminophen"
+        "product_description": "Hydrocodone Bitartrate and Acetaminophen Tablets, USP 10 mg/500 mg",
+        "reason": "tablets may exceed the weight requirement and could exceed the label claim potency requirements for the ingredients hydrocodone bitartrate and acetaminophen"
     },
     {
+        "company": "Praxair, Inc.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.8",
-        "size": 1,
-        "title": "Incidents of ignition inside  oxygen cylinders that had been knocked over and subject to significant physical impact"
+        "product_description": "Portable oxygen cylinder units",
+        "reason": "Incidents of ignition inside  oxygen cylinders that had been knocked over and subject to significant physical impact"
     },
     {
+        "company": "Zimmer Spine Inc.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.9",
-        "size": 1,
-        "title": "Breakage"
+        "product_description": "PEEK Ardis Inserters",
+        "reason": "Breakage"
     },
     {
+        "company": "Udi&#39;s Healthy Foods, LLC",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.10",
-        "size": 1,
-        "title": "Undeclared almonds"
+        "product_description": "Granola",
+        "reason": "Undeclared almonds"
     },
     {
+        "company": "True Taste, LLC",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.11",
-        "size": 1,
-        "title": "&lt;em&gt;Clostridium botulinum&lt;em/&gt;"
+        "product_description": "Smoked Fish",
+        "reason": "&lt;em&gt;Clostridium botulinum&lt;em/&gt;"
     },
     {
+        "company": "Matrixx Initiatives",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.12",
-        "size": 1,
-        "title": "Burkholderia cepacia"
+        "product_description": "Nasal Spray",
+        "reason": "Burkholderia cepacia"
     },
     {
+        "company": "Performance Plus Marketing, Inc.",
+        "date": "12/2012",
         "imports": [
             "09/2012.183"
         ],
         "name": "12/2012.13",
-        "size": 1,
-        "title": "Unapproved new drug"
+        "product_description": "Dietary Supplement",
+        "reason": "Unapproved new drug"
     },
     {
+        "company": "Ocean Beauty Seafoods LLC",
+        "date": "12/2012",
         "imports": [
             "08/2012.218"
         ],
         "name": "12/2012.14",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Smoked salmon",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.15",
-        "size": 1,
-        "title": "Presence of visible particulates."
+        "product_description": "Carboplatin Injection",
+        "reason": "Presence of visible particulates."
     },
     {
+        "company": "Taylor Farms Retail, Inc.",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.16",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Romaine Lettuce",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Claudia&#39;s Canine Cuisine",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.17",
-        "size": 1,
-        "title": "Due to the potential of product become moldy"
+        "product_description": "Holiday &amp; Blueberry Hound Cake for dogs",
+        "reason": "Due to the potential of product become moldy"
     },
     {
+        "company": "Mister Snacks",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.18",
-        "size": 1,
-        "title": "Undeclared peanuts"
+        "product_description": "Yogurt Raisins",
+        "reason": "Undeclared peanuts"
     },
     {
+        "company": "Sugar Flowers Plus Inc",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.19",
-        "size": 1,
-        "title": "Undeclared Egg White"
+        "product_description": "Cake Decors Pastillage (gumpaste) Flowers",
+        "reason": "Undeclared Egg White"
     },
     {
+        "company": "Freshway Foods",
+        "date": "12/2012",
         "imports": [
             "08/2012.233",
             "07/2012.282"
         ],
         "name": "12/2012.20",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Apples",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Qualitest",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.21",
-        "size": 1,
-        "title": "Tablets from the affected lots may exceed the weight requirement and could exceed the label claim potency requirements for the ingredients of hydrocodone bitartrate and acetaminophen."
+        "product_description": "Hydrocodone bitartrate and acetaminophen 10mg/500 mg tablets",
+        "reason": "Tablets from the affected lots may exceed the weight requirement and could exceed the label claim potency requirements for the ingredients of hydrocodone bitartrate and acetaminophen."
     },
     {
+        "company": "Bunnell Incorporated",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.22",
-        "size": 1,
-        "title": "Heater wire insulation can melt, causing sparking and smoke close to the humidifier cartridge."
+        "product_description": "Ventilator Patient Circuit",
+        "reason": "Heater wire insulation can melt, causing sparking and smoke close to the humidifier cartridge."
     },
     {
+        "company": "LifeVantage Corporation",
+        "date": "12/2012",
         "imports": [],
         "name": "12/2012.23",
-        "size": 1,
-        "title": "Metal fragments"
+        "product_description": "Dietary Supplement",
+        "reason": "Metal fragments"
     },
     {
+        "company": "VEGGIE PATCH",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.24",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Ultimate Meatless Burger and Falafel chickpea balls",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Stop &amp;amp; Shop Supermarket Company LLC",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.25",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Meatless burgers",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Verathon Inc",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.26",
-        "size": 1,
-        "title": "Laryngoscope blades have been found to be prone to developing cracks and/or breaking across the tip of the blade, which potentially could result in pieces of the blade breaking off in patient\u2019s mouths and obstructing the airway or being swallowed"
+        "product_description": "GVL Video Laryngoscopes reusable blades",
+        "reason": "Laryngoscope blades have been found to be prone to developing cracks and/or breaking across the tip of the blade, which potentially could result in pieces of the blade breaking off in patient\u2019s mouths and obstructing the airway or being swallowed"
     },
     {
+        "company": "Sukhi\u2019s Gourmet Indian Foods",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.27",
-        "size": 1,
-        "title": "Undeclared Shrimp"
+        "product_description": "Red Curry with Vegetables",
+        "reason": "Undeclared Shrimp"
     },
     {
+        "company": "Ranbaxy Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.28",
-        "size": 1,
-        "title": "May contain very small glass particles resembling a fine grain of sand (less than 1 mm in size)"
+        "product_description": "Atorvastatin Calcium Tablets (10 mg, 20 mg and 40 mg)",
+        "reason": "May contain very small glass particles resembling a fine grain of sand (less than 1 mm in size)"
     },
     {
+        "company": "Bracco Diagnostics Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.29",
-        "size": 1,
-        "title": "Presence of visible particulate matter in syringes"
+        "product_description": "Pre-Filled Power Injector Syringes",
+        "reason": "Presence of visible particulate matter in syringes"
     },
     {
+        "company": "Legendary Baking",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.30",
-        "size": 1,
-        "title": "Undeclared eggs"
+        "product_description": "Pies",
+        "reason": "Undeclared eggs"
     },
     {
+        "company": "Newman&#39;s Own, Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.31",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Lite Honey Mustard Dressing",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Sara Lee",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.32",
-        "size": 1,
-        "title": "Undeclared Pecans"
+        "product_description": "Butter Streusel Coffee Cake",
+        "reason": "Undeclared Pecans"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.33",
-        "size": 1,
-        "title": "Almonds and Pecans"
+        "product_description": "Wedding Cookies and Almondine Wedding Cookies",
+        "reason": "Almonds and Pecans"
     },
     {
+        "company": "Rio Queen Citrus Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.34",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mexican Cherry Tomatoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Capital City Fruit, Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.35",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cherry tomatoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Carolina Prime Pet Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.36",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Treats - All Natural Bull Strips",
+        "reason": "Salmonella"
     },
     {
+        "company": "Michaels Gourmet Delicacies",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.37",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Wild Alaskan Sockeye Salmon",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Whole Alternatives LLC",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.38",
-        "size": 1,
-        "title": "Undeclared Sulphur-Dioxide"
+        "product_description": "Dried Apricots and Dried Golden Raisins",
+        "reason": "Undeclared Sulphur-Dioxide"
     },
     {
+        "company": "Focus Product Groups International, LLC",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.39",
-        "size": 1,
-        "title": "Potential to leach lead"
+        "product_description": "Hot drink maker",
+        "reason": "Potential to leach lead"
     },
     {
+        "company": "Tri-Union Seafoods",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.40",
-        "size": 1,
-        "title": "Undeclared soy"
+        "product_description": "Tuna fish",
+        "reason": "Undeclared soy"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.41",
-        "size": 1,
-        "title": "Undeclared walnut"
+        "product_description": "Coffee",
+        "reason": "Undeclared walnut"
     },
     {
+        "company": "Publix",
+        "date": "11/2012",
         "imports": [
             "07/2012.282"
         ],
         "name": "11/2012.42",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cakes",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Magnolia Bird Farm, Incorporated",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.43",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Bird feed",
+        "reason": "Salmonella"
     },
     {
+        "company": "Mindray DS USA",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.44",
-        "size": 1,
-        "title": "Possibility of a system leak resulting from improper seating of the CO2 absorbent canister gasket."
+        "product_description": "A3/A5 Anesthesia Delivery System",
+        "reason": "Possibility of a system leak resulting from improper seating of the CO2 absorbent canister gasket."
     },
     {
+        "company": "Turkana Food Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.45",
-        "size": 1,
-        "title": "Undeclared sulfites"
+        "product_description": "Dried apricots",
+        "reason": "Undeclared sulfites"
     },
     {
+        "company": "Tony\u2019s Imports and Exports",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.46",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Tahineh",
+        "reason": "Salmonella"
     },
     {
+        "company": "Jimmy Dean",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.47",
-        "size": 1,
-        "title": "Undeclared egg and soy"
+        "product_description": "French Toast &amp; Sausage Sandwich",
+        "reason": "Undeclared egg and soy"
     },
     {
+        "company": "Boulder Ice Cream",
+        "date": "11/2012",
         "imports": [
             "10/2012.78",
             "10/2012.97",
@@ -314,95 +412,121 @@
             "09/2012.151"
         ],
         "name": "11/2012.48",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream and Gelato",
+        "reason": "Salmonella"
     },
     {
+        "company": "Frito-Lay",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.49",
-        "size": 1,
-        "title": "Undeclared milk and egg"
+        "product_description": "Cookies",
+        "reason": "Undeclared milk and egg"
     },
     {
+        "company": "Spence and Co Ltd",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.50",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Nova Lox",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Nestle USA",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.51",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Chocolate Powder",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fresh Express Incorporated",
+        "date": "11/2012",
         "imports": [
             "10/2012.65",
             "10/2012.95",
             "10/2012.105"
         ],
         "name": "11/2012.52",
-        "size": 1,
-        "title": "&lt;i&gt;Salmonella&lt;/i&gt;"
+        "product_description": "Spinach",
+        "reason": "&lt;i&gt;Salmonella&lt;/i&gt;"
     },
     {
+        "company": "Mayflower International, Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.53",
-        "size": 1,
-        "title": "Undeclared sulfites"
+        "product_description": "Lily Dry",
+        "reason": "Undeclared sulfites"
     },
     {
+        "company": "Omya, Inc.",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.54",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Food Grade Ground Limestone",
+        "reason": "Salmonella"
     },
     {
+        "company": "The Kroger Co.",
+        "date": "11/2012",
         "imports": [
             "10/2012.66",
             "07/2012.273"
         ],
         "name": "11/2012.55",
-        "size": 1,
-        "title": "Undeclared pecans"
+        "product_description": "Ice Cream",
+        "reason": "Undeclared pecans"
     },
     {
+        "company": "Kenny&#39;s Farmhouse Cheese",
+        "date": "11/2012",
         "imports": [
             "10/2012.125",
             "10/2012.139",
             "09/2012.181"
         ],
         "name": "11/2012.56",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Various Cheeses",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Wegmans Foods Markets, Inc",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.57",
-        "size": 1,
-        "title": "E.coli"
+        "product_description": "Spinach",
+        "reason": "E.coli"
     },
     {
+        "company": "Raymond-Hadley",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.58",
-        "size": 1,
-        "title": "Undeclared milk, soy or pecan"
+        "product_description": "Baking Products",
+        "reason": "Undeclared milk, soy or pecan"
     },
     {
+        "company": "Bolthouse Farms",
+        "date": "11/2012",
         "imports": [
             "11/2012.60"
         ],
         "name": "11/2012.59",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Carrots",
+        "reason": "Salmonella"
     },
     {
+        "company": "Bolthouse Farms",
+        "date": "11/2012",
         "imports": [],
         "name": "11/2012.60",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Carrots",
+        "reason": "Salmonella"
     },
     {
+        "company": "Charlee Bear Products",
+        "date": "11/2012",
         "imports": [
             "09/2012.164",
             "05/2012.338",
@@ -416,111 +540,145 @@
             "04/2012.365"
         ],
         "name": "11/2012.61",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Ameridose, LLC",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.62",
-        "size": 1,
-        "title": "Sterility"
+        "product_description": "Drugs products",
+        "reason": "Sterility"
     },
     {
+        "company": "Wegmans Food Markets, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.63",
-        "size": 1,
-        "title": "May contain pieces of product"
+        "product_description": "Pumkin roll",
+        "reason": "May contain pieces of product"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.64",
-        "size": 1,
-        "title": "Potential for interruption of therapy or over/under delivery of medication."
+        "product_description": "Infusion Systems",
+        "reason": "Potential for interruption of therapy or over/under delivery of medication."
     },
     {
+        "company": "BT McElrath Chocolatier, Inc.",
+        "date": "10/2012",
         "imports": [
             "10/2012.95",
             "10/2012.105"
         ],
         "name": "10/2012.65",
-        "size": 1,
-        "title": "&lt;i&gt;Salmonella&lt;/i&gt;"
+        "product_description": "Peanut Butter Candy",
+        "reason": "&lt;i&gt;Salmonella&lt;/i&gt;"
     },
     {
+        "company": "Schoep&#39;s Ice Cream Company",
+        "date": "10/2012",
         "imports": [
             "07/2012.273"
         ],
         "name": "10/2012.66",
-        "size": 1,
-        "title": "Undeclared pecans"
+        "product_description": "Ice Cream",
+        "reason": "Undeclared pecans"
     },
     {
+        "company": "Premium Nutritional Products, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.67",
-        "size": 1,
-        "title": "Nutritional Values"
+        "product_description": "Bird Food",
+        "reason": "Nutritional Values"
     },
     {
+        "company": "Tropical Valley Foods",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.68",
-        "size": 1,
-        "title": "Undeclared Allergens"
+        "product_description": "Chocolate and Trail Mix Bulk Items",
+        "reason": "Undeclared Allergens"
     },
     {
+        "company": "Bumble Bar",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.69",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Bars",
+        "reason": "Salmonella"
     },
     {
+        "company": "HeartSine Technologies LTD",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.70",
-        "size": 1,
-        "title": "Intermittently turn on and off eventually depletes the battery"
+        "product_description": "Samaritan 300/300P PAD defibrillators",
+        "reason": "Intermittently turn on and off eventually depletes the battery"
     },
     {
+        "company": "Zi Xiu Tang Success, LLC",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.71",
-        "size": 1,
-        "title": "Undeclared Sibutramine"
+        "product_description": "Dietary supplement",
+        "reason": "Undeclared Sibutramine"
     },
     {
+        "company": "Wildwood Seed &amp; Specialties",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.72",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Rudi&#39;s Organic Bakery",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.73",
-        "size": 1,
-        "title": "Foreign Objects"
+        "product_description": "Bakery Products",
+        "reason": "Foreign Objects"
     },
     {
+        "company": "Price Chopper Supermarkets",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.74",
-        "size": 1,
-        "title": "Undeclared tree nuts"
+        "product_description": "Coffee Cake",
+        "reason": "Undeclared tree nuts"
     },
     {
+        "company": "Energizer Holdings Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.75",
-        "size": 1,
-        "title": "Potential risk of product igniting on the skin if contact is made with a source of ignition before the product is completely dry"
+        "product_description": "Continuous spray sun care products",
+        "reason": "Potential risk of product igniting on the skin if contact is made with a source of ignition before the product is completely dry"
     },
     {
+        "company": "Wegmans Food Markets, Inc",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.76",
-        "size": 1,
-        "title": "Undeclared Tree Nuts (pecans) and Milk"
+        "product_description": "Gluten Free Double Chocolate Brownie Mix",
+        "reason": "Undeclared Tree Nuts (pecans) and Milk"
     },
     {
+        "company": "Gilster-Mary Lee",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.77",
-        "size": 1,
-        "title": "Undeclared almond due to mis-packaging that inadvertently contained Honey Nut Toasted Oats cereal"
+        "product_description": "Fruit Whirls Cereal",
+        "reason": "Undeclared almond due to mis-packaging that inadvertently contained Honey Nut Toasted Oats cereal"
     },
     {
+        "company": "Buck&#39;s Ice Cream",
+        "date": "10/2012",
         "imports": [
             "10/2012.97",
             "10/2012.98",
@@ -535,10 +693,12 @@
             "09/2012.151"
         ],
         "name": "10/2012.78",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Dole Fresh Vegetables",
+        "date": "10/2012",
         "imports": [
             "09/2012.149",
             "09/2012.167",
@@ -551,16 +711,20 @@
             "02/2012.439"
         ],
         "name": "10/2012.79",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Kasel Associated Industries",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.80",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Treats",
+        "reason": "Salmonella"
     },
     {
+        "company": "Torn and Glasser, Inc.",
+        "date": "10/2012",
         "imports": [
             "10/2012.99",
             "10/2012.101",
@@ -571,115 +735,147 @@
             "09/2012.141"
         ],
         "name": "10/2012.81",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanuts, Peanut Butter",
+        "reason": "Salmonella"
     },
     {
+        "company": "Publix Super Markets",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.82",
-        "size": 1,
-        "title": "Undeclared Soy"
+        "product_description": "Frozen Shrimp",
+        "reason": "Undeclared Soy"
     },
     {
+        "company": "Trifecta Foods LLC",
+        "date": "10/2012",
         "imports": [
             "10/2012.86"
         ],
         "name": "10/2012.83",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Ventlab Corporation",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.84",
-        "size": 1,
-        "title": "Have been found to potentially deliver little to no air/oxygen through the patient valve to the patient"
+        "product_description": "Manual resuscitators",
+        "reason": "Have been found to potentially deliver little to no air/oxygen through the patient valve to the patient"
     },
     {
+        "company": "Mondelez Global LLC",
+        "date": "10/2012",
         "imports": [
             "09/2012.157"
         ],
         "name": "10/2012.85",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Candy",
+        "reason": "Salmonella"
     },
     {
+        "company": "Hines Nut Company",
+        "date": "10/2012",
         "imports": [
             "10/2012.96"
         ],
         "name": "10/2012.86",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "In-shell Peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Raymond-Hadley Corp.",
+        "date": "10/2012",
         "imports": [
             "03/2012.413"
         ],
         "name": "10/2012.87",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Brownie Mix",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "Natural Selection Foods",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.88",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Salad Kit",
+        "reason": "Salmonella"
     },
     {
+        "company": "Del Monte Foods",
+        "date": "10/2012",
         "imports": [
             "10/2012.109",
             "09/2012.168"
         ],
         "name": "10/2012.89",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Treat",
+        "reason": "Salmonella"
     },
     {
+        "company": "Creative Energy Foods, Inc. (CEF)",
+        "date": "10/2012",
         "imports": [
             "10/2012.91"
         ],
         "name": "10/2012.90",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Nutrition bars which may contain blanched roasted peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Creative Energy Foods, Inc. (CEF)",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.91",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Nutrition bars which contain blanched roasted peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "S&amp;P Company, Limited",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.92",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Thai Red Pepper",
+        "reason": "Salmonella"
     },
     {
+        "company": "Hannaford Supermarkets",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.93",
-        "size": 1,
-        "title": "Undeclared eggs, milk, peanuts, tree nuts, wheat, and soy"
+        "product_description": "Cake Truffles",
+        "reason": "Undeclared eggs, milk, peanuts, tree nuts, wheat, and soy"
     },
     {
+        "company": "Lin-Mar Partners, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.94",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Energy Bar, Protein Bar",
+        "reason": "Salmonella"
     },
     {
+        "company": "JagRma LLC",
+        "date": "10/2012",
         "imports": [
             "10/2012.105"
         ],
         "name": "10/2012.95",
-        "size": 1,
-        "title": "&lt;i&gt;Salmonella&lt;/i&gt;"
+        "product_description": "Nut Butter",
+        "reason": "&lt;i&gt;Salmonella&lt;/i&gt;"
     },
     {
+        "company": "Sunland, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.96",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "In-shell and Shelled Peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Oregon Ice Cream Company",
+        "date": "10/2012",
         "imports": [
             "10/2012.98",
             "10/2012.103",
@@ -693,10 +889,12 @@
             "09/2012.151"
         ],
         "name": "10/2012.97",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Velvet Ice Cream",
+        "date": "10/2012",
         "imports": [
             "10/2012.103",
             "10/2012.104",
@@ -709,10 +907,12 @@
             "09/2012.151"
         ],
         "name": "10/2012.98",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Justin&#39;s",
+        "date": "10/2012",
         "imports": [
             "10/2012.101",
             "10/2012.102",
@@ -723,16 +923,20 @@
             "09/2012.162"
         ],
         "name": "10/2012.99",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fresh Express Incorporated",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.100",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Romaine Salad",
+        "reason": "Salmonella"
     },
     {
+        "company": "AdvancePierre Foods",
+        "date": "10/2012",
         "imports": [
             "10/2012.102",
             "10/2012.110",
@@ -742,10 +946,12 @@
             "09/2012.162"
         ],
         "name": "10/2012.101",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Products",
+        "reason": "Salmonella"
     },
     {
+        "company": "PureFit, Inc.",
+        "date": "10/2012",
         "imports": [
             "10/2012.110",
             "10/2012.115",
@@ -754,10 +960,12 @@
             "09/2012.162"
         ],
         "name": "10/2012.102",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Bars",
+        "reason": "Salmonella"
     },
     {
+        "company": "Super Store Industries",
+        "date": "10/2012",
         "imports": [
             "10/2012.104",
             "10/2012.108",
@@ -769,10 +977,12 @@
             "09/2012.151"
         ],
         "name": "10/2012.103",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Dean Foods Company, Meadow Gold Dairy",
+        "date": "10/2012",
         "imports": [
             "10/2012.108",
             "10/2012.111",
@@ -783,31 +993,39 @@
             "09/2012.151"
         ],
         "name": "10/2012.104",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Chattanooga Bakery, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.105",
-        "size": 1,
-        "title": "&lt;i&gt;Salmonella&lt;/i&gt;"
+        "product_description": "Snack",
+        "reason": "&lt;i&gt;Salmonella&lt;/i&gt;"
     },
     {
+        "company": "Nina International",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.106",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ground Hot Pepper",
+        "reason": "Salmonella"
     },
     {
+        "company": "Four Seasons Dairy, Inc.",
+        "date": "10/2012",
         "imports": [
             "07/2012.282",
             "01/2012.475"
         ],
         "name": "10/2012.107",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Herring",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Meadow Gold Dairy",
+        "date": "10/2012",
         "imports": [
             "10/2012.111",
             "10/2012.112",
@@ -817,18 +1035,22 @@
             "09/2012.151"
         ],
         "name": "10/2012.108",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "TBD Brands, LLC",
+        "date": "10/2012",
         "imports": [
             "09/2012.168"
         ],
         "name": "10/2012.109",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Treat",
+        "reason": "Salmonella"
     },
     {
+        "company": "Bliss Unlimited, LLC",
+        "date": "10/2012",
         "imports": [
             "10/2012.115",
             "10/2012.122",
@@ -836,10 +1058,12 @@
             "09/2012.162"
         ],
         "name": "10/2012.110",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Dessert",
+        "reason": "Salmonella"
     },
     {
+        "company": "Belfonte Ice Cream &amp; Dairy Foods Company",
+        "date": "10/2012",
         "imports": [
             "10/2012.112",
             "10/2012.113",
@@ -848,10 +1072,12 @@
             "09/2012.151"
         ],
         "name": "10/2012.111",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Clemmy&#39;s Ice Cream",
+        "date": "10/2012",
         "imports": [
             "10/2012.113",
             "10/2012.116",
@@ -859,157 +1085,199 @@
             "09/2012.151"
         ],
         "name": "10/2012.112",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "BGC Manufacturing",
+        "date": "10/2012",
         "imports": [
             "10/2012.116",
             "10/2012.117",
             "09/2012.151"
         ],
         "name": "10/2012.113",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "General Mills",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.114",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Snack bars",
+        "reason": "Salmonella"
     },
     {
+        "company": "Rich Products Corporation",
+        "date": "10/2012",
         "imports": [
             "10/2012.122",
             "09/2012.141",
             "09/2012.162"
         ],
         "name": "10/2012.115",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Dessert",
+        "reason": "Salmonella"
     },
     {
+        "company": "Smith Dairy Products Company",
+        "date": "10/2012",
         "imports": [
             "10/2012.117",
             "09/2012.151"
         ],
         "name": "10/2012.116",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Toft Dairy",
+        "date": "10/2012",
         "imports": [
             "09/2012.151"
         ],
         "name": "10/2012.117",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Harry and David , LLC",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.118",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Crunchy Almond &amp; Peanut Butter,Banana Peanut Spread and More",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kilwins Quality Confections, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.119",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Sugar free peanut butter fudge",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kraft Foods Group",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.120",
-        "size": 1,
-        "title": "Thin layer of plastic film from the package may remain adhered to the string cheese, which could cause a choking hazard"
+        "product_description": "Jalapeno variety of string cheese",
+        "reason": "Thin layer of plastic film from the package may remain adhered to the string cheese, which could cause a choking hazard"
     },
     {
+        "company": "Kellogg&#39;s",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.121",
-        "size": 1,
-        "title": "Metal fragments"
+        "product_description": "Cereal",
+        "reason": "Metal fragments"
     },
     {
+        "company": "Falcon Trading Company, Inc. - SunRidge Farms",
+        "date": "10/2012",
         "imports": [
             "09/2012.141",
             "09/2012.162"
         ],
         "name": "10/2012.122",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Flying Food Group",
+        "date": "10/2012",
         "imports": [
             "10/2012.126",
             "10/2012.136"
         ],
         "name": "10/2012.123",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Bistro Box",
+        "reason": "Salmonella"
     },
     {
+        "company": "New England Compounding Center (NECC)",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.124",
-        "size": 1,
-        "title": "Sterility; linkage to meningitis outbreak"
+        "product_description": "Methylprednisolone Acetate, Betamethasone, Bupivicaine, more",
+        "reason": "Sterility; linkage to meningitis outbreak"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "10/2012",
         "imports": [
             "10/2012.139",
             "07/2012.282"
         ],
         "name": "10/2012.125",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheeses",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Gretchen\u2019s Shoebox Express",
+        "date": "10/2012",
         "imports": [
             "10/2012.136"
         ],
         "name": "10/2012.126",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Protein Bistro Box",
+        "reason": "Salmonella"
     },
     {
+        "company": "Baensch Food Products Co.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.127",
-        "size": 1,
-        "title": "Undeclared milk allergen"
+        "product_description": "Marinated herring in wine sauce",
+        "reason": "Undeclared milk allergen"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.128",
-        "size": 1,
-        "title": "Container Leak and mold contamination"
+        "product_description": "Lactated Ringer\u2019s and 5% Dextrose",
+        "reason": "Container Leak and mold contamination"
     },
     {
+        "company": "Talenti Gelato",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.129",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Chocolate Peanut Butter Cup Gelato",
+        "reason": "Salmonella"
     },
     {
+        "company": "Sunland Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.130",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Flavored butters, spreads and more.",
+        "reason": "Salmonella"
     },
     {
+        "company": "Accutron, Inc.",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.131",
-        "size": 1,
-        "title": "Flowmeters have been found to release Nitrous Oxide gas when the Oxygen is turned off."
+        "product_description": "Ultra PC% Cabinet Mount Flowmeters",
+        "reason": "Flowmeters have been found to release Nitrous Oxide gas when the Oxygen is turned off."
     },
     {
+        "company": "KRASNYI OKTYABR",
+        "date": "10/2012",
         "imports": [
             "06/2012.307",
             "04/2012.369"
         ],
         "name": "10/2012.132",
-        "size": 1,
-        "title": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
+        "product_description": "Beer Set Dried Rudd",
+        "reason": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
     },
     {
+        "company": "Whole Foods Market",
+        "date": "10/2012",
         "imports": [
             "09/2012.152",
             "09/2012.177",
@@ -1024,126 +1292,164 @@
             "01/2012.484"
         ],
         "name": "10/2012.133",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Kasel Associated Industries",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.134",
-        "size": 1,
-        "title": "May be contaminated with Salmonella"
+        "product_description": "Chicken Jerky Dog Treats",
+        "reason": "May be contaminated with Salmonella"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.135",
-        "size": 1,
-        "title": "Undeclared shellfish, milk"
+        "product_description": "Roasted Garlic and Eggplant Soup",
+        "reason": "Undeclared shellfish, milk"
     },
     {
+        "company": "Gretchen\u2019s Shoebox Express",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.136",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Protein Bistro Box",
+        "reason": "Salmonella"
     },
     {
+        "company": "Xan Confections",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.137",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Gourmet peanut butter chocolate products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.138",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Chicken Spring Rolls and Peanut Sesame Noodles",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kenny&#39;s Farmhouse Cheese",
+        "date": "10/2012",
         "imports": [],
         "name": "10/2012.139",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Variety of Cheeses",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.140",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Power Chews and Treasure Trove Mix",
+        "reason": "Salmonella"
     },
     {
+        "company": "Jer&#39;s Chocolates",
+        "date": "09/2012",
         "imports": [
             "09/2012.162"
         ],
         "name": "09/2012.141",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut Butter Bars",
+        "reason": "Salmonella"
     },
     {
+        "company": "Grand BK Corp.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.142",
-        "size": 1,
-        "title": "Undeclared peanuts"
+        "product_description": "Crisp mix",
+        "reason": "Undeclared peanuts"
     },
     {
+        "company": "Late July Snacks, LLC",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.143",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mini Peanut Butter Sandwich Crackers",
+        "reason": "Salmonella"
     },
     {
+        "company": "Stop&amp;Shop",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.144",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Crackers",
+        "reason": "Salmonella"
     },
     {
+        "company": "Del Monte Fresh Produce N.A., Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.145",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Fresh-cut fruit",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fairytale Brownies",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.146",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Brownies and cookies",
+        "reason": "Salmonella"
     },
     {
+        "company": "Dale and Thomas Popcorn",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.147",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Popcorn with select flavors",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Newman&#39;s Own Organics",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.148",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Sandwich Creme Cookies",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fresh Express Inc.",
+        "date": "09/2012",
         "imports": [
             "09/2012.160",
             "08/2012.211",
             "07/2012.259"
         ],
         "name": "09/2012.149",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Hearts of Romaine Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Harry and David LLC.",
+        "date": "09/2012",
         "imports": [
             "09/2012.165"
         ],
         "name": "09/2012.150",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Nut butters",
+        "reason": "Salmonella"
     },
     {
+        "company": "Oregon Ice Cream Company",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.151",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Ice Cream",
+        "reason": "Salmonella"
     },
     {
+        "company": "Forever Cheese Inc.",
+        "date": "09/2012",
         "imports": [
             "09/2012.177",
             "09/2012.180",
@@ -1157,80 +1463,104 @@
             "01/2012.484"
         ],
         "name": "09/2012.152",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Whole Foods",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.153",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cookies",
+        "reason": "Salmonella"
     },
     {
+        "company": "General Mills",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.154",
-        "size": 1,
-        "title": "Undeclared Peanuts"
+        "product_description": "Granola bars",
+        "reason": "Undeclared Peanuts"
     },
     {
+        "company": "Justin&#39;s",
+        "date": "09/2012",
         "imports": [
             "09/2012.156"
         ],
         "name": "09/2012.155",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut butter",
+        "reason": "Salmonella"
     },
     {
+        "company": "Chattanooga Bakery, Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.156",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Peanut butter crunch",
+        "reason": "Salmonella"
     },
     {
+        "company": "Falcon Trading Company/SunRidge Farms",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.157",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Candy",
+        "reason": "Salmonella"
     },
     {
+        "company": "Stryker",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.158",
-        "size": 1,
-        "title": "Device may cause tissue damage"
+        "product_description": "Waste management system",
+        "reason": "Device may cause tissue damage"
     },
     {
+        "company": "Gretchen\u2019s Shoebox Express",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.159",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cinnamon apple &amp; almond butter sandwich and almond butter",
+        "reason": "Salmonella"
     },
     {
+        "company": "Publix Supermarkets",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.160",
-        "size": 1,
-        "title": "Listeria Monocytogenes"
+        "product_description": "Hearts of Romaine",
+        "reason": "Listeria Monocytogenes"
     },
     {
+        "company": "Hanover Pike Enterprises, Inc",
+        "date": "09/2012",
         "imports": [
             "09/2012.187"
         ],
         "name": "09/2012.161",
-        "size": 1,
-        "title": "Undeclared milk and soy"
+        "product_description": "Jam and Jelly",
+        "reason": "Undeclared milk and soy"
     },
     {
+        "company": "Sunland Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.162",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Almond Butter and Peanut Butter",
+        "reason": "Salmonella"
     },
     {
+        "company": "Trader Joe&#39;s",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.163",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Creamy Salted Valencia Peanut Butter",
+        "reason": "Salmonella"
     },
     {
+        "company": "Sunland Inc.",
+        "date": "09/2012",
         "imports": [
             "05/2012.338",
             "05/2012.344",
@@ -1243,92 +1573,118 @@
             "04/2012.365"
         ],
         "name": "09/2012.164",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fresh &amp;amp; Easy",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.165",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Nut butters",
+        "reason": "Salmonella"
     },
     {
+        "company": "Sunland Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.166",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cashew Butter, Tahini and Roasted Blanched Peanuts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fress Express Inc.",
+        "date": "09/2012",
         "imports": [
             "07/2012.259"
         ],
         "name": "09/2012.167",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Leafy Green Romaine Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Kasel Associated Industries",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.168",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Pet Treat",
+        "reason": "Salmonella"
     },
     {
+        "company": "Maine Natural Health",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.169",
-        "size": 1,
-        "title": "Undeclared milk shellfish and coconut"
+        "product_description": "Protein Supplement",
+        "reason": "Undeclared milk shellfish and coconut"
     },
     {
+        "company": "Del Monte Fresh Produce",
+        "date": "09/2012",
         "imports": [
             "09/2012.172"
         ],
         "name": "09/2012.170",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cut Mango Products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Watson Laboratories, Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.171",
-        "size": 1,
-        "title": "Tablets are thicker and darker than specification"
+        "product_description": "Hydrocodone Bitartrate and APAP Tablets",
+        "reason": "Tablets are thicker and darker than specification"
     },
     {
+        "company": "GHSW, LLC",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.172",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mango Products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kroger",
+        "date": "09/2012",
         "imports": [
             "07/2012.282"
         ],
         "name": "09/2012.173",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Spinach",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Peterson Company",
+        "date": "09/2012",
         "imports": [
             "07/2012.282"
         ],
         "name": "09/2012.174",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "FreshLine/Caito Foods Service",
+        "date": "09/2012",
         "imports": [
             "09/2012.176"
         ],
         "name": "09/2012.175",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mango products",
+        "reason": "Salmonella"
     },
     {
+        "company": "United Salad Co.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.176",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mango products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Forever Cheese, Inc.",
+        "date": "09/2012",
         "imports": [
             "09/2012.180",
             "08/2012.236",
@@ -1341,22 +1697,28 @@
             "01/2012.484"
         ],
         "name": "09/2012.177",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "University Creamery dba Berkey Creamery",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.178",
-        "size": 1,
-        "title": "May contain small plastic objects"
+        "product_description": "Ice cream and frozen yogurt",
+        "reason": "May contain small plastic objects"
     },
     {
+        "company": "Cut Fruit Express Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.179",
-        "size": 1,
-        "title": "Due to potential contamination with Salmonella"
+        "product_description": "Fresh cut fruit products containing cantaloupes",
+        "reason": "Due to potential contamination with Salmonella"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "09/2012",
         "imports": [
             "08/2012.236",
             "07/2012.282",
@@ -1368,136 +1730,178 @@
             "01/2012.484"
         ],
         "name": "09/2012.180",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Spartan Stores",
+        "date": "09/2012",
         "imports": [
             "07/2012.257"
         ],
         "name": "09/2012.181",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Various Deli Products",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "DFI Marketing Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.182",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "cantaloupes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Body Basics, Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.183",
-        "size": 1,
-        "title": "Unapproved new drug"
+        "product_description": "Dietary Supplement",
+        "reason": "Unapproved new drug"
     },
     {
+        "company": "Breeder&#39;s Choice Pet Food",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.184",
-        "size": 1,
-        "title": "Possible contamination with Salmonella"
+        "product_description": "Natural Lamb Meal &amp;amp; Brown Rice Adult Dog Formula",
+        "reason": "Possible contamination with Salmonella"
     },
     {
+        "company": "Forever Cheese Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.185",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Ricotta Salata (Cheese)",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Qualitest",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.186",
-        "size": 1,
-        "title": "Tablets may exceed weight specification and could be super-potent for the ingredients Hydrocodon Bitartrate &amp; Acetaminophen"
+        "product_description": "Hydrocodone Bitartrate &amp; Acetaminophen Tablets",
+        "reason": "Tablets may exceed weight specification and could be super-potent for the ingredients Hydrocodon Bitartrate &amp; Acetaminophen"
     },
     {
+        "company": "Dawn Food Products, Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.187",
-        "size": 1,
-        "title": "Undeclared milk and soy"
+        "product_description": "Streusel",
+        "reason": "Undeclared milk and soy"
     },
     {
+        "company": "Harris Teeter, Inc.",
+        "date": "09/2012",
         "imports": [
             "09/2012.189"
         ],
         "name": "09/2012.188",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Seafood cakes and Crab stuffed seafood",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "3fish, inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.189",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "seafood cakes and stuffed fish items",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Sun Pharmaceutical Industries, Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.190",
-        "size": 1,
-        "title": "May contain crystals of nimodipine"
+        "product_description": "Nimodipine Capsules, 30 mg",
+        "reason": "May contain crystals of nimodipine"
     },
     {
+        "company": "ECO HEALTH, INC",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.191",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "PREBIOTIC FORMULA (Powder)",
+        "reason": "Salmonella"
     },
     {
+        "company": "Cutting Edge Concessions, LLC",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.192",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Seasoning cups",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "Somersault Snack Co.,LLC",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.193",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Pacific Sea Salt",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "F&amp;S Produce Co., Inc.",
+        "date": "09/2012",
         "imports": [],
         "name": "09/2012.194",
-        "size": 1,
-        "title": "may be contaminated with Salmonella"
+        "product_description": "",
+        "reason": "may be contaminated with Salmonella"
     },
     {
+        "company": "Winn-Dixie",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.195",
-        "size": 1,
-        "title": "Salmonella Braenderup"
+        "product_description": "Salsa and Cut Fruits",
+        "reason": "Salmonella Braenderup"
     },
     {
+        "company": "Quality Feed, Inc",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.196",
-        "size": 1,
-        "title": "Potential to be contaminated with Salmonella"
+        "product_description": "Milk replacer",
+        "reason": "Potential to be contaminated with Salmonella"
     },
     {
+        "company": "Respironics California, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.197",
-        "size": 1,
-        "title": "affected blower motors"
+        "product_description": "V60 Ventilators",
+        "reason": "affected blower motors"
     },
     {
+        "company": "Manna Organics, Inc.",
+        "date": "08/2012",
         "imports": [
             "01/2012.481"
         ],
         "name": "08/2012.198",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sprouts and Tofu Products",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Pacific Coast Fruit Company",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.199",
-        "size": 1,
-        "title": "potential to be contaminated with Salmonella Braenderup"
+        "product_description": "Fresh Cut Processed Items",
+        "reason": "potential to be contaminated with Salmonella Braenderup"
     },
     {
+        "company": "Ready Pac Foods",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.200",
-        "size": 1,
-        "title": "potential to be contaminated with Salmonella Braenderup"
+        "product_description": "Packaged fruit products containing mangoes",
+        "reason": "potential to be contaminated with Salmonella Braenderup"
     },
     {
+        "company": "BI-LO",
+        "date": "08/2012",
         "imports": [
             "08/2012.205",
             "08/2012.208",
@@ -1505,127 +1909,165 @@
             "08/2012.210"
         ],
         "name": "08/2012.201",
-        "size": 1,
-        "title": "Salmonella Braenderup"
+        "product_description": "Mangoes",
+        "reason": "Salmonella Braenderup"
     },
     {
+        "company": "Brand New Energy",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.202",
-        "size": 1,
-        "title": "Contain ephedrine alkaloids"
+        "product_description": "dietary supplement -EphBurn 25",
+        "reason": "Contain ephedrine alkaloids"
     },
     {
+        "company": "Taylor Farms New Jersey",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.203",
-        "size": 1,
-        "title": "Salmonella Braenderup"
+        "product_description": "Mango, Pineapple, Strawberries, Mango mix, Watermelon, Pineapple Snack, Melon mix, Mixed Fruit Cup, Mixed fruit with kiwi, Mango and Yogurt Parfait",
+        "reason": "Salmonella Braenderup"
     },
     {
+        "company": "Triple B Corp. dba Real Foods and Charlie&#39;s Produce",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.204",
-        "size": 1,
-        "title": "Potential to be contaminated with Salmonella Braenderup"
+        "product_description": "Various cut fruit products and mix",
+        "reason": "Potential to be contaminated with Salmonella Braenderup"
     },
     {
+        "company": "Food Lion, Harveys Reid&#39;s",
+        "date": "08/2012",
         "imports": [
             "08/2012.208",
             "08/2012.209",
             "08/2012.210"
         ],
         "name": "08/2012.205",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mangoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "World Foods LLC",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.206",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cut fruit and salsa products",
+        "reason": "Salmonella"
     },
     {
+        "company": "Spokane Produce, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.207",
-        "size": 1,
-        "title": "Potential to be contaminated with Salmonella braenderup"
+        "product_description": "Pineapple/Mango Pico de Gallo",
+        "reason": "Potential to be contaminated with Salmonella braenderup"
     },
     {
+        "company": "Splendid Products",
+        "date": "08/2012",
         "imports": [
             "08/2012.209",
             "08/2012.210"
         ],
         "name": "08/2012.208",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mangoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Giant Food",
+        "date": "08/2012",
         "imports": [
             "08/2012.210"
         ],
         "name": "08/2012.209",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mangoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Stop &amp; Shop",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.210",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Mangoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Fresh Express",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.211",
-        "size": 1,
-        "title": "Possible health risk from Listeria monocytogenes"
+        "product_description": "Hearts of Romaine Salad",
+        "reason": "Possible health risk from Listeria monocytogenes"
     },
     {
+        "company": "True Nutrition",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.212",
-        "size": 1,
-        "title": "label fails to declare milk as the source of whey"
+        "product_description": "Whey Protein Isolate, Whey Protein Concentrate and Hydrolyzed Whey Products",
+        "reason": "label fails to declare milk as the source of whey"
     },
     {
+        "company": "Samantha Lynn Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.213",
-        "size": 1,
-        "title": "Undeclared drug ingredients, methocarbamol, dexamethasone  and diclofenac"
+        "product_description": "Reumofan Plus Tablets",
+        "reason": "Undeclared drug ingredients, methocarbamol, dexamethasone  and diclofenac"
     },
     {
+        "company": "Cucina Fresca Gourmet Foods",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.214",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Smoked Tomato Sauce",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Protica Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.215",
-        "size": 1,
-        "title": "Processing parameters were not met."
+        "product_description": "Protein Shakes",
+        "reason": "Processing parameters were not met."
     },
     {
+        "company": "Bay Valley Foods",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.216",
-        "size": 1,
-        "title": "Undeclared Almonds"
+        "product_description": "Salad Topping",
+        "reason": "Undeclared Almonds"
     },
     {
+        "company": "Evol Nutrition Associates, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.217",
-        "size": 1,
-        "title": "Unapproved New Drug"
+        "product_description": "Dietary Supplement",
+        "reason": "Unapproved New Drug"
     },
     {
+        "company": "Spence &amp; Co Ltd",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.218",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Smoked Salmon",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Chamberlain Farm Produce, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.219",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cantaloupes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Dole Fresh Vegetables",
+        "date": "08/2012",
         "imports": [
             "07/2012.254",
             "07/2012.259",
@@ -1637,110 +2079,142 @@
             "02/2012.439"
         ],
         "name": "08/2012.220",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Bagged Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "JFC International, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.221",
-        "size": 1,
-        "title": "Undeclared Eggs, Soy, and Wheat"
+        "product_description": "Furikake-Seto Fumi",
+        "reason": "Undeclared Eggs, Soy, and Wheat"
     },
     {
+        "company": "Optima Distributors LTD",
+        "date": "08/2012",
         "imports": [
             "03/2012.405"
         ],
         "name": "08/2012.222",
-        "size": 1,
-        "title": "Undeclared Sulfites"
+        "product_description": "Dried Potato",
+        "reason": "Undeclared Sulfites"
     },
     {
+        "company": "American Licorice Company",
+        "date": "08/2012",
         "imports": [
             "08/2012.240"
         ],
         "name": "08/2012.223",
-        "size": 1,
-        "title": "Elevated levels of lead"
+        "product_description": "Black Licorice",
+        "reason": "Elevated levels of lead"
     },
     {
+        "company": "Tanimura &amp; Antle, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.224",
-        "size": 1,
-        "title": "E. coli O157:H7"
+        "product_description": "Romaine Lettuce",
+        "reason": "E. coli O157:H7"
     },
     {
+        "company": "Pure Hothouse Foods, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.225",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Mushroom Trays",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Covidien",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.226",
-        "size": 1,
-        "title": "Potential degradation of foil within the DGPHP grounding pad"
+        "product_description": "DGPHP RFA high-power single use grounding\r\npads and kits that contain the grounding pads",
+        "reason": "Potential degradation of foil within the DGPHP grounding pad"
     },
     {
+        "company": "BI-LO",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.227",
-        "size": 1,
-        "title": "Undeclared Soy Lecithin"
+        "product_description": "Trail Mix",
+        "reason": "Undeclared Soy Lecithin"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "08/2012",
         "imports": [
             "05/2012.337"
         ],
         "name": "08/2012.228",
-        "size": 1,
-        "title": "May contain more than the 1 mL labeled fill volume"
+        "product_description": "Hydromorphone Injection, USP",
+        "reason": "May contain more than the 1 mL labeled fill volume"
     },
     {
+        "company": "Hummingbird Wholesale",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.229",
-        "size": 1,
-        "title": "Undeclared peanuts"
+        "product_description": "Pinenuts",
+        "reason": "Undeclared peanuts"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.230",
-        "size": 1,
-        "title": "Visible particles embedded in the glass"
+        "product_description": "Propofol Injectable Emulsion",
+        "reason": "Visible particles embedded in the glass"
     },
     {
+        "company": "Ciolino Produce",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.231",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sliced Mushrooms",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Clif Bar",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.232",
-        "size": 1,
-        "title": "Undeclared almonds"
+        "product_description": "Energy bar",
+        "reason": "Undeclared almonds"
     },
     {
+        "company": "Missa Bay, LLC",
+        "date": "08/2012",
         "imports": [
             "07/2012.282"
         ],
         "name": "08/2012.233",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Apples",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Burch Equipment LLC",
+        "date": "08/2012",
         "imports": [
             "07/2012.248"
         ],
         "name": "08/2012.234",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cantaloupes and Honeydew Melons",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Fresco Green Farms Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.235",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Cilantro",
+        "reason": "Salmonella"
     },
     {
+        "company": "Tomales Bay Foods, Inc.",
+        "date": "08/2012",
         "imports": [
             "07/2012.282",
             "07/2012.293",
@@ -1751,60 +2225,78 @@
             "01/2012.484"
         ],
         "name": "08/2012.236",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Menno Beachy",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.237",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Organic Grape Tomatoes",
+        "reason": "Salmonella"
     },
     {
+        "company": "Vaqueria Tres Monjitas Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.238",
-        "size": 1,
-        "title": "Undeclared sodium caseinate"
+        "product_description": "Juice",
+        "reason": "Undeclared sodium caseinate"
     },
     {
+        "company": "Two Moms in the Raw",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.239",
-        "size": 1,
-        "title": "Undeclared Peanuts"
+        "product_description": "Crackers",
+        "reason": "Undeclared Peanuts"
     },
     {
+        "company": "Lucky Country Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.240",
-        "size": 1,
-        "title": "Elevated levels of lead"
+        "product_description": "Black Licorice",
+        "reason": "Elevated levels of lead"
     },
     {
+        "company": "Reichel Foods, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.241",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Apple Snack, Pizza Kit",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Covidien",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.242",
-        "size": 1,
-        "title": "Volume leakage and/or disconnection between the inner and outer cannulae"
+        "product_description": "Adult Tracheostomy Tubes",
+        "reason": "Volume leakage and/or disconnection between the inner and outer cannulae"
     },
     {
+        "company": "Burch Equipment LLC",
+        "date": "08/2012",
         "imports": [
             "07/2012.248"
         ],
         "name": "08/2012.243",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Whole Cantaloupes",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "San Miguel Produce, Inc.",
+        "date": "08/2012",
         "imports": [],
         "name": "08/2012.244",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Comfort (Cooking) Greens Kits",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Garden-Fresh Foods Inc.",
+        "date": "07/2012",
         "imports": [
             "06/2012.305",
             "05/2012.331",
@@ -1813,93 +2305,121 @@
             "02/2012.442"
         ],
         "name": "07/2012.245",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Ready-to-eat Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Ken&#39;s Foods, Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.246",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Tartar Sauce, BBQ Bean Sauce, Cole Slaw Dressing, Tartar Sauce, Tartar Sauce",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Clif Bar &amp; Company",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.247",
-        "size": 1,
-        "title": "Undeclared coconut"
+        "product_description": "Energy Bar",
+        "reason": "Undeclared coconut"
     },
     {
+        "company": "Hannaford Supermarkets",
+        "date": "07/2012",
         "imports": [
             "07/2012.282"
         ],
         "name": "07/2012.248",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cantaloupes",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Cool Creations, LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.249",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Specific packages of products containing onions",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Arthur Dogswell LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.250",
-        "size": 1,
-        "title": "Has the potential to contain propylene glycol"
+        "product_description": "Cat Food",
+        "reason": "Has the potential to contain propylene glycol"
     },
     {
+        "company": "Wegmans Food Markets, Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.251",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Prepared foods that contain chopped/diced white onions.",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Wimberger&#39;s Old World Bakery, Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.252",
-        "size": 1,
-        "title": "Undeclared Milk, Soy and Wheat"
+        "product_description": "Various breads and pizza dough",
+        "reason": "Undeclared Milk, Soy and Wheat"
     },
     {
+        "company": "Simmering Soup, Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.253",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Salsa and Balela",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Stop &amp;amp; Shop Supermarket Company LLC",
+        "date": "07/2012",
         "imports": [
             "07/2012.259",
             "06/2012.297"
         ],
         "name": "07/2012.254",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Calico Bean Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Productos Tita Corp.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.255",
-        "size": 1,
-        "title": "possible Staphylococcus aureus contamination"
+        "product_description": "Quesito Colombiano, Colombian style Cheese",
+        "reason": "possible Staphylococcus aureus contamination"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.256",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Prepared salads, dressings and sandwich rolls",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Busch&#39;s Fresh Food Market",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.257",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Several Deli Products",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "GH Foods CA, LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.258",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Various products containing yellow onions.",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Huxtable&#39;s Kitchen",
+        "date": "07/2012",
         "imports": [
             "07/2012.282",
             "06/2012.297",
@@ -1907,157 +2427,203 @@
             "02/2012.439"
         ],
         "name": "07/2012.259",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Land O\u2019Lakes Purina Feed LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.260",
-        "size": 1,
-        "title": "Lack of added vitamin D"
+        "product_description": "Poultry feed products",
+        "reason": "Lack of added vitamin D"
     },
     {
+        "company": "Spartan Stores",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.261",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Three bean salad and broccoli stir fry",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Publix Super Markets",
+        "date": "07/2012",
         "imports": [
             "02/2012.435",
             "02/2012.438",
             "02/2012.439"
         ],
         "name": "07/2012.262",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sub Sandwiches",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Gills Onions, LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.263",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Onions and onion/celery mix",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "DUKAL Corporation",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.264",
-        "size": 1,
-        "title": "potential microbial contamination with Burkholderia cepacia"
+        "product_description": "Benzalkonium chloride swabs and antiseptic wipes",
+        "reason": "potential microbial contamination with Burkholderia cepacia"
     },
     {
+        "company": "Mount Franklin Foods, LLC.",
+        "date": "07/2012",
         "imports": [
             "05/2012.341",
             "05/2012.342",
             "01/2012.452"
         ],
         "name": "07/2012.265",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Sartori Inspirations, LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.266",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Dips and spreads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Spillson&#39;s LTD.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.267",
-        "size": 1,
-        "title": "Undeclared soy and wheat flour"
+        "product_description": "Beef Sandwich",
+        "reason": "Undeclared soy and wheat flour"
     },
     {
+        "company": "PMI Nutrition International",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.268",
-        "size": 1,
-        "title": "Elevated Vitamin D level"
+        "product_description": "Animal Feed",
+        "reason": "Elevated Vitamin D level"
     },
     {
+        "company": "Land O&#39;Lakes Purina Feed LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.269",
-        "size": 1,
-        "title": "Elevated Vitamin D Level"
+        "product_description": "Fish Meal",
+        "reason": "Elevated Vitamin D Level"
     },
     {
+        "company": "CRM Laboratories",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.270",
-        "size": 1,
-        "title": "Undeclared sildenafil"
+        "product_description": "X-ROCK 3 Day Pill and Z-ROCK",
+        "reason": "Undeclared sildenafil"
     },
     {
+        "company": "Wellements LLC",
+        "date": "07/2012",
         "imports": [
             "06/2012.316"
         ],
         "name": "07/2012.271",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Prune Concentrate Dietary Supplement",
+        "reason": "Salmonella"
     },
     {
+        "company": "Productos Tita Corp.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.272",
-        "size": 1,
-        "title": "Improper pasteurization of ther milk used to make the cheese."
+        "product_description": "Cheese",
+        "reason": "Improper pasteurization of ther milk used to make the cheese."
     },
     {
+        "company": "Cass-Clay Creamery",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.273",
-        "size": 1,
-        "title": "Undeclared Brazil Nuts"
+        "product_description": "Ice Cream",
+        "reason": "Undeclared Brazil Nuts"
     },
     {
+        "company": "Gills Onions, LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.274",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Onions, Onion Mix",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "CareFusion",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.275",
-        "size": 1,
-        "title": "A leak may occur in the patient breathing circuit or system, resulting in the ventilator not holding the set Positive End Expiratory Pressure (PEEP) value."
+        "product_description": "Ventilator",
+        "reason": "A leak may occur in the patient breathing circuit or system, resulting in the ventilator not holding the set Positive End Expiratory Pressure (PEEP) value."
     },
     {
+        "company": "Feed Solutions",
+        "date": "07/2012",
         "imports": [
             "07/2012.277",
             "07/2012.278"
         ],
         "name": "07/2012.276",
-        "size": 1,
-        "title": "Potential for elevated vitamin D levels"
+        "product_description": "Feed Products",
+        "reason": "Potential for elevated vitamin D levels"
     },
     {
+        "company": "PMI Nutrition International",
+        "date": "07/2012",
         "imports": [
             "07/2012.278"
         ],
         "name": "07/2012.277",
-        "size": 1,
-        "title": "Potential for elevated vitamin D levels"
+        "product_description": "Feed Products",
+        "reason": "Potential for elevated vitamin D levels"
     },
     {
+        "company": "Land O\u2019Lakes Purina Feed LLC",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.278",
-        "size": 1,
-        "title": "Potential for elevated vitamin D levels"
+        "product_description": "Feed Products",
+        "reason": "Potential for elevated vitamin D levels"
     },
     {
+        "company": "Westone Laboratories Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.279",
-        "size": 1,
-        "title": "Potentially contaminated with pathogenic bacteria and mold"
+        "product_description": "Ear Lubricant",
+        "reason": "Potentially contaminated with pathogenic bacteria and mold"
     },
     {
+        "company": "Hospira Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.280",
-        "size": 1,
-        "title": "visible particles embedded in the glass located at the neck of the vial"
+        "product_description": "Injectable carboplatin, cytarabine, paclitaxel, and methotrexate",
+        "reason": "visible particles embedded in the glass located at the neck of the vial"
     },
     {
+        "company": "Sedona Labs",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.281",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Kids Multi-Probiotic and 4-Kids Powder Dietary Supplements",
+        "reason": "Salmonella"
     },
     {
+        "company": "Hannaford Supermarkets",
+        "date": "07/2012",
         "imports": [
             "07/2012.293",
             "03/2012.410",
@@ -2068,70 +2634,92 @@
             "01/2012.484"
         ],
         "name": "07/2012.282",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "MAQUET",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.283",
-        "size": 1,
-        "title": "A software problem with the MAN/AUTO switch"
+        "product_description": "C20, C30, C40 FLOW-i Anesthesia Systems",
+        "reason": "A software problem with the MAN/AUTO switch"
     },
     {
+        "company": "Pacific International Marketing",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.284",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Romaine lettuce",
+        "reason": "Salmonella"
     },
     {
+        "company": "PMI Nutrition International",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.285",
-        "size": 1,
-        "title": "Elevated vitamin D level"
+        "product_description": "Animal feed",
+        "reason": "Elevated vitamin D level"
     },
     {
+        "company": "Arctic Zero Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.286",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Frozen desserts",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Stryker",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.287",
-        "size": 1,
-        "title": "Potential risk associated with fretting and corrosion at modular neck junction"
+        "product_description": "Modular-neck hip stems",
+        "reason": "Potential risk associated with fretting and corrosion at modular neck junction"
     },
     {
+        "company": "Cass-Clay Creamery",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.288",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Peppermint Bon Bon Ice Cream",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Fruiti Pops Inc.",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.289",
-        "size": 1,
-        "title": "Undeclared eggs"
+        "product_description": "Classic coconut frozen dessert bars",
+        "reason": "Undeclared eggs"
     },
     {
+        "company": "PMI Nutrition",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.290",
-        "size": 1,
-        "title": "Potential for an elevated vitamin D level."
+        "product_description": "Animal feed",
+        "reason": "Potential for an elevated vitamin D level."
     },
     {
+        "company": "Bedford Laboratories",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.291",
-        "size": 1,
-        "title": "Crystalline particulate matter"
+        "product_description": "Leucovorin Calcium Injection",
+        "reason": "Crystalline particulate matter"
     },
     {
+        "company": "Andante Dairy",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.292",
-        "size": 1,
-        "title": "Insufficient Pasteurization"
+        "product_description": "Cheese",
+        "reason": "Insufficient Pasteurization"
     },
     {
+        "company": "Mexicali Cheese Corp.",
+        "date": "07/2012",
         "imports": [
             "06/2012.296",
             "03/2012.410",
@@ -2140,22 +2728,28 @@
             "01/2012.484"
         ],
         "name": "07/2012.293",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "CareFusion",
+        "date": "07/2012",
         "imports": [],
         "name": "07/2012.294",
-        "size": 1,
-        "title": "Can develop cracks and leaks in the closed ventilation system."
+        "product_description": "Infant Breathing Circuit (Ventilation Product)",
+        "reason": "Can develop cracks and leaks in the closed ventilation system."
     },
     {
+        "company": "Mars Petcare US",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.295",
-        "size": 1,
-        "title": "Potential choking risk"
+        "product_description": "Dog Food",
+        "reason": "Potential choking risk"
     },
     {
+        "company": "Mexicali Cheese Corp.",
+        "date": "06/2012",
         "imports": [
             "03/2012.410",
             "03/2012.411",
@@ -2163,10 +2757,12 @@
             "01/2012.484"
         ],
         "name": "06/2012.296",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Queso Fresco Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Dole Fresh Vegetables, Inc.",
+        "date": "06/2012",
         "imports": [
             "06/2012.305",
             "05/2012.331",
@@ -2175,54 +2771,70 @@
             "02/2012.439"
         ],
         "name": "06/2012.297",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Bagged Salad",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "ITO EN USA",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.298",
-        "size": 1,
-        "title": "Product has an off smell"
+        "product_description": "Coconut water",
+        "reason": "Product has an off smell"
     },
     {
+        "company": "BI-LO",
+        "date": "06/2012",
         "imports": [
             "06/2012.314"
         ],
         "name": "06/2012.299",
-        "size": 1,
-        "title": "May contain small metal fragments"
+        "product_description": "Pasta Salad",
+        "reason": "May contain small metal fragments"
     },
     {
+        "company": "Standard Process, Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.300",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dietary Supplements",
+        "reason": "Salmonella"
     },
     {
+        "company": "Bedford Laboratories",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.301",
-        "size": 1,
-        "title": "Particulate matter"
+        "product_description": "Vecuronium Bromide Injection",
+        "reason": "Particulate matter"
     },
     {
+        "company": "Winn-Dixie",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.302",
-        "size": 1,
-        "title": "May contain small metal fragments"
+        "product_description": "Cheeseburger Macaroni Skillet Dinner",
+        "reason": "May contain small metal fragments"
     },
     {
+        "company": "Banner Mountain Sprouts",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.303",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Sprouts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Healthy Choice Island Blends Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.304",
-        "size": 1,
-        "title": "potential to be contaminated with Clostridium botulinum"
+        "product_description": "Carrot Juice",
+        "reason": "potential to be contaminated with Clostridium botulinum"
     },
     {
+        "company": "Dole Fresh Vegetables, Inc.",
+        "date": "06/2012",
         "imports": [
             "05/2012.331",
             "05/2012.333",
@@ -2230,211 +2842,277 @@
             "02/2012.442"
         ],
         "name": "06/2012.305",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Bagged Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Leasa Industries Co.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.306",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Living Alfalfa Sprouts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Euphoria Fancy Food Inc.",
+        "date": "06/2012",
         "imports": [
             "04/2012.369"
         ],
         "name": "06/2012.307",
-        "size": 1,
-        "title": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
+        "product_description": "Dried Bream",
+        "reason": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
     },
     {
+        "company": "Nidek Medical Products Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.308",
-        "size": 1,
-        "title": "Capacitor-related fires"
+        "product_description": "Oxygen Concentrators",
+        "reason": "Capacitor-related fires"
     },
     {
+        "company": "Hannaford Supermarkets",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.309",
-        "size": 1,
-        "title": "Undeclared eggs"
+        "product_description": "Mini Frosted Cookies",
+        "reason": "Undeclared eggs"
     },
     {
+        "company": "Truitt Bros Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.310",
-        "size": 1,
-        "title": "Undeclared Soy"
+        "product_description": "Navy Beans",
+        "reason": "Undeclared Soy"
     },
     {
+        "company": "Unilever",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.311",
-        "size": 1,
-        "title": "Fudge covered wafer pieces have been manufactured on shared equipment that processes peanuts and tree nuts."
+        "product_description": "Ice Cream",
+        "reason": "Fudge covered wafer pieces have been manufactured on shared equipment that processes peanuts and tree nuts."
     },
     {
+        "company": "Golden Glen Creamery",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.312",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Red Pepper with Onion &amp; Garlic Cheddar",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Best Maid Cookie Company",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.313",
-        "size": 1,
-        "title": "Undeclared Walnuts"
+        "product_description": "Cookies",
+        "reason": "Undeclared Walnuts"
     },
     {
+        "company": "Bay Valley Foods",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.314",
-        "size": 1,
-        "title": "May contain small metal fragments"
+        "product_description": "Boxed Pasta Mix Products",
+        "reason": "May contain small metal fragments"
     },
     {
+        "company": "Sandoz Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.315",
-        "size": 1,
-        "title": "Packaging flaw"
+        "product_description": "Oral Contraceptive",
+        "reason": "Packaging flaw"
     },
     {
+        "company": "Botanical Laboratories Inc.",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.316",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dietary Supplement",
+        "reason": "Salmonella"
     },
     {
+        "company": "Crown Prince Seafood",
+        "date": "06/2012",
         "imports": [],
         "name": "06/2012.317",
-        "size": 1,
-        "title": "The shellfish was harvested from waters that may have been exposed to inadequate sanitation controls"
+        "product_description": "Oysters",
+        "reason": "The shellfish was harvested from waters that may have been exposed to inadequate sanitation controls"
     },
     {
+        "company": "Oskri Corp.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.318",
-        "size": 1,
-        "title": "Undeclared cashews"
+        "product_description": "Peach Granola",
+        "reason": "Undeclared cashews"
     },
     {
+        "company": "The Menz Club, LLC",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.319",
-        "size": 1,
-        "title": "Undeclared sulfoaidenafil"
+        "product_description": "V Maxx Rx",
+        "reason": "Undeclared sulfoaidenafil"
     },
     {
+        "company": "HOCEAN Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.320",
-        "size": 1,
-        "title": "Contains higher levels of sodium nitrite"
+        "product_description": "Nitre Powder",
+        "reason": "Contains higher levels of sodium nitrite"
     },
     {
+        "company": "Franck&#39;s Compounding Lab",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.321",
-        "size": 1,
-        "title": "Presence of microorganisms and fungal growth"
+        "product_description": "Sterile Human and Veterinary Prescription Drugs",
+        "reason": "Presence of microorganisms and fungal growth"
     },
     {
+        "company": "L.A. Link (Huntington Beach) Corporation",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.322",
-        "size": 1,
-        "title": "May be contaminated with the chemicals carbendazim, fluoranthene, and pyrene"
+        "product_description": "Mushrooms",
+        "reason": "May be contaminated with the chemicals carbendazim, fluoranthene, and pyrene"
     },
     {
+        "company": "MOOG, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.323",
-        "size": 1,
-        "title": "Reverse flow when using an affected Intravenous Administration Set."
+        "product_description": "Intravenous Administration Sets.",
+        "reason": "Reverse flow when using an affected Intravenous Administration Set."
     },
     {
+        "company": "Taylor Farms Retail, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.324",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Organic Baby Spinach",
+        "reason": "Salmonella"
     },
     {
+        "company": "Honeyville Honey Farm",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.325",
-        "size": 1,
-        "title": "Undeclared anchovies"
+        "product_description": "Honeyville Honey Barbecue Sauce",
+        "reason": "Undeclared anchovies"
     },
     {
+        "company": "Harris Teeter",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.326",
-        "size": 1,
-        "title": "Undeclared Milk Protein"
+        "product_description": "Sorbet",
+        "reason": "Undeclared Milk Protein"
     },
     {
+        "company": "IndonesianFoodMart.com",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.327",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Tempeh Starter Yeast and Super",
+        "reason": "Salmonella"
     },
     {
+        "company": "Pacific Coast Fruit Company",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.328",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Garden Salad, Deluxe Salad, romaine lettuce",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Diamond Pet Foods",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.329",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Diamond Naturals Small Breed Adult Dog Lamb &amp; Rice Formula dry dog food.",
+        "reason": "Salmonella"
     },
     {
+        "company": "Gills Onions, LLC",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.330",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Diced Red Onions",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "River Ranch Fresh Foods, LLC",
+        "date": "05/2012",
         "imports": [
             "05/2012.333",
             "02/2012.440",
             "02/2012.442"
         ],
         "name": "05/2012.331",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Bagged Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "West Coast Nutritionals, Ltd.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.332",
-        "size": 1,
-        "title": "Unapproved new drug"
+        "product_description": "Drug for Erectile Dysfunction (ED)",
+        "reason": "Unapproved new drug"
     },
     {
+        "company": "River Ranch Fresh Foods LLC",
+        "date": "05/2012",
         "imports": [
             "02/2012.440",
             "02/2012.442"
         ],
         "name": "05/2012.333",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Bagged Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Santos Agency, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.334",
-        "size": 1,
-        "title": "Undeclared Peanuts and Wheat"
+        "product_description": "Flours, Legumes and Spices",
+        "reason": "Undeclared Peanuts and Wheat"
     },
     {
+        "company": "CARIBE PRODUCE, LTD CO.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.335",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Papaya",
+        "reason": "Salmonella"
     },
     {
+        "company": "Bakery El Monte Sinai Corp",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.336",
-        "size": 1,
-        "title": "Undeclared eggs"
+        "product_description": "MAPA (Rainbow Cake)",
+        "reason": "Undeclared eggs"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.337",
-        "size": 1,
-        "title": "May contain more than the 1 mL labeled fill volume"
+        "product_description": "Hydromorphone Injection, USP",
+        "reason": "May contain more than the 1 mL labeled fill volume"
     },
     {
+        "company": "Natural Balance Pet Foods",
+        "date": "05/2012",
         "imports": [
             "05/2012.344",
             "05/2012.346",
@@ -2446,42 +3124,54 @@
             "04/2012.365"
         ],
         "name": "05/2012.338",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Nestle Purina PetCare",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.339",
-        "size": 1,
-        "title": "Deficient Thiamine"
+        "product_description": "Cat Food",
+        "reason": "Deficient Thiamine"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.340",
-        "size": 1,
-        "title": "Undeclared Walnuts"
+        "product_description": "Cupcakes",
+        "reason": "Undeclared Walnuts"
     },
     {
+        "company": "Jonlly Fruits, Inc.",
+        "date": "05/2012",
         "imports": [
             "05/2012.342"
         ],
         "name": "05/2012.341",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Beverages",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Jonlly Fruits, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.342",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Beverages",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Moon Fishery (India) Pvt. Ltd",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.343",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Yellowfin Tuna Strips",
+        "reason": "Salmonella"
     },
     {
+        "company": "Solid Gold Health Products for Pets, Inc.",
+        "date": "05/2012",
         "imports": [
             "05/2012.346",
             "05/2012.348",
@@ -2492,16 +3182,20 @@
             "04/2012.365"
         ],
         "name": "05/2012.344",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Water Pik, Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.345",
-        "size": 1,
-        "title": "Water may seep into the battery compartment."
+        "product_description": "Nasal Irrigation Device",
+        "reason": "Water may seep into the battery compartment."
     },
     {
+        "company": "WellPet LLC",
+        "date": "05/2012",
         "imports": [
             "05/2012.348",
             "05/2012.349",
@@ -2511,16 +3205,20 @@
             "04/2012.365"
         ],
         "name": "05/2012.346",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "FunFresh Foods Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.347",
-        "size": 1,
-        "title": "Due to possible health risk from E.coli"
+        "product_description": "Organic Cacao Nibs",
+        "reason": "Due to possible health risk from E.coli"
     },
     {
+        "company": "Canidae Pet Foods",
+        "date": "05/2012",
         "imports": [
             "05/2012.349",
             "05/2012.350",
@@ -2529,10 +3227,12 @@
             "04/2012.365"
         ],
         "name": "05/2012.348",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Diamond Pet Foods",
+        "date": "05/2012",
         "imports": [
             "05/2012.350",
             "05/2012.352",
@@ -2540,883 +3240,1155 @@
             "04/2012.365"
         ],
         "name": "05/2012.349",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Apex Pet Foods",
+        "date": "05/2012",
         "imports": [
             "05/2012.352",
             "04/2012.359",
             "04/2012.365"
         ],
         "name": "05/2012.350",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Cleveland Beansprouts Co.",
+        "date": "05/2012",
         "imports": [
             "04/2012.358",
             "04/2012.368",
             "01/2012.481"
         ],
         "name": "05/2012.351",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Alfalfa Sprouts",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Natural Balance Pet Foods",
+        "date": "05/2012",
         "imports": [
             "04/2012.359",
             "04/2012.365"
         ],
         "name": "05/2012.352",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Church &amp; Dwight Co., Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.353",
-        "size": 1,
-        "title": "Charging base may overheat with localized melting and sparking, possibly causing fire, shock or burns."
+        "product_description": "Toothbrush",
+        "reason": "Charging base may overheat with localized melting and sparking, possibly causing fire, shock or burns."
     },
     {
+        "company": "H-E-B",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.354",
-        "size": 1,
-        "title": "Undercooked chicken"
+        "product_description": "Asian Ready-to-Eat Meals",
+        "reason": "Undercooked chicken"
     },
     {
+        "company": "Franck&#39;s Compounding Lab",
+        "date": "05/2012",
         "imports": [
             "03/2012.400"
         ],
         "name": "05/2012.355",
-        "size": 1,
-        "title": "Possible fungal contamination"
+        "product_description": "Triamcinolone acetonide P.F. 80mg/ml",
+        "reason": "Possible fungal contamination"
     },
     {
+        "company": "Figi&#39;s Inc.",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.356",
-        "size": 1,
-        "title": "Undeclared Almonds"
+        "product_description": "Lemon bars",
+        "reason": "Undeclared Almonds"
     },
     {
+        "company": "Smiling Hara Tempeh",
+        "date": "05/2012",
         "imports": [],
         "name": "05/2012.357",
-        "size": 1,
-        "title": "Possible Health Risk"
+        "product_description": "Tempeh",
+        "reason": "Possible Health Risk"
     },
     {
+        "company": "Henry&#39;s Farm, Inc.",
+        "date": "04/2012",
         "imports": [
             "04/2012.368",
             "01/2012.481"
         ],
         "name": "04/2012.358",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Soybean Sprouts",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Diamond Pet Foods",
+        "date": "04/2012",
         "imports": [
             "04/2012.365"
         ],
         "name": "04/2012.359",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kaytee Pet Products",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.360",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Rat and Hamster Feed",
+        "reason": "Salmonella"
     },
     {
+        "company": "Smiling Hara",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.361",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Tempeh",
+        "reason": "Salmonella"
     },
     {
+        "company": "Belgium&#39;s Chocolate Source",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.362",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Caf&amp;eacute; Tasse Noir",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "Fatima Brothers, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.363",
-        "size": 1,
-        "title": "Undeclared sulfites and unapproved colors"
+        "product_description": "Javantri (Whole Mace)",
+        "reason": "Undeclared sulfites and unapproved colors"
     },
     {
+        "company": "Feed Solutions",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.364",
-        "size": 1,
-        "title": "Incorrect packaging"
+        "product_description": "Poultry Feed",
+        "reason": "Incorrect packaging"
     },
     {
+        "company": "Diamond Pet Foods",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.365",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Dog Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Krispak, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.366",
-        "size": 1,
-        "title": "Hostess Mix is mispackaged as Chocolate Sprinkles resulting in undeclared allergens."
+        "product_description": "Candy",
+        "reason": "Hostess Mix is mispackaged as Chocolate Sprinkles resulting in undeclared allergens."
     },
     {
+        "company": "Reser&#39;s Fine Foods, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.367",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Ham Salad/Pimento Spread",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Alfa Sprouts, Inc.",
+        "date": "04/2012",
         "imports": [
             "01/2012.481"
         ],
         "name": "04/2012.368",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Organic Sprouts",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "La Star Seafood Co., Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.369",
-        "size": 1,
-        "title": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
+        "product_description": "Vobla Fish",
+        "reason": "The fish is uneviscerated and may pose a Clostridium botulinum hazard."
     },
     {
+        "company": "American Regent",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.370",
-        "size": 1,
-        "title": "Discoloration and Small Visible Particles"
+        "product_description": "Epinephrine Injection",
+        "reason": "Discoloration and Small Visible Particles"
     },
     {
+        "company": "XROCK INDUSTRIES",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.371",
-        "size": 1,
-        "title": "Product contains sildenafil and hydroxythiohomosildenafil"
+        "product_description": "Product Marketed as a Dietary Supplement To Support Male Sexual Performance",
+        "reason": "Product contains sildenafil and hydroxythiohomosildenafil"
     },
     {
+        "company": "Hospira, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.372",
-        "size": 1,
-        "title": "Carpujects syringes contain more than the 1 mL labeled fill volume"
+        "product_description": "Morphine Sulfate Injection",
+        "reason": "Carpujects syringes contain more than the 1 mL labeled fill volume"
     },
     {
+        "company": "M. E. Thompson Inc.",
+        "date": "04/2012",
         "imports": [
             "01/2012.457"
         ],
         "name": "04/2012.373",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Turkey &amp; Ham Sub Footlong, Italian Footlong &amp; Classic Cuban Sandwiches",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Hong Lee Trading Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.374",
-        "size": 1,
-        "title": "Undeclared Sulfites"
+        "product_description": "Preserved Apricots",
+        "reason": "Undeclared Sulfites"
     },
     {
+        "company": "Dole Fresh Vegetables",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.375",
-        "size": 1,
-        "title": "Due to possible health risk from Salmonella"
+        "product_description": "Seven Lettuces Salad",
+        "reason": "Due to possible health risk from Salmonella"
     },
     {
+        "company": "Harry and David",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.376",
-        "size": 1,
-        "title": "Undeclared Peanuts"
+        "product_description": "Premium Kansas City Style Barbeque almonds",
+        "reason": "Undeclared Peanuts"
     },
     {
+        "company": "Moon Marine USA Corporation (also known as MMI)",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.377",
-        "size": 1,
-        "title": "Associated with a multistate outbreak of Salmonella Bareilly infections"
+        "product_description": "Frozen raw yellowfin tuna product, labeled as Nakaochi Scrape AA or AAA",
+        "reason": "Associated with a multistate outbreak of Salmonella Bareilly infections"
     },
     {
+        "company": "Mission Foods",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.378",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Taco Dinner Kits",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "John B. Sanfilippo &amp; Son Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.379",
-        "size": 1,
-        "title": "Undeclared Soy and Milk"
+        "product_description": "Concierge Snack Nut Blend",
+        "reason": "Undeclared Soy and Milk"
     },
     {
+        "company": "H.C. Foods Co.",
+        "date": "04/2012",
         "imports": [
             "04/2012.383"
         ],
         "name": "04/2012.380",
-        "size": 1,
-        "title": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
+        "product_description": "Dried Mackerel &amp; Dried Round Scad",
+        "reason": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
     },
     {
+        "company": "John B. Sanfilippo &amp; Son Inc",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.381",
-        "size": 1,
-        "title": "Undeclared Soy"
+        "product_description": "Vanilla Bean &amp; Cocoa Mocha Almonds",
+        "reason": "Undeclared Soy"
     },
     {
+        "company": "Mediterra S.A.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.382",
-        "size": 1,
-        "title": "Undeclared egg, milk, treenuts and wheat"
+        "product_description": "Pasta, Pies, Eggplant and Garlic Spreads",
+        "reason": "Undeclared egg, milk, treenuts and wheat"
     },
     {
+        "company": "Seng Ong Wholesale, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.383",
-        "size": 1,
-        "title": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
+        "product_description": "Dried Mackerel &amp; Dried Round Scad",
+        "reason": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
     },
     {
+        "company": "Import Foods Wholesale, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.384",
-        "size": 1,
-        "title": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
+        "product_description": "Smoked Croaker, Smoked Barracuda, Smoked Big Eye, Smoked Red Snapper",
+        "reason": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores"
     },
     {
+        "company": "Biscomerica Corp.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.385",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Blueberry, Boysenberry, Strawberry and Raspberry Shortbread Cookies",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "Kraft Foods Group, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.386",
-        "size": 1,
-        "title": "Product was exposed to water not intended for use in food during the production process"
+        "product_description": "Cocktail Peanuts",
+        "reason": "Product was exposed to water not intended for use in food during the production process"
     },
     {
+        "company": "Central Garden &amp;amp; Pet Company",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.387",
-        "size": 1,
-        "title": "Due to presence of due to high levels of vitamin D"
+        "product_description": "Baby bird Baby Macaw hand feeding formula",
+        "reason": "Due to presence of due to high levels of vitamin D"
     },
     {
+        "company": "Enesco LLC",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.388",
-        "size": 1,
-        "title": "goblets may contain excessive levels of leachable lead and cadmium"
+        "product_description": "Ceramic Wine Goblets",
+        "reason": "goblets may contain excessive levels of leachable lead and cadmium"
     },
     {
+        "company": "Rajbhog Foods Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.389",
-        "size": 1,
-        "title": "Undeclared treenut (Cashews)"
+        "product_description": "Vegetable Biryani",
+        "reason": "Undeclared treenut (Cashews)"
     },
     {
+        "company": "Kwik Trip, Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.390",
-        "size": 1,
-        "title": "Undeclared Egg"
+        "product_description": "Donuts",
+        "reason": "Undeclared Egg"
     },
     {
+        "company": "Food Lion, Harveys and Reid&amp;rsquo;s stores",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.391",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Hard/soft taco dinner",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Diamond Pet Foods",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.392",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Lamb Meal &amp; Rice",
+        "reason": "Salmonella"
     },
     {
+        "company": "TWI Foods Inc., Ontario, Canada",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.393",
-        "size": 1,
-        "title": "Undeclared milk and almond"
+        "product_description": "Pistachio cookie, Almond Cookie, Coconut Cookie &amp; Almond Cake Rusk",
+        "reason": "Undeclared milk and almond"
     },
     {
+        "company": "Los Olivos LTD",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.394",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "&quot;Pan de Torta&quot; bread",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Threeline Imports Inc",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.395",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Kypoyka Bisquit",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Odwalla Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.396",
-        "size": 1,
-        "title": "Consumer complaints due to allergic reactions"
+        "product_description": "Chocolate Protein Monster beverage",
+        "reason": "Consumer complaints due to allergic reactions"
     },
     {
+        "company": "Fung Shing Int&#39;l Corp.",
+        "date": "04/2012",
         "imports": [
             "04/2012.398"
         ],
         "name": "04/2012.397",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Coconut Candy Keo Dua La Dua",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Fung Shing Int&#39;l Corp.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.398",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Coconut Candy (Keo Dua)",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Luitpold Pharmaceuticals Inc.",
+        "date": "04/2012",
         "imports": [],
         "name": "04/2012.399",
-        "size": 1,
-        "title": "crack can form on the bottom and sides of vials"
+        "product_description": "Cyanocobalamin Injection, USP, (1000 mcg/mL), 1mL Vial",
+        "reason": "crack can form on the bottom and sides of vials"
     },
     {
+        "company": "Franck&#39;s Compounding Lab",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.400",
-        "size": 1,
-        "title": "Possible fungal contamination"
+        "product_description": "Triamcinolone acetonide P.F. 80mg/ml",
+        "reason": "Possible fungal contamination"
     },
     {
+        "company": "Creme Curls Bakery, Inc.",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.401",
-        "size": 1,
-        "title": "Mislabeled Milk Allergen"
+        "product_description": "Cream Puffs",
+        "reason": "Mislabeled Milk Allergen"
     },
     {
+        "company": "Castellini Company LLC",
+        "date": "03/2012",
         "imports": [
             "03/2012.407"
         ],
         "name": "03/2012.402",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Jalapeno Peppers",
+        "reason": "Salmonella"
     },
     {
+        "company": "Hartz Mountain Corporation",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.403",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Flake Fish Food",
+        "reason": "Salmonella"
     },
     {
+        "company": "Topnotch Cookies &amp; Cakes",
+        "date": "03/2012",
         "imports": [
             "03/2012.412",
             "01/2012.480"
         ],
         "name": "03/2012.404",
-        "size": 1,
-        "title": "Undeclared Milk Allergen"
+        "product_description": "Cookies",
+        "reason": "Undeclared Milk Allergen"
     },
     {
+        "company": "Strong America Ltd.",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.405",
-        "size": 1,
-        "title": "Undeclared Sulfites"
+        "product_description": "Dried Potato",
+        "reason": "Undeclared Sulfites"
     },
     {
+        "company": "Club Chef LLC",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.406",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Salsa products",
+        "reason": "Salmonella"
     },
     {
+        "company": "South Florida Produce, LLC",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.407",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Jalapeno Peppers",
+        "reason": "Salmonella"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.408",
-        "size": 1,
-        "title": "Undeclared walnuts"
+        "product_description": "Mini Chocolate Chip Cookies",
+        "reason": "Undeclared walnuts"
     },
     {
+        "company": "Thoratec Corporation",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.409",
-        "size": 1,
-        "title": "The sealed outflow graft bend relief may not properly connect to the HeartMate II LVAS"
+        "product_description": "Left Ventricular Assist System",
+        "reason": "The sealed outflow graft bend relief may not properly connect to the HeartMate II LVAS"
     },
     {
+        "company": "El Ranchero Del Sur, LLC.",
+        "date": "03/2012",
         "imports": [
             "03/2012.411",
             "01/2012.482",
             "01/2012.484"
         ],
         "name": "03/2012.410",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "El Ranchero Del Sur, LLC.",
+        "date": "03/2012",
         "imports": [
             "01/2012.482",
             "01/2012.484"
         ],
         "name": "03/2012.411",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Troyer Cheese, Inc.",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.412",
-        "size": 1,
-        "title": "Undeclared Milk Allergen"
+        "product_description": "Caramel Puffcorn",
+        "reason": "Undeclared Milk Allergen"
     },
     {
+        "company": "McCormick &amp; Company",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.413",
-        "size": 1,
-        "title": "Undeclared milk"
+        "product_description": "Beef Stew Mix",
+        "reason": "Undeclared milk"
     },
     {
+        "company": "Franck&#39;s Compounding Lab",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.414",
-        "size": 1,
-        "title": "Possible fungal contamination"
+        "product_description": "Brilliant Blue G",
+        "reason": "Possible fungal contamination"
     },
     {
+        "company": "Gerber Products Company",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.415",
-        "size": 1,
-        "title": "Product might have an off-odor"
+        "product_description": "Gerber Good Start Gentle powdered infant formula",
+        "reason": "Product might have an off-odor"
     },
     {
+        "company": "Cargill Animal Nutrition",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.416",
-        "size": 1,
-        "title": "Error in labeling (does not include &quot;Decoquinate&quot; on label)"
+        "product_description": "Goat Pellets",
+        "reason": "Error in labeling (does not include &quot;Decoquinate&quot; on label)"
     },
     {
+        "company": "Price Chopper",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.417",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Apple, Blueberry, Cherry, and Peach Streusel Pies (5 inch and 8 inch)",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Western Feed LLC.",
+        "date": "03/2012",
         "imports": [],
         "name": "03/2012.418",
-        "size": 1,
-        "title": "May contain monensin sodium (Rumensin)"
+        "product_description": "Animal Feed (Kountry Buffet 14%)",
+        "reason": "May contain monensin sodium (Rumensin)"
     },
     {
+        "company": "Regeneca, Inc.",
+        "date": "02/2012",
         "imports": [
             "02/2012.428"
         ],
         "name": "02/2012.419",
-        "size": 1,
-        "title": "Unapproved new drug"
+        "product_description": "Intimacy Enhancement Capsule",
+        "reason": "Unapproved new drug"
     },
     {
+        "company": "Glenmark Generics, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.420",
-        "size": 1,
-        "title": "Packaging error potentially causing incorrect dosing regimen"
+        "product_description": "Norgestimate and Ethinyl Estradiol Tablets USP",
+        "reason": "Packaging error potentially causing incorrect dosing regimen"
     },
     {
+        "company": "American Regent",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.421",
-        "size": 1,
-        "title": "Visible particles were found in the product"
+        "product_description": "Phenylephrine HCl Injection USP 1%",
+        "reason": "Visible particles were found in the product"
     },
     {
+        "company": "Healthy People Co.",
+        "date": "02/2012",
         "imports": [
             "02/2012.437"
         ],
         "name": "02/2012.422",
-        "size": 1,
-        "title": "Undeclared drug ingredients"
+        "product_description": "Dietary Supplements",
+        "reason": "Undeclared drug ingredients"
     },
     {
+        "company": "The Florida Brewery, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.423",
-        "size": 1,
-        "title": "Bottles may break during opening"
+        "product_description": "Malta beverages",
+        "reason": "Bottles may break during opening"
     },
     {
+        "company": "McNeil Consumer Healthcare",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.424",
-        "size": 1,
-        "title": "difficulty using the Infants TYLENOL SimpleMeasure dosing system"
+        "product_description": "Infants TYLENOL Oral Suspension, 1 oz. Grape",
+        "reason": "difficulty using the Infants TYLENOL SimpleMeasure dosing system"
     },
     {
+        "company": "Bedford Laboratories",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.425",
-        "size": 1,
-        "title": "Lack of sterility assurance"
+        "product_description": "Cytarabine for Injection USP",
+        "reason": "Lack of sterility assurance"
     },
     {
+        "company": "Flight Medical Innovations, Ltd.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.426",
-        "size": 1,
-        "title": "The recalled cable may negatively affect Newport HT50 ventilators manufactured prior to 2007. Affected units may shutdown unexpectedly"
+        "product_description": "Remote alarm cable that is used to connect Newport HT50 mechanical ventilators to nurse stations",
+        "reason": "The recalled cable may negatively affect Newport HT50 ventilators manufactured prior to 2007. Affected units may shutdown unexpectedly"
     },
     {
+        "company": "Walmart",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.427",
-        "size": 1,
-        "title": "Mislabeled Milk Allergen"
+        "product_description": "Cruller Bakery Pastries",
+        "reason": "Mislabeled Milk Allergen"
     },
     {
+        "company": "Regeneca, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.428",
-        "size": 1,
-        "title": "Unapproved new drug"
+        "product_description": "Intimacy Enhancement Capsule",
+        "reason": "Unapproved new drug"
     },
     {
+        "company": "Whole Foods Market",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.429",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Pumpkin Bundt Cakes",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Wholistic Herbs, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.430",
-        "size": 1,
-        "title": "Non-sterile, intended for use in eyes and nose."
+        "product_description": "OTC drug products",
+        "reason": "Non-sterile, intended for use in eyes and nose."
     },
     {
+        "company": "Summit Import Corporation",
+        "date": "02/2012",
         "imports": [
             "02/2012.446",
             "01/2012.449"
         ],
         "name": "02/2012.431",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Rice Crackers",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Zip International Group LLC",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.432",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sliced Herring Fillet (forelka)",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Kathy Kaye Foods LLC",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.433",
-        "size": 1,
-        "title": "Undeclared Peanut"
+        "product_description": "Caramel Cob Junior &amp; Chewy Popcorn",
+        "reason": "Undeclared Peanut"
     },
     {
+        "company": "North American Rescue, LLC",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.434",
-        "size": 1,
-        "title": "Kit contains recalled povidone iodine prep pads"
+        "product_description": "Surgical Crichothyroidotomy Kit",
+        "reason": "Kit contains recalled povidone iodine prep pads"
     },
     {
+        "company": "Grand Strand Sandwich Company",
+        "date": "02/2012",
         "imports": [
             "02/2012.438",
             "02/2012.439"
         ],
         "name": "02/2012.435",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Chicken Salad Sandwiches",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Nest Collective",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.436",
-        "size": 1,
-        "title": "Undeclared peanut"
+        "product_description": "Snack size sandwich bars",
+        "reason": "Undeclared peanut"
     },
     {
+        "company": "Healthy People Co.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.437",
-        "size": 1,
-        "title": "Undeclared drug ingredients"
+        "product_description": "Dietary supplements",
+        "reason": "Undeclared drug ingredients"
     },
     {
+        "company": "GH Foods CA, LLC",
+        "date": "02/2012",
         "imports": [
             "02/2012.439"
         ],
         "name": "02/2012.438",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sandwiches",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Greencore, USA",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.439",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Egg Salad Sandwiches",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Allison&#39;s Gourmet Kitchens",
+        "date": "02/2012",
         "imports": [
             "02/2012.442"
         ],
         "name": "02/2012.440",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Prepared Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Bedford Laboratories",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.441",
-        "size": 1,
-        "title": "Visible glass particle found in a vial."
+        "product_description": "Acetylcysteine Solution, USP",
+        "reason": "Visible glass particle found in a vial."
     },
     {
+        "company": "Wegmans Food Markets, Inc.",
+        "date": "02/2012",
         "imports": [
             "02/2012.447"
         ],
         "name": "02/2012.442",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Eggs and Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "S&amp;M USA Enterprise",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.443",
-        "size": 1,
-        "title": "Undeclared Sulfites"
+        "product_description": "Tremella",
+        "reason": "Undeclared Sulfites"
     },
     {
+        "company": "W&amp;C International Import, Inc.",
+        "date": "02/2012",
         "imports": [
             "02/2012.445"
         ],
         "name": "02/2012.444",
-        "size": 1,
-        "title": "The product was found to be un-eviscerated."
+        "product_description": "Dried Yellow Croaker",
+        "reason": "The product was found to be un-eviscerated."
     },
     {
+        "company": "W&amp;C International Import, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.445",
-        "size": 1,
-        "title": "The product was found to be un-eviscerated."
+        "product_description": "Dried Yellow Croaker",
+        "reason": "The product was found to be un-eviscerated."
     },
     {
+        "company": "President Global Corporation",
+        "date": "02/2012",
         "imports": [
             "01/2012.449"
         ],
         "name": "02/2012.446",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Rice Crackers",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Michael Foods, Inc.",
+        "date": "02/2012",
         "imports": [],
         "name": "02/2012.447",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Hard-Cooked Eggs",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Pfizer, Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.448",
-        "size": 1,
-        "title": "Some blister packs may contain an inexact count of inert or active ingredient tablets and the tablets may be out of sequence."
+        "product_description": "Oral contraceptives",
+        "reason": "Some blister packs may contain an inexact count of inert or active ingredient tablets and the tablets may be out of sequence."
     },
     {
+        "company": "Gemini Food Corporation, Tong Enterprises",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.449",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Rice Crackers",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Vitaflo USA",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.450",
-        "size": 1,
-        "title": "Product was incorrectly labeled as another product."
+        "product_description": "Pediatric Medical Food",
+        "reason": "Product was incorrectly labeled as another product."
     },
     {
+        "company": "Walgreen Co.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.451",
-        "size": 1,
-        "title": "Undeclared Peanut, Almond, and Soy"
+        "product_description": "Chocolate Covered Raisins",
+        "reason": "Undeclared Peanut, Almond, and Soy"
     },
     {
+        "company": "How Sweet It Is Fudge and Candy Company Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.452",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Candy",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "PINNACLE FOODS GROUP LLC",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.453",
-        "size": 1,
-        "title": "Undeclared  Soy Protein"
+        "product_description": "Aunt Jemima Frozen Pancakes",
+        "reason": "Undeclared  Soy Protein"
     },
     {
+        "company": "Johnson &amp; Johnson Consumer Companies, Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.454",
-        "size": 1,
-        "title": "The lot exceeded bacterial specifications."
+        "product_description": "Lotion",
+        "reason": "The lot exceeded bacterial specifications."
     },
     {
+        "company": "Cephalon",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.455",
-        "size": 1,
-        "title": "Presence of particulate matter in vial identified as glass fragments"
+        "product_description": "Treanda (bendamustine HCL) for Injection",
+        "reason": "Presence of particulate matter in vial identified as glass fragments"
     },
     {
+        "company": "Spartan Stores, Inc",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.456",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Egg Spread, Salads",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "M. E. Thompson Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.457",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Turkey &amp; Ham Sub Footlong Sandwich",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Jones&#39; Seasoning Blends LLC",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.458",
-        "size": 1,
-        "title": "Potential Contamination of Salmonella"
+        "product_description": "Jones&#39; Mock Salt Original &amp;  Jones&#39; Mock Salt Spicy Southwest Blend",
+        "reason": "Potential Contamination of Salmonella"
     },
     {
+        "company": "Carefusion",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.459",
-        "size": 1,
-        "title": "potential risks associated with the Cortical Stimulator Control Unit, SSU Amplifier and related software applications"
+        "product_description": "Nicolet\u00ae Cortical Stimulator Control Unit, Nicolet\u00ae C64 Stimulus Switching Unit (SSU) Amplifier and NicoletOne Software with Cortical Stimulator License",
+        "reason": "potential risks associated with the Cortical Stimulator Control Unit, SSU Amplifier and related software applications"
     },
     {
+        "company": "Rich Products Corporation",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.460",
-        "size": 1,
-        "title": "may contain small plastic fragments"
+        "product_description": "8 inch Vanilla Flavored Pre-Soaked Sponge Cake Artificially Flavored",
+        "reason": "may contain small plastic fragments"
     },
     {
+        "company": "LEASA Industries Co.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.461",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Alfalfa Sprout",
+        "reason": "Salmonella"
     },
     {
+        "company": "Perfect Image Solutions LLC",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.462",
-        "size": 1,
-        "title": "The products are deemed unapproved new drugs under the law and U.S. Food and Drug Administration regulations and may present potential health hazards"
+        "product_description": "Hair regrowth products (men &amp; women)",
+        "reason": "The products are deemed unapproved new drugs under the law and U.S. Food and Drug Administration regulations and may present potential health hazards"
     },
     {
+        "company": "Winn-Dixie Stores Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.463",
-        "size": 1,
-        "title": "Salmonella"
+        "product_description": "Brocolli Sprouts, Alfalfa Sprouts, Spicy Sprouts, Onion Sprouts",
+        "reason": "Salmonella"
     },
     {
+        "company": "Kradjian Imp Co",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.464",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Tresse cheese and Shinglish Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "USA Far Ocean Group (U.S.A. Far Ocean)",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.465",
-        "size": 1,
-        "title": "Vagifresh Gel sample contains benzocaine, the active ingredient for many anesthetic drug products. \r\nVagifresh Ball sample contains bacteria including Staphylococcus lentus, S. sciuri, Bacillus lantus, Alloiococcus otitis, Aerococcus viridans, Aeromonas salmonicid, Gemella spp, Leuconostoc spp."
+        "product_description": "Vagifresh Ball, Vagifresh Gel",
+        "reason": "Vagifresh Gel sample contains benzocaine, the active ingredient for many anesthetic drug products. \r\nVagifresh Ball sample contains bacteria including Staphylococcus lentus, S. sciuri, Bacillus lantus, Alloiococcus otitis, Aerococcus viridans, Aeromonas salmonicid, Gemella spp, Leuconostoc spp."
     },
     {
+        "company": "JKS Wholesale SVCS Inc",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.466",
-        "size": 1,
-        "title": "Undeclared Milk"
+        "product_description": "Torta de Pan",
+        "reason": "Undeclared Milk"
     },
     {
+        "company": "Price Chopper Supermarkets",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.467",
-        "size": 1,
-        "title": "May contain shredded plastic fragments"
+        "product_description": "Shredded Taco Cheese",
+        "reason": "May contain shredded plastic fragments"
     },
     {
+        "company": "Rexall Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.468",
-        "size": 1,
-        "title": "Undeclared shellfish"
+        "product_description": "Calcium 1200mg plus 1000 IU Vitamin D3 softgels",
+        "reason": "Undeclared shellfish"
     },
     {
+        "company": "Covidien",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.469",
-        "size": 1,
-        "title": "Potential to injure adjacent anatomical structures within the thorax that can result in post-operative complications and result in life-threatening situation"
+        "product_description": "Duet TRS Universal Straight and Articulating Single Use Loading Units for Thoracic Surgery",
+        "reason": "Potential to injure adjacent anatomical structures within the thorax that can result in post-operative complications and result in life-threatening situation"
     },
     {
+        "company": "Price Chopper",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.470",
-        "size": 1,
-        "title": "May contain plastic fragments"
+        "product_description": "Tres Leches cakes",
+        "reason": "May contain plastic fragments"
     },
     {
+        "company": "Gilster-Mary Lee, Corp.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.471",
-        "size": 1,
-        "title": "Undeclared  Soy"
+        "product_description": "Dry Lasagna Dinner Mix",
+        "reason": "Undeclared  Soy"
     },
     {
+        "company": "Ryt-Way",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.472",
-        "size": 1,
-        "title": "Undeclared  Soy"
+        "product_description": "Dill Pickle Sunflower seeds",
+        "reason": "Undeclared  Soy"
     },
     {
+        "company": "Blount Fine Foods",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.473",
-        "size": 1,
-        "title": "Undeclared Milk, Wheat and Crab"
+        "product_description": "Crab Soup",
+        "reason": "Undeclared Milk, Wheat and Crab"
     },
     {
+        "company": "Bedford Laboratories",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.474",
-        "size": 1,
-        "title": "Vials may contain visible glass particulates"
+        "product_description": "Polymyxin B for Injection USP and Vecuronium Bromide",
+        "reason": "Vials may contain visible glass particulates"
     },
     {
+        "company": "ZIP INTERNATIONAL GROUP, LLC",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.475",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Herring Fillet",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Novartis",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.476",
-        "size": 1,
-        "title": "products may contain stray tablets, capsules, or caplets from other Novartis products, or contain broken or chipped tablets"
+        "product_description": "Bufferin Extra Strength Tablet, Bufferin Low Dose Tablets, Bufferin Regular Strength Tablets, Excedrin Back &amp; Body Caplets, Excedrin Extra Strength Caplets, Excedrin Extra Strength  Express Gel Caps, Excedrin Extra Strength  Gel Tablets, Excedrin Extra Strength  Tablets, Excedrin Migraine  Express Gel Caplets, Excedrin Migraine Caplets,  Excedrin Migraine Gel Tablets, Excedrin Migraine Tablets, Excedrin PM Caplets, Excedrin PM Express Gel Caplet, Excedrin PM Tablets, Excedrin Sinus Headache Caplets, Excedrin Tension Headache Caplets, Excedrin Tension Headache Express Gel Caplets, Excedrin Tension Headache Gel Tablets, Gas-X Prevention Caplets, NoDoz Maximum Strength Caplets",
+        "reason": "products may contain stray tablets, capsules, or caplets from other Novartis products, or contain broken or chipped tablets"
     },
     {
+        "company": "Bloch&#39;s Best Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.477",
-        "size": 1,
-        "title": "Undeclared Eggs"
+        "product_description": "Rugelach",
+        "reason": "Undeclared Eggs"
     },
     {
+        "company": "Pepin Heights Orchards",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.478",
-        "size": 1,
-        "title": "Elevated levels of patulin"
+        "product_description": "Honeycrisp Apple Cider",
+        "reason": "Elevated levels of patulin"
     },
     {
+        "company": "Rich Products Corporation",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.479",
-        "size": 1,
-        "title": "Presence of Plastic Fragments"
+        "product_description": "Sponge Cake",
+        "reason": "Presence of Plastic Fragments"
     },
     {
+        "company": "D. F. Stauffer Biscuit Co., Inc.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.480",
-        "size": 1,
-        "title": "Undeclared Milk and Eggs"
+        "product_description": "Cookies",
+        "reason": "Undeclared Milk and Eggs"
     },
     {
+        "company": "Green Valley Food Corp.",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.481",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Sprouts",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Bekkum Family Farms LLC",
+        "date": "01/2012",
         "imports": [
             "01/2012.484"
         ],
         "name": "01/2012.482",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Price Chopper",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.483",
-        "size": 1,
-        "title": "Undeclared Milk, Wheat and Egg"
+        "product_description": "Gourmet Stuffed Clams",
+        "reason": "Undeclared Milk, Wheat and Egg"
     },
     {
+        "company": "Alpine Slicing and Cheese Conversion",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.484",
-        "size": 1,
-        "title": "Listeria monocytogenes"
+        "product_description": "Cheese",
+        "reason": "Listeria monocytogenes"
     },
     {
+        "company": "Enhorabuena!",
+        "date": "01/2012",
         "imports": [],
         "name": "01/2012.485",
-        "size": 1,
-        "title": "Undeclared Milk, Wheat, Tree Nuts, and Eggs"
+        "product_description": "Guava Sticks",
+        "reason": "Undeclared Milk, Wheat, Tree Nuts, and Eggs"
     }
 ]
