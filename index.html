@@ -160,7 +160,7 @@ d3.json("data/recalls.json", function(classes) {
     .enter().append("svg:path")
       .attr("class", function(d) { return "link source-" + d.source.key + " target-" + d.target.key; })
       .attr("d", function(d, i) { return line(splines[i]); })
-      .attr("stroke-width", function(d, i) { console.log(d); return 1; });
+      .attr("stroke-width", function(d, i) { console.log(d); return 2*d.score; });
 
   var groupData = svg.selectAll("g.group")
     .data(nodes.filter(function(d) { return d.key != null && (d.key == '01' || d.key == '02' || d.key == '03' || d.key == '04')}))
