@@ -93,7 +93,7 @@
         "imports": [],
         "name": "01.11",
         "product_description": "Artisan Cheeses",
-        "reason": "Contaminated with Shiga-Toxin producing &lt;i&gt;E.coli&lt;i&gt;"
+        "reason": "Contaminated with Shiga-Toxin producing iE.colii"
     },
     {
         "company": "Belmont Confections Inc.",
@@ -167,7 +167,7 @@
         "imports": [],
         "name": "01.20",
         "product_description": "Alaskan Sockeye Salmon",
-        "reason": "&lt;i&gt;Listeria monocytogenes&lt;/i&gt;"
+        "reason": "iListeria monocytogenes/i"
     },
     {
         "company": "Hospira, Inc.",
@@ -215,7 +215,7 @@
         "imports": [],
         "name": "01.26",
         "product_description": "Bagels with Cream Cheese, Cream Cheese",
-        "reason": "&lt;i&gt;Listeria monocytogenes&lt;/i&gt;"
+        "reason": "iListeria monocytogenes/i"
     },
     {
         "company": "R-Kane products Inc.",
@@ -239,7 +239,7 @@
         "imports": [],
         "name": "02.29",
         "product_description": "Blue crab spread",
-        "reason": "&lt;i&gt;Listeria monocytogenes&lt;/i&gt;"
+        "reason": "iListeria monocytogenes/i"
     },
     {
         "company": "Sprouters Northwest",
@@ -267,7 +267,7 @@
         "imports": [],
         "name": "02.32",
         "product_description": "Atlantic Smoked Salmon",
-        "reason": "Potential to be contaminated with &lt;i&gt;Listeria monocytogenes&lt;/i&gt;"
+        "reason": "Potential to be contaminated with iListeria monocytogenes/i"
     },
     {
         "company": "ZIP International Group LLC",
@@ -283,7 +283,7 @@
         "imports": [],
         "name": "02.34",
         "product_description": "Sprout products, wheatgrass and pea shoots",
-        "reason": "&lt;i&gt;Listeria monocytogenes&lt;/i&gt;"
+        "reason": "iListeria monocytogenes/i"
     },
     {
         "company": "Nestle Prepared Foods Company",
@@ -870,7 +870,7 @@
         "imports": [],
         "name": "03.105",
         "product_description": "Pet food",
-        "reason": "&lt;i&gt;Salmonella&lt;/i&gt;"
+        "reason": "iSalmonella/i"
     },
     {
         "company": "Consumer Concepts, Inc.",
@@ -886,7 +886,7 @@
         "imports": [],
         "name": "04.107",
         "product_description": "Chicken Balance, Chicken Blend and Beef Blend Burgers - Raw Frozen Food Diet for Dogs and Cats",
-        "reason": "Potential to be contaminated with &lt;i&gt;Salmonella&lt;/i&gt;"
+        "reason": "Potential to be contaminated with iSalmonella/i"
     },
     {
         "company": "Centerville Pie Company",
