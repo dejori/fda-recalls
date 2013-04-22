@@ -21,7 +21,10 @@
         "company": "Giant Food Stores, LLC and Martin&#39;s Food Markets",
         "date": "07/01/2013",
         "imports": [
-            "01.20"
+            {
+                "name": "01.20",
+                "score": 0.77
+            }
         ],
         "name": "01.2",
         "product_description": "Smoked Salmon",
@@ -176,7 +179,10 @@
         "company": "D&amp;amp;S Herbals, LLC, d/b/a Freedom Trading",
         "date": "24/01/2013",
         "imports": [
-            "02.53"
+            {
+                "name": "02.53",
+                "score": 0.77
+            }
         ],
         "name": "01.19",
         "product_description": "Dietary Supplement",
@@ -187,7 +193,10 @@
         "company": "Whole Foods Market",
         "date": "25/01/2013",
         "imports": [
-            "01.25"
+            {
+                "name": "01.25",
+                "score": 0.77
+            }
         ],
         "name": "01.20",
         "product_description": "Alaskan Sockeye Salmon",
@@ -288,9 +297,18 @@
         "company": "Domega NY International Co., Ltd.",
         "date": "04/02/2013",
         "imports": [
-            "02.36",
-            "02.37",
-            "02.38"
+            {
+                "name": "02.36",
+                "score": 0.77
+            },
+            {
+                "name": "02.37",
+                "score": 0.77
+            },
+            {
+                "name": "02.38",
+                "score": 0.77
+            }
         ],
         "name": "02.31",
         "product_description": "Dried coconut",
@@ -337,8 +355,14 @@
         "company": "DZH Import &amp; Export Inc.",
         "date": "08/02/2013",
         "imports": [
-            "02.37",
-            "02.38"
+            {
+                "name": "02.37",
+                "score": 0.77
+            },
+            {
+                "name": "02.38",
+                "score": 0.77
+            }
         ],
         "name": "02.36",
         "product_description": "Dried Mushrooms",
@@ -349,7 +373,10 @@
         "company": "DZH Import &amp;amp; Export, Inc.",
         "date": "11/02/2013",
         "imports": [
-            "02.38"
+            {
+                "name": "02.38",
+                "score": 0.77
+            }
         ],
         "name": "02.37",
         "product_description": "Dried Mushrooms",
@@ -423,7 +450,10 @@
         "company": "DeCoty Coffee Company, Inc.",
         "date": "15/02/2013",
         "imports": [
-            "03.99"
+            {
+                "name": "03.99",
+                "score": 0.77
+            }
         ],
         "name": "02.45",
         "product_description": "Taco Seasoning",
@@ -461,7 +491,10 @@
         "company": "Kasel Associated Industries",
         "date": "19/02/2013",
         "imports": [
-            "02.55"
+            {
+                "name": "02.55",
+                "score": 0.77
+            }
         ],
         "name": "02.49",
         "product_description": "Dog Treats",
@@ -472,7 +505,10 @@
         "company": "BBU, Inc.",
         "date": "19/02/2013",
         "imports": [
-            "02.66"
+            {
+                "name": "02.66",
+                "score": 0.77
+            }
         ],
         "name": "02.50",
         "product_description": "Bread",
@@ -492,7 +528,10 @@
         "company": "Nutri-Vet, LLC",
         "date": "20/02/2013",
         "imports": [
-            "03.76"
+            {
+                "name": "03.76",
+                "score": 0.77
+            }
         ],
         "name": "02.52",
         "product_description": "Pet Treats",
@@ -575,7 +614,10 @@
         "company": "Bruce Foods Corporation",
         "date": "22/02/2013",
         "imports": [
-            "02.64"
+            {
+                "name": "02.64",
+                "score": 0.77
+            }
         ],
         "name": "02.61",
         "product_description": "Sauce",
@@ -685,7 +727,10 @@
         "company": "Bumble Bee Foods, LLC",
         "date": "06/03/2013",
         "imports": [
-            "03.77"
+            {
+                "name": "03.77",
+                "score": 0.77
+            }
         ],
         "name": "03.73",
         "product_description": "Canned tuna",
@@ -750,7 +795,10 @@
         "company": "La Preferida Inc.",
         "date": "11/03/2013",
         "imports": [
-            "03.97"
+            {
+                "name": "03.97",
+                "score": 0.77
+            }
         ],
         "name": "03.80",
         "product_description": "Canned Pinto beans",
