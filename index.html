@@ -15,6 +15,10 @@
         padding-top: 60px;
       }
 
+      .tooltip-inner{
+        text-align: left !important;
+      }
+
       path.arc {
         cursor: move;
         fill: #fff;
@@ -34,7 +38,6 @@
         stroke: #999;
         stroke-opacity: .4;
         pointer-events: none;
-        /*stroke-dasharray: 5,5; */
       }
 
       .group text {
@@ -130,6 +133,8 @@
       rotate = 0
       pi = Math.PI;
 
+  var selected_node;
+
   var splines = [];
 
   var cluster = d3.layout.cluster()
@@ -146,15 +151,15 @@
 
   // Chrome 15 bug: <http://code.google.com/p/chromium/issues/detail?id=98951>
   var div = d3.select("#main-container")
-      .style("width", w + "px")
-      .style("height", w + "px")
-      .style("position", "absolute");
+    .style("width", w + "px")
+    .style("height", w + "px")
+    .style("position", "absolute");
 
   var svg = div.append("svg:svg")
-      .attr("width", w)
-      .attr("height", w)
+    .attr("width", w)
+    .attr("height", w)
     .append("svg:g")
-      .attr("transform", "translate(" + rx + "," + ry + ")");
+    .attr("transform", "translate(" + rx + "," + ry + ")");
 
   svg.append("svg:path")
       .attr("class", "arc")
@@ -171,7 +176,7 @@
       .enter().append("svg:path")
       .attr("class", function(d) { return "link source-" + d.source.key + " target-" + d.target.key; })
       .attr("d", function(d, i) { return line(splines[i]); })
-      .attr("stroke-width", function(d, i) { console.log(d); return 2*d.score; });
+      .attr("stroke-width", function(d, i) { return 2*d.score; });
 
     var groupData = svg.selectAll("g.group")
       .data(nodes.filter(function(d) { return d.key != null && (d.key == '01' || d.key == '02' || d.key == '03' || d.key == '04')}))
@@ -205,13 +210,15 @@
         .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
         .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
         .attr("rel","tooltip")
-        // .attr("data-original-title","")
-        // .attr("title",function(d) { return d.date+"\n"+d.product_description+"\n"+d.reason })
-        .text(function(d) { return d.company })
+        .text(function(d) { 
+            $("#"+this.id).tooltip({"html": 'true',"placement":"right", "title": d.date+"<br><b>Reason</b>: "+d.reason+"<br><b>Product</b>: "+d.product_description})
+            return d.company 
+        })
         .on("mouseover", mouseover)
         .on("mouseout", mouseout)
+        .on("click", mouseclicked)
      
-    $("#text-106").tooltip({"html": 'true',"placement":"top", "title": "this is a test - so why dont you show up??"})
+    
 
 
     d3.select("input[type=range]").on("change", function() {
@@ -281,6 +288,7 @@
   }
 
   function mouseout(d) {
+    if( d === selected_node) return;
     svg.selectAll("path.link.source-" + d.key)
         .classed("source", false)
         .each(updateNodes("target", false));
@@ -288,6 +296,16 @@
     svg.selectAll("path.link.target-" + d.key)
         .classed("target", false)
         .each(updateNodes("source", false));
+  }
+
+  function mouseclicked(d) {
+    if(selected_node != null){
+        helper = selected_node
+        selected_node = d;
+        mouseout(selected_node)
+    }
+    selected_node = d;
+    mouseover(selected_node)
   }
 
   function updateNodes(name, value) {
