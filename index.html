@@ -198,7 +198,9 @@
       .style("fill-opacity", 0.5);
 
     svg.selectAll("g.node")
-      .data(nodes.filter(function(n) { return !n.children; }))
+      .data(nodes.filter(function(n) { 
+        return !n.children; 
+      }))
       .enter().append("svg:g")
       .attr("class", "node")
       .attr("id", function(d) { return "node-" + d.key; })
@@ -211,7 +213,10 @@
         .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
         .attr("rel","tooltip")
         .text(function(d) { 
-            $("#"+this.id).tooltip({"html": 'true',"placement":"right", "title": d.date+"<br><b>Reason</b>: "+d.reason+"<br><b>Product</b>: "+d.product_description})
+            $("#"+this.id).tooltip({"html": 'true',
+              "placement":"right", 
+              "title": d.date+"<br><b>Reason</b>: "+d.reason+"<br><b>Product</b>: "+d.product_description
+            })
             return d.company 
         })
         .on("mouseover", mouseover)
@@ -229,9 +234,8 @@
     groupData.append("svg:text")
       .attr("x", 6)
       .attr("dy", 15)
-      .filter(function(d) { console.log(d.name); return true;})//d.name > 110; })
+      .filter(function(d) { console.log(d.name); return true;})
       .append("svg:textPath")
-      // .attr("xlink:href", function(d) { return "#group" + d.index + "-" + j; })
       .text(function(d) { return 'd.name'; 
     });
   });
@@ -284,8 +288,7 @@
 
     svg.selectAll("path.link.source-" + d.key)
         .classed("source", true)
-        .each(updateNodes("target", true));
-  }
+        .each(updateNodes("target", true));  }
 
   function mouseout(d) {
     if( d === selected_node) return;
@@ -296,16 +299,33 @@
     svg.selectAll("path.link.target-" + d.key)
         .classed("target", false)
         .each(updateNodes("source", false));
+
+   // svg.selectAll("path.link.target-" + d.key)
+   //    .classed("target", false)
+   //    .each(console.log("source"));
   }
 
   function mouseclicked(d) {
-    if(selected_node != null){
-        helper = selected_node
-        selected_node = d;
-        mouseout(selected_node)
+    if(selected_node != d){
+
+      console.log("target "+svg.selectAll("path.link.target-" + d.key))
+      // if(svg.selectAll("path.link.target-" + d.key) != null){
+      //   svg.selectAll("path.link.target-" + d.key).each(
+      //       console.log("this is a target")
+      //     )
+      // }
+      console.log("source "+svg.selectAll("path.link.source-" + d.key))
+      if(selected_node != null){
+          helper = selected_node
+          selected_node = d;
+          mouseout(helper)
+      }
+      selected_node = d;
+      mouseover(selected_node)
+    }else{
+      selected_node = null;
+      mouseout(d)
     }
-    selected_node = d;
-    mouseover(selected_node)
   }
 
   function updateNodes(name, value) {
