@@ -30,7 +30,7 @@
       }
 
       .node:hover {
-        fill: #1f77b4;
+        fill: #d62728;
       }
 
       .link {
@@ -51,7 +51,7 @@
       }
 
       .node.target {
-        fill: #d62728 !important;
+        fill: #F57800 !important;
         /*color: #999;*/
       }
 
@@ -62,12 +62,12 @@
 
       .link.source {
         /*color: #999;*/
-        stroke: #d62728;
+        stroke: #F57800;
       }
 
       .node.source {
         /*fill: #000;*/
-        color: #999;
+        color: #F57800;
       }
 
       .link.target {
@@ -179,7 +179,7 @@
       .attr("stroke-width", function(d, i) { return 2*d.score; });
 
     var groupData = svg.selectAll("g.group")
-      .data(nodes.filter(function(d) { return d.key != null && (d.key == '01' || d.key == '02' || d.key == '03' || d.key == '04')}))
+      .data(nodes.filter(function(d) { return $.inArray(d.key, ['01','02','03','04','05','06','07','08','09','10','11','12']) > -1 && d.children }))
       .enter().append("group")
       .attr("class", "group");
       
@@ -213,8 +213,14 @@
         .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
         .attr("rel","tooltip")
         .text(function(d) { 
+            
+            if(d.x <45) placement = "bottom";
+            else if(d.x > 45 && d.x < 135) placement = "left";
+            else if(d.x > 135 && d.x < 225) placement = "top";
+            else if(d.x > 225 && d.x < 315) placement = "right";
+            else placement = "bottom";
             $("#"+this.id).tooltip({"html": 'true',
-              "placement":"right", 
+              "placement":placement, 
               "title": d.date+"<br><b>Reason</b>: "+d.reason+"<br><b>Product</b>: "+d.product_description
             })
             return d.company 
@@ -332,6 +338,7 @@
     console.log("relatedNodes\t"+relatedNodes)
   }
 
+  // function getTagCloud
   function getNodes(name,relatedNodes) {
     return function(d) {
       relatedNodes.push(d[name]);
