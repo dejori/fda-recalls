@@ -306,26 +306,36 @@
   }
 
   function mouseclicked(d) {
+    relatedNodes =[d]
     if(selected_node != d){
 
-      console.log("target "+svg.selectAll("path.link.target-" + d.key))
-      // if(svg.selectAll("path.link.target-" + d.key) != null){
-      //   svg.selectAll("path.link.target-" + d.key).each(
-      //       console.log("this is a target")
-      //     )
-      // }
-      console.log("source "+svg.selectAll("path.link.source-" + d.key))
-      if(selected_node != null){
+        svg.selectAll("path.link.target-" + d.key).each(
+            getNodes("source",relatedNodes)
+        )
+
+        svg.selectAll("path.link.source-" + d.key).each(
+            getNodes("target",relatedNodes)
+        )
+      
+        if(selected_node != null){
           helper = selected_node
           selected_node = d;
           mouseout(helper)
-      }
-      selected_node = d;
-      mouseover(selected_node)
+        }
+        selected_node = d;
+        mouseover(selected_node)
     }else{
       selected_node = null;
       mouseout(d)
     }
+
+    console.log("relatedNodes\t"+relatedNodes)
+  }
+
+  function getNodes(name,relatedNodes) {
+    return function(d) {
+      relatedNodes.push(d[name]);
+    };
   }
 
   function updateNodes(name, value) {
