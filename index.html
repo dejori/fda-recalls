@@ -182,8 +182,10 @@
     var groupData = svg.selectAll("g.group")
       .data(nodes.filter(function(d) { return $.inArray(d.key, ['01','02','03','04','05','06','07','08','09','10','11','12']) > -1 && d.children }))
       .enter().append("group")
-      .attr("class", "group");
-      
+      .attr("class", "group")
+      .attr("id",function(d){return d.key});
+    
+    
     var groupArc = d3.svg.arc()
     .innerRadius(ry - 177)
     .outerRadius(ry - 157)
@@ -194,10 +196,11 @@
       .data(groupData[0])
       .enter().append("svg:path")
       .attr("d", groupArc)
-      .attr("id","s3")
+      .attr("id",function(d){return "group-"+d.id})
       .attr("class", "groupArc")
       .style("fill", "#1f77b4")
-      .style("fill-opacity", 0.5);
+      .style("fill-opacity", 0.5)
+      ;
 
     svg.selectAll("g.node")
       .data(nodes.filter(function(n) { 
@@ -239,16 +242,17 @@
       path.attr("d", function(d, i) { return line(splines[i]); });
     });
 
-    // groupData.append("svg:text")
-    //   .attr("x", 6)
-    //   .attr("dy", 15)
-    //     .attr("fill", "navy")
-    //   .attr("xlink:href", "#s3")
-    //   .filter(function(d) { return true;})
-    //   .append("svg:textPath")
-
-    //   .text(function(d) { return 'd.name'; 
-    // });
+    svg.selectAll("g.arc")
+        .data(groupData[0])
+        .enter().append("svg:g")
+        .attr("fill", "#fff")
+        .append("text")
+            .attr("dx", "1em")
+            .attr("dy", "1.1em")
+            .attr("font-size", "12")
+            .append("textPath")
+                .attr("xlink:href", function(d){console.log("no "+d.id); return "#group-"+d.id})
+                .text(function(d){return getMonth(d.id)}); 
   });
 
   d3.select(window)
@@ -292,16 +296,51 @@
     }
   }
 
-  function mouseover(d) {
-    svg.selectAll("path.link.target-" + d.key)
-        .classed("target", true)
-        .each(updateNodes("source", true));
+  function mouseover(d, sourceNodes, targetNodes) {
+        svg.selectAll("path.link.target-" + d.key)
+            .classed("target", true)
+            .each(updateNodes("source", true));
 
-    svg.selectAll("path.link.source-" + d.key)
-        .classed("source", true)
-        .each(updateNodes("target", true));  }
+        svg.selectAll("path.link.source-" + d.key)
+            .classed("source", true)
+            .each(updateNodes("target", true));  
 
-  function mouseout(d) {
+        console.log("targets "+ targetNodes)
+        console.log("sources "+ sourceNodes)
+        if(targetNodes){
+            
+            targetNodes.forEach(function(t){
+                svg.append("svg:g")
+                .attr("id", "text-"+"source-" + d.key + " target-" + t.key)
+                .attr("fill", "#333")
+                .append("text")
+                    .attr("dx", function(d) { return 250; })
+                    .attr("dy", ".31em")
+                    .attr("font-size", "14")
+                    .attr("text-align","center")
+                    .append("textPath")
+                        .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
+                        .text(d.reason);  
+            });
+        }
+        if(sourceNodes){
+            sourceNodes.forEach(function(s){
+                svg.append("svg:g")
+                .attr("id", "text-"+"source-" + s.key + " target-" + d.key)
+                .attr("id", "thing")
+                .attr("fill", "#333")
+                .append("text")
+                    .attr("dy", ".31em")
+                    .attr("font-size", "14")
+                    .attr("text-align","center")
+                    .append("textPath")
+                        .attr("xlink:href", "#"+"source-" + s.key + " target-" + d.key)
+                        .text(d.reason);  
+            });
+        }
+    }
+
+  function mouseout(d,sourceNodes, targetNodes) {
     if( d === selected_node) return;
     svg.selectAll("path.link.source-" + d.key)
         .classed("source", false)
@@ -311,9 +350,9 @@
         .classed("target", false)
         .each(updateNodes("source", false));
 
-   // svg.selectAll("path.link.target-" + d.key)
-   //    .classed("target", false)
-   //    .each(console.log("source"));
+    if(targetNodes!=0 && sourceNodes != 0){
+        // delete text
+    }
   }
 
   function mouseclicked(d) {
@@ -333,12 +372,13 @@
         if(selected_node != null){
           helper = selected_node
           selected_node = d;
-          mouseout(helper)
+          mouseout(helper,sourceNodes,targetNodes)
         }
         selected_node = d;
-        mouseover(selected_node)
+        mouseover(selected_node,sourceNodes,targetNodes)
     }else{
       selected_node = null;
+<<<<<<< HEAD
       mouseout(d)
     }
 
@@ -352,21 +392,10 @@
            .append("textPath")
              .attr("xlink:href", "#"+"source-" + clickedNode.key + " target-" + d.key)
             .text(d.reason);  
+=======
+      mouseout(d,sourceNodes,targetNodes)
+>>>>>>> months display
     }
-    );
-
-    sourceNodes.forEach(function(d){
-        console.log(d)
-        svg.append("svg:g")
-        .attr("id", "thing")
-        .attr("fill", "#333")
-        .append("text")
-           .attr("font-size", "10")
-           .append("textPath")
-             .attr("xlink:href", "#"+"source-" + d.key + " target-" + clickedNode.key)
-            .text(d.reason);  
-    }
-    );
   }
 
   // function getTagCloud
@@ -440,9 +469,7 @@
     <h3 id="myModalLabel">About</h3>
   </div>
   <div class="modal-body">
-    <p>This is an attempt to visualize data published by the CMS (Centers for Medicare &amp; Medicaid Services) on <a href="http://www.healthdata.gov/data/dataset/cms-medicare-and-medicaid-ehr-incentive-program-electronic-health-record-products-used">healthdata.gov</a>. It provides information about where and when providers attested for meaningful use EHR incentives, what EHR vendor they used for attestation etc...</p>
-    <p>Map and charts are interactive, so slice the data and see what happens.</p>
-    <p>The page relies on the super awesome Dimensional Charting Javascript Library <a href="http://nickqizhu.github.io/dc.js/">dc.js</a>.</p>
+    
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
