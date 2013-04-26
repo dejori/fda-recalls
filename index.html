@@ -378,23 +378,7 @@
         mouseover(selected_node,sourceNodes,targetNodes)
     }else{
       selected_node = null;
-<<<<<<< HEAD
-      mouseout(d)
-    }
-
-    targetNodes.forEach(function(d){
-        console.log(d)
-        svg.append("svg:g")
-        .attr("id", "thing")
-        .attr("fill", "#333")
-        .append("text")
-           .attr("font-size", "12")
-           .append("textPath")
-             .attr("xlink:href", "#"+"source-" + clickedNode.key + " target-" + d.key)
-            .text(d.reason);  
-=======
       mouseout(d,sourceNodes,targetNodes)
->>>>>>> months display
     }
   }
 
