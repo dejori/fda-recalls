@@ -307,7 +307,7 @@
 
         console.log("targets "+ targetNodes)
         console.log("sources "+ sourceNodes)
-        if(targetNodes){
+        if(targetNodes instanceof Array){
             
             targetNodes.forEach(function(t){
                 svg.append("svg:g")
@@ -323,7 +323,7 @@
                         .text(d.reason);  
             });
         }
-        if(sourceNodes){
+        if(sourceNodes instanceof Array){
             sourceNodes.forEach(function(s){
                 svg.append("svg:g")
                 .attr("id", "text-"+"source-" + s.key + " target-" + d.key)
