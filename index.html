@@ -125,8 +125,8 @@
   var monthNumberFormat = d3.time.format("%m");
   var monthNameFormat = d3.time.format("%B");
 
-  var w = 1200,
-      h = 1200,
+  var w = 800,
+      h = 800,
       rx = w / 2,
       ry = h / 2,
       m0,
@@ -226,7 +226,7 @@
             else placement = "bottom";
             $("#"+this.id).tooltip({"html": 'true',
               "placement":placement, 
-              "title": d.date+"<br><b>Reason</b>: "+d.reason+"<br><b>Product</b>: "+d.product_description
+              "title": "<i>"+d.date+"</i>"+" - "+d.reason+"<br><hr><b>Product</b>: "+d.product_description+"<br><b>Company</b>: "+d.company
             })
             return d.company 
         })
