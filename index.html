@@ -24,17 +24,24 @@
         fill: none;
       }
 
+      .groupArc{
+        fill: #666;
+        fill-opacity: 0.9;
+      }
+
       .node {
         font-size: 10px;
         cursor: pointer;
       }
 
       .node:hover {
-        fill: #d62728;
+        /*fill: #000;*/
+        font-weight: bold;
       }
 
       .node.selected {
-        fill: #d62728;
+        /*fill: #000;*/
+        font-weight: bold;
       }
 
       .link {
@@ -53,50 +60,34 @@
         stroke-opacity: 1;
       }
 
-      .node.target {
+      .node.target, .node.source {
         fill: #F57800;
-        /*color: #999;*/
       }
 
-      .node.source {
-        fill: #F57800;
-        /*color: #999;*/
-      }
-
-     /* .node.source {
-        fill: #000;
-        color: #F57800;
-      }*/
-
-      .link.target.type-product {
-        /*color: #999;*/
+      .link.target.type-product, .link.source.type-product{
         stroke: #F57800;
       }
 
-      .link.source.type-product {
-        stroke: #F57800;
-      }
-
-      .link.target.type-reason {
-        stroke: green;
-      }
-
-      .link.source.type-reason {
+      .link.target.type-reason, .link.source.type-reason{
         stroke: green;
 
       }
 
-      .link.target.type-both {
+      .link.source.type-both, .link.target.type-both{
         stroke: red;
       }
 
-      .link.source.type-both {
-        stroke: red;
+      .node.type-product  {
+        stroke: #F57800;
       }
 
-      
+      .node.type-reason  {
+        stroke: green;
+      }
 
-      
+      .node.type-both  {
+        stroke: red;
+      }
 
 
     </style>
@@ -221,8 +212,6 @@
       .attr("d", groupArc)
       .attr("id",function(d){return "group-"+d.id})
       .attr("class", "groupArc")
-      .style("fill", "#1f77b4")
-      .style("fill-opacity", 0.5)
       ;
 
     svg.selectAll("g.node")
@@ -319,15 +308,31 @@
   //   }
   // }
 
+  function highlightNodesAndLinks(d, type, highlight){
+    svg.selectAll("path.link.source-" + d.key+"."+type)
+        .classed("source", highlight)
+        .each(updateNodes("target", highlight,type));  
+
+    svg.selectAll("path.link.target-" + d.key+"."+type)
+        .classed("target", highlight)
+        .each(updateNodes("source", highlight,type));
+  }
+
+
   function mouseover(d, sourceNodes, targetNodes) {
+    
+    highlightNodesAndLinks(d,"type-reason",true);
+    highlightNodesAndLinks(d,"type-product",true);
+    highlightNodesAndLinks(d,"type-both",true);
+    
+    // svg.selectAll("path.link.source-" + d.key+".type-reason")
+    //     .classed("source", true)
+    //     .each(updateNodes("target", true,"type-reason"));  
 
-    svg.selectAll("path.link.target-" + d.key)
-        .classed("target", true)
-        .each(updateNodes("source", true));
+    // svg.selectAll("path.link.target-" + d.key+".type-reason")
+    //     .classed("target", true)
+    //     .each(updateNodes("source", true,"type-reason"));
 
-    svg.selectAll("path.link.source-" + d.key)
-        .classed("source", true)
-        .each(updateNodes("target", true));  
 
     // if(targetNodes instanceof Array){
     //     targetNodes.forEach(function(t){
@@ -364,13 +369,18 @@
 
   function mouseout(d,sourceNodes, targetNodes) {
     if( d === selected_node) return;
-    svg.selectAll("path.link.source-" + d.key)
-      .classed("source", false)
-      .each(updateNodes("target", false));
 
-    svg.selectAll("path.link.target-" + d.key)
-      .classed("target", false)
-      .each(updateNodes("source", false));
+    highlightNodesAndLinks(d,"type-reason",false);
+    highlightNodesAndLinks(d,"type-product",false);
+    highlightNodesAndLinks(d,"type-both",false);
+
+    // svg.selectAll("path.link.source-" + d.key+".type-reason")
+    //   .classed("source", false)
+    //   .each(updateNodes("target", false,"type-reason"));
+
+    // svg.selectAll("path.link.target-" + d.key+".type-reason")
+    //   .classed("target", false)
+    //   .each(updateNodes("source", false,"type-reason"));
 
     // if(sourceNodes instanceof Array){
     //   sourceNodes.forEach(function(s){
@@ -431,10 +441,10 @@
     };
   }
 
-  function updateNodes(name, value) {
+  function updateNodes(name, value,className) {
     return function(d) {
       if (value) this.parentNode.appendChild(this);
-      svg.select("#node-" + d[name].key).classed(name, value);
+      svg.select("#node-" + d[name].key).classed(className, value);
     };
   }
 
