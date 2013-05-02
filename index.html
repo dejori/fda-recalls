@@ -21,7 +21,7 @@
 
       path.arc {
         cursor: move;
-        fill: #fff;
+        fill: none;
       }
 
       .node {
@@ -47,32 +47,52 @@
 
       .link.source, .link.target {
         stroke-opacity: 1;
-        stroke-width: 2px;
       }
 
       .node.target {
-        fill: #F57800 !important;
+        fill: #F57800;
         /*color: #999;*/
       }
 
       .node.source {
-        fill: #F57800 !important;
+        fill: #F57800;
         /*color: #999;*/
       }
 
-      .link.source {
-        /*color: #999;*/
-        stroke: #F57800;
-      }
-
-      .node.source {
-        /*fill: #000;*/
+     /* .node.source {
+        fill: #000;
         color: #F57800;
-      }
+      }*/
 
-      .link.target {
+      .link.type-product {
+        /*color: #999;*/
         stroke: #F57800;
       }
+
+      .link.type-product {
+        stroke: #F57800;
+      }
+
+      .link.type-reason {
+        stroke: green;
+      }
+
+      .link.type-reason {
+        stroke: green;
+
+      }
+
+      .link.type-both {
+        stroke: red;
+      }
+
+      .link.type-both {
+        stroke: red;
+      }
+
+      
+
+      
 
 
     </style>
@@ -161,10 +181,10 @@
     .append("svg:g")
     .attr("transform", "translate(" + rx + "," + ry + ")");
 
-  svg.append("svg:path")
-      .attr("class", "arc")
-      .attr("d", d3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
-      .on("mousedown", mousedown);
+  // svg.append("svg:path")
+  //     .attr("class", "arc")
+  //     .attr("d", d3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
+  //     .on("mousedown", mousedown);
 
   d3.json("data/recalls.json", function(classes) {
     var nodes = cluster.nodes(packages.root(classes)),
@@ -175,7 +195,7 @@
       .data(links)
       .enter().append("svg:path")
       .attr("id",function(d) { return "source-" + d.source.key + " target-" + d.target.key; })
-      .attr("class", function(d) { return "link source-" + d.source.key + " target-" + d.target.key; })
+      .attr("class", function(d) { return "link source-" + d.source.key + " target-" + d.target.key +" type-"+d.type; })
       .attr("d", function(d, i) { return line(splines[i]); })
       .attr("stroke-width", function(d, i) { return 2*d.score; });
 
@@ -185,12 +205,11 @@
       .attr("class", "group")
       .attr("id",function(d){return d.key});
     
-    
     var groupArc = d3.svg.arc()
-    .innerRadius(ry - 177)
-    .outerRadius(ry - 157)
-    .startAngle(function(d) { return (findStartAngle(d.__data__.children)-2) * pi / 180;})
-    .endAngle(function(d) { return (findEndAngle(d.__data__.children)+2) * pi / 180});
+      .innerRadius(ry - 177)
+      .outerRadius(ry - 157)
+      .startAngle(function(d) { return (findStartAngle(d.__data__.children)-2) * pi / 180;})
+      .endAngle(function(d) { return (findEndAngle(d.__data__.children)+2) * pi / 180});
       
     svg.selectAll("g.arc")
       .data(groupData[0])
@@ -259,42 +278,42 @@
       .on("mousemove", mousemove)
       .on("mouseup", mouseup);
 
-  function mouse(e) {
-    return [e.pageX - rx, e.pageY - ry];
-  }
+  // function mouse(e) {
+  //   return [e.pageX - rx, e.pageY - ry];
+  // }
 
-  function mousedown() {
-    m0 = mouse(d3.event);
-    d3.event.preventDefault();
-  }
+  // function mousedown() {
+  //   m0 = mouse(d3.event);
+  //   d3.event.preventDefault();
+  // }
 
-  function mousemove() {
-    if (m0) {
-      var m1 = mouse(d3.event),
-          dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
-      div.style("-webkit-transform", "translate3d(0," + (ry - rx) + "px,0)rotate3d(0,0,0," + dm + "deg)translate3d(0," + (rx - ry) + "px,0)");
-    }
-  }
+  // function mousemove() {
+  //   if (m0) {
+  //     var m1 = mouse(d3.event),
+  //         dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
+  //     div.style("-webkit-transform", "translate3d(0," + (ry - rx) + "px,0)rotate3d(0,0,0," + dm + "deg)translate3d(0," + (rx - ry) + "px,0)");
+  //   }
+  // }
 
-  function mouseup() {
-    if (m0) {
-      var m1 = mouse(d3.event),
-          dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
+  // function mouseup() {
+  //   if (m0) {
+  //     var m1 = mouse(d3.event),
+  //         dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
 
-      rotate += dm;
-      if (rotate > 360) rotate -= 360;
-      else if (rotate < 0) rotate += 360;
-      m0 = null;
+  //     rotate += dm;
+  //     if (rotate > 360) rotate -= 360;
+  //     else if (rotate < 0) rotate += 360;
+  //     m0 = null;
 
-      div.style("-webkit-transform", "rotate3d(0,0,0,0deg)");
+  //     div.style("-webkit-transform", "rotate3d(0,0,0,0deg)");
 
-      svg.attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
-        .selectAll("g.node text")
-          .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 25 : -25; })
-          .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
-          .attr("transform", function(d) { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; });
-    }
-  }
+  //     svg.attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
+  //       .selectAll("g.node text")
+  //         .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 25 : -25; })
+  //         .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
+  //         .attr("transform", function(d) { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; });
+  //   }
+  // }
 
   function mouseover(d, sourceNodes, targetNodes) {
         svg.selectAll("path.link.target-" + d.key)
@@ -307,33 +326,33 @@
 
         if(targetNodes instanceof Array){
             targetNodes.forEach(function(t){
-                svg.append("svg:g")
-                .attr("id", "text-source-" + d.key + "_target-" + t.key)
-                .attr("fill", "#333")
-                .append("text")
-                    .attr("dx", function(d) { return 250; })
-                    .attr("dy", ".31em")
-                    .attr("font-size", "14")
-                    .attr('background-color','#000')
-                    .attr("text-align","center")
-                    .append("textPath")
-                        .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
-                        .text(d.reason);  
+              svg.append("svg:g")
+              .attr("id", "text-source-" + d.key + "_target-" + t.key)
+              .attr("fill", "#333")
+              .append("text")
+                  .attr("dx", function(d) { return 250; })
+                  .attr("dy", ".31em")
+                  .attr("font-size", "14")
+                  .attr('background-color','#000')
+                  .attr("text-align","center")
+                  .append("textPath")
+                      .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
+                      .text(d.reason);  
             });
         }
         if(sourceNodes instanceof Array){
             sourceNodes.forEach(function(s){
-                svg.append("svg:g")
-                .attr("id", "text-source-" + s.key + "_target-" + d.key)
-                .attr("fill", "#333")
-                .append("text")
-                    .attr("dy", ".31em")
-                    .attr("font-size", "14")
-                    .attr('background-color','#000')
-                    .attr("text-align","center")
-                    .append("textPath")
-                        .attr("xlink:href", "#source-" + s.key + " target-" + d.key)
-                        .text(d.reason);  
+              svg.append("svg:g")
+              .attr("id", "text-source-" + s.key + "_target-" + d.key)
+              .attr("fill", "#333")
+              .append("text")
+                  .attr("dy", ".31em")
+                  .attr("font-size", "14")
+                  .attr('background-color','#000')
+                  .attr("text-align","center")
+                  .append("textPath")
+                      .attr("xlink:href", "#source-" + s.key + " target-" + d.key)
+                      .text(d.reason);  
             });
         }
     }
@@ -341,8 +360,8 @@
   function mouseout(d,sourceNodes, targetNodes) {
     if( d === selected_node) return;
     svg.selectAll("path.link.source-" + d.key)
-        .classed("source", false)
-        .each(updateNodes("target", false));
+      .classed("source", false)
+      .each(updateNodes("target", false));
 
     svg.selectAll("path.link.target-" + d.key)
         .classed("target", false)
@@ -387,12 +406,12 @@
 
   function getSourceAndTargetNodes(nodeKey,sourceNodes,targetNodes){
     svg.selectAll("path.link.target-" + nodeKey).each(
-          getNodes("source",sourceNodes)
-      )
+        getNodes("source",sourceNodes)
+    )
 
-      svg.selectAll("path.link.source-" + nodeKey).each(
-          getNodes("target",targetNodes)
-      )
+    svg.selectAll("path.link.source-" + nodeKey).each(
+        getNodes("target",targetNodes)
+    )
   }
 
   // function getTagCloud
@@ -418,21 +437,21 @@
   }
 
   function findStartAngle(children) {
-      var min = children[0].x;
-      children.forEach(function(d) {
-         if (d.x < min)
-             min = d.x;
-      });
-      return min;
+    var min = children[0].x;
+    children.forEach(function(d) {
+       if (d.x < min)
+           min = d.x;
+    });
+    return min;
   }
 
   function findEndAngle(children) {
-      var max = children[0].x;
-      children.forEach(function(d) {
-         if (d.x > max)
-             max = d.x;
-      });
-      return max;
+    var max = children[0].x;
+    children.forEach(function(d) {
+       if (d.x > max)
+           max = d.x;
+    });
+    return max;
   }
 
   function getMonth(monthString) {
