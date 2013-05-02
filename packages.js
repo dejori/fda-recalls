@@ -27,6 +27,8 @@
 
     // Return a list of imports for the given array of nodes.
     imports: function(nodes) {
+
+      types =['reason','product','both']
       var map = {},
           imports = [];
 
@@ -38,7 +40,7 @@
       // For each import, construct a link from the source to target node.
       nodes.forEach(function(d) {
         if (d.imports) d.imports.forEach(function(i) {
-          imports.push({source: map[d.name], target: map[i.name],score: i.score});
+          imports.push({source: map[d.name], target: map[i.name],score: i.score, type:types[Math.round(Math.random()*2)]});
         });
       });
 
