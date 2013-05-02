@@ -190,7 +190,7 @@
   //     .attr("d", d3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
   //     .on("mousedown", mousedown);
 
-  d3.json("data/recalls_by_type.json", function(classes) {
+  d3.json("data/recalls_by_type_2012.json", function(classes) {
     var nodes = cluster.nodes(packages.root(classes)),
         links = packages.imports(nodes),
         splines = bundle(links);
