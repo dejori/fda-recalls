@@ -20,7 +20,7 @@
       }
 
       path.arc {
-        cursor: move;
+        /*cursor: move;*/
         fill: none;
       }
 
@@ -30,6 +30,10 @@
       }
 
       .node:hover {
+        fill: #d62728;
+      }
+
+      .node.selected {
         fill: #d62728;
       }
 
@@ -64,29 +68,29 @@
         color: #F57800;
       }*/
 
-      .link.type-product {
+      .link.target.type-product {
         /*color: #999;*/
         stroke: #F57800;
       }
 
-      .link.type-product {
+      .link.source.type-product {
         stroke: #F57800;
       }
 
-      .link.type-reason {
+      .link.target.type-reason {
         stroke: green;
       }
 
-      .link.type-reason {
+      .link.source.type-reason {
         stroke: green;
 
       }
 
-      .link.type-both {
+      .link.target.type-both {
         stroke: red;
       }
 
-      .link.type-both {
+      .link.source.type-both {
         stroke: red;
       }
 
@@ -238,10 +242,10 @@
         .attr("rel","tooltip")
         .text(function(d) { 
             
-            if(d.x <45) placement = "bottom";
-            else if(d.x > 45 && d.x < 135) placement = "left";
-            else if(d.x > 135 && d.x < 225) placement = "top";
-            else if(d.x > 225 && d.x < 315) placement = "right";
+            if(d.x <45) placement = "top";
+            else if(d.x > 45 && d.x < 135) placement = "right";
+            else if(d.x > 135 && d.x < 225) placement = "bottom";
+            else if(d.x > 225 && d.x < 315) placement = "left";
             else placement = "bottom";
             $("#"+this.id).tooltip({"html": 'true',
               "placement":placement, 
@@ -274,9 +278,9 @@
                 .text(function(d){return getMonth(d.id)}); 
   });
 
-  d3.select(window)
-      .on("mousemove", mousemove)
-      .on("mouseup", mouseup);
+  // d3.select(window)
+  //     .on("mousemove", mousemove)
+  //     .on("mouseup", mouseup);
 
   // function mouse(e) {
   //   return [e.pageX - rx, e.pageY - ry];
@@ -316,45 +320,46 @@
   // }
 
   function mouseover(d, sourceNodes, targetNodes) {
-        svg.selectAll("path.link.target-" + d.key)
-            .classed("target", true)
-            .each(updateNodes("source", true));
 
-        svg.selectAll("path.link.source-" + d.key)
-            .classed("source", true)
-            .each(updateNodes("target", true));  
+    svg.selectAll("path.link.target-" + d.key)
+        .classed("target", true)
+        .each(updateNodes("source", true));
 
-        if(targetNodes instanceof Array){
-            targetNodes.forEach(function(t){
-              svg.append("svg:g")
-              .attr("id", "text-source-" + d.key + "_target-" + t.key)
-              .attr("fill", "#333")
-              .append("text")
-                  .attr("dx", function(d) { return 250; })
-                  .attr("dy", ".31em")
-                  .attr("font-size", "14")
-                  .attr('background-color','#000')
-                  .attr("text-align","center")
-                  .append("textPath")
-                      .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
-                      .text(d.reason);  
-            });
-        }
-        if(sourceNodes instanceof Array){
-            sourceNodes.forEach(function(s){
-              svg.append("svg:g")
-              .attr("id", "text-source-" + s.key + "_target-" + d.key)
-              .attr("fill", "#333")
-              .append("text")
-                  .attr("dy", ".31em")
-                  .attr("font-size", "14")
-                  .attr('background-color','#000')
-                  .attr("text-align","center")
-                  .append("textPath")
-                      .attr("xlink:href", "#source-" + s.key + " target-" + d.key)
-                      .text(d.reason);  
-            });
-        }
+    svg.selectAll("path.link.source-" + d.key)
+        .classed("source", true)
+        .each(updateNodes("target", true));  
+
+    // if(targetNodes instanceof Array){
+    //     targetNodes.forEach(function(t){
+    //       svg.append("svg:g")
+    //       .attr("id", "text-source-" + d.key + "_target-" + t.key)
+    //       .attr("fill", "#333")
+    //       .append("text")
+    //           .attr("dx", function(d) { return 250; })
+    //           .attr("dy", ".31em")
+    //           .attr("font-size", "14")
+    //           .attr('background-color','#000')
+    //           .attr("text-align","center")
+    //           .append("textPath")
+    //               .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
+    //               .text(d.reason);  
+    //     });
+    // }
+    // if(sourceNodes instanceof Array){
+    //     sourceNodes.forEach(function(s){
+    //       svg.append("svg:g")
+    //       .attr("id", "text-source-" + s.key + "_target-" + d.key)
+    //       .attr("fill", "#333")
+    //       .append("text")
+    //           .attr("dy", ".31em")
+    //           .attr("font-size", "14")
+    //           .attr('background-color','#000')
+    //           .attr("text-align","center")
+    //           .append("textPath")
+    //               .attr("xlink:href", "#source-" + s.key + " target-" + d.key)
+    //               .text(d.reason);  
+    //     });
+    // }
     }
 
   function mouseout(d,sourceNodes, targetNodes) {
@@ -364,40 +369,45 @@
       .each(updateNodes("target", false));
 
     svg.selectAll("path.link.target-" + d.key)
-        .classed("target", false)
-        .each(updateNodes("source", false));
+      .classed("target", false)
+      .each(updateNodes("source", false));
 
-    if(sourceNodes instanceof Array){
-      sourceNodes.forEach(function(s){
-        $("#text-source-" + s.key + "_target-" + d.key).remove();
-      });
-    }
-    if(targetNodes instanceof Array){ 
-      targetNodes.forEach(function(t){
-        $("#text-source-" + d.key + "_target-" + t.key).remove();
-      });
-    }
+    // if(sourceNodes instanceof Array){
+    //   sourceNodes.forEach(function(s){
+    //     $("#text-source-" + s.key + "_target-" + d.key).remove();
+    //   });
+    // }
+    // if(targetNodes instanceof Array){ 
+    //   targetNodes.forEach(function(t){
+    //     $("#text-source-" + d.key + "_target-" + t.key).remove();
+    //   });
+    // }
   }
 
   function mouseclicked(d) {
+
+    
+
     clickedNode =d;
     sourceNodes =[]
     targetNodes = []
     if(selected_node != d){
         if(selected_node != null){
+          svg.select("#node-"+selected_node.key).classed("selected",false)
           helper = selected_node
           selected_node = d;
           getSourceAndTargetNodes(helper.key,sourceNodes,targetNodes)
           mouseout(helper,sourceNodes,targetNodes)
-          
         }
 
         sourceNodes =[]
         targetNodes = []
         getSourceAndTargetNodes(d.key,sourceNodes,targetNodes)
         selected_node = d;
+        svg.select("#node-"+d.key).classed("selected",true)
         mouseover(selected_node,sourceNodes,targetNodes)
     }else{
+      svg.select("#node-"+d.key).classed("selected",false)
       getSourceAndTargetNodes(d.key,sourceNodes,targetNodes)
       selected_node = null;
       mouseout(d,sourceNodes,targetNodes)
