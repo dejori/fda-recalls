@@ -2,6 +2,9 @@
     {
         "company": "Gilster-Mary Lee",
         "date": "03/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.1",
@@ -162,6 +165,9 @@
     {
         "company": "ConAgra Foods",
         "date": "04/01/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.3",
@@ -347,6 +353,9 @@
     {
         "company": "Giant Food Stores, LLC and Martin&#39;s Food Markets",
         "date": "07/01/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.8",
@@ -402,6 +411,9 @@
     {
         "company": "Southwest Ice Cream Specialties",
         "date": "07/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.4",
@@ -452,6 +464,9 @@
     {
         "company": "Woodstock",
         "date": "08/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.5",
@@ -627,6 +642,9 @@
     {
         "company": "Somersault Snack Co., LLC",
         "date": "08/01/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.6",
@@ -787,6 +805,9 @@
     {
         "company": "Boba Direct (BD)",
         "date": "09/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.9",
@@ -942,6 +963,9 @@
     {
         "company": "Milo&#39;s Kitchen",
         "date": "09/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "01.7",
         "product_description": "Chicken Jerky and Chicken Grillers home-style dog treats",
@@ -951,6 +975,9 @@
     {
         "company": "Delifish",
         "date": "09/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.14",
@@ -996,6 +1023,9 @@
     {
         "company": "Island Delights, Inc.",
         "date": "11/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.11",
@@ -1146,6 +1176,9 @@
     {
         "company": "Homestead Creamery",
         "date": "15/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "01.10",
         "product_description": "Artisan Cheeses",
@@ -1155,6 +1188,9 @@
     {
         "company": "Belmont Confections Inc.",
         "date": "15/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.13",
@@ -1285,6 +1321,9 @@
     {
         "company": "BBU, Inc.",
         "date": "16/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.15",
@@ -1315,6 +1354,9 @@
     {
         "company": "Kinnikinnick Foods",
         "date": "17/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.18",
@@ -1445,6 +1487,9 @@
     {
         "company": "Knott&#39;s Fine Foods Inc.",
         "date": "21/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.17",
@@ -1485,6 +1530,9 @@
     {
         "company": "Annie\u2019s Inc.",
         "date": "22/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.30",
@@ -1510,6 +1558,9 @@
     {
         "company": "ConAgra Foods",
         "date": "23/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "02.53",
@@ -1535,6 +1586,9 @@
     {
         "company": "Whole Foods Market",
         "date": "25/01/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.19",
@@ -1570,6 +1624,9 @@
     {
         "company": "Tropical Nut and Fruit Co",
         "date": "28/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.26",
@@ -1690,6 +1747,9 @@
     {
         "company": "Sprouters Northwest",
         "date": "28/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "01.21",
@@ -1720,6 +1780,9 @@
     {
         "company": "Hartz Mountain Corporation",
         "date": "28/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "01.20",
         "product_description": "Pet Treats - Hartz Chicken Chews, Oinkies, Pig Skin Twists)",
@@ -1729,6 +1792,9 @@
     {
         "company": "Whole Foods Market",
         "date": "29/01/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.25",
@@ -1754,6 +1820,9 @@
     {
         "company": "Whole Foods Market",
         "date": "30/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.24",
@@ -1779,6 +1848,9 @@
     {
         "company": "R-Kane products Inc.",
         "date": "30/01/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.34",
@@ -1854,6 +1926,9 @@
     {
         "company": "GoldCoast Salads",
         "date": "01/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.27",
@@ -1874,6 +1949,9 @@
     {
         "company": "Sprouters Northwest",
         "date": "01/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.29",
@@ -1899,6 +1977,9 @@
     {
         "company": "Domega NY International Co., Ltd.",
         "date": "04/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.28",
@@ -2024,6 +2105,9 @@
     {
         "company": "MKG Provisions",
         "date": "06/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.29",
@@ -2049,6 +2133,9 @@
     {
         "company": "ZIP International Group LLC",
         "date": "07/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "02.31",
@@ -2074,6 +2161,9 @@
     {
         "company": "Sprouters Northwest",
         "date": "07/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [],
         "name": "02.29",
         "product_description": "Sprout products, wheatgrass and pea shoots",
@@ -2083,6 +2173,9 @@
     {
         "company": "Nestle Prepared Foods Company",
         "date": "08/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.44",
@@ -2103,6 +2196,9 @@
     {
         "company": "DZH Import &amp; Export Inc.",
         "date": "08/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.32",
@@ -2218,6 +2314,9 @@
     {
         "company": "DZH Import &amp;amp; Export, Inc.",
         "date": "11/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.33",
@@ -2328,6 +2427,9 @@
     {
         "company": "Domega NY International CO., LTD",
         "date": "13/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.34",
@@ -2433,6 +2535,9 @@
     {
         "company": "Associated Milk Producers, Inc.",
         "date": "14/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.36",
@@ -2538,6 +2643,9 @@
     {
         "company": "Dakota Specialty Milling",
         "date": "14/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "02.35",
         "product_description": "Specialty flours and grain blends",
@@ -2547,6 +2655,9 @@
     {
         "company": "JS Pelmini OK, Inc.",
         "date": "14/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.39",
@@ -2607,6 +2718,9 @@
     {
         "company": "The Muffin &amp;quot;Mam&amp;quot; Inc.",
         "date": "15/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.39",
@@ -2697,6 +2811,9 @@
     {
         "company": "Nature&#39;s Variety",
         "date": "15/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "02.45",
@@ -2737,6 +2854,9 @@
     {
         "company": "DeCoty Coffee Company, Inc.",
         "date": "15/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.48",
@@ -2837,6 +2957,9 @@
     {
         "company": "Goldcoast Salads",
         "date": "18/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.82",
@@ -2852,6 +2975,9 @@
     {
         "company": "Kaytee Products",
         "date": "19/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.42",
@@ -2912,6 +3038,9 @@
     {
         "company": "Kasel Associated Industries",
         "date": "19/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.45",
@@ -2972,6 +3101,9 @@
     {
         "company": "BBU, Inc.",
         "date": "19/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "02.57",
@@ -2987,6 +3119,9 @@
     {
         "company": "Heartland Brands",
         "date": "20/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.49",
@@ -3002,6 +3137,9 @@
     {
         "company": "Nutri-Vet, LLC",
         "date": "20/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.46",
@@ -3057,6 +3195,9 @@
     {
         "company": "The Honest Kitchen",
         "date": "21/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.47",
@@ -3107,6 +3248,9 @@
     {
         "company": "Kasel Associated Industries",
         "date": "21/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.50",
@@ -3152,6 +3296,9 @@
     {
         "company": "Mandy Star Trading Inc.",
         "date": "21/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.51",
@@ -3232,6 +3379,9 @@
     {
         "company": "Mondel\u0113z Global LLC",
         "date": "21/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "02.49",
         "product_description": "Biscuits",
@@ -3241,6 +3391,9 @@
     {
         "company": "Hy-Vee, Inc.",
         "date": "22/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "02.58",
@@ -3266,6 +3419,9 @@
     {
         "company": "Lion Pavilion Ltd.",
         "date": "22/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.52",
@@ -3341,6 +3497,9 @@
     {
         "company": "Herbalife International of America",
         "date": "22/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.56",
@@ -3416,6 +3575,9 @@
     {
         "company": "Bruce Foods Corporation",
         "date": "22/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.55",
@@ -3441,6 +3603,9 @@
     {
         "company": "King Arthur Flour Company, Inc.",
         "date": "22/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "02.54",
         "product_description": "Flour",
@@ -3450,6 +3615,9 @@
     {
         "company": "Bruce Foods Corporation",
         "date": "23/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.84",
@@ -3470,6 +3638,9 @@
     {
         "company": "Domega NY International Co., Ltd.",
         "date": "25/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "02.59",
@@ -3535,6 +3706,9 @@
     {
         "company": "The Kroger Co.",
         "date": "26/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "02.57",
         "product_description": "Bread",
@@ -3544,6 +3718,9 @@
     {
         "company": "United Pet Group, Inc.",
         "date": "27/02/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.62",
@@ -3584,6 +3761,9 @@
     {
         "company": "See\u2019s Candies, Inc.",
         "date": "28/02/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.60",
@@ -3644,6 +3824,9 @@
     {
         "company": "Food For Life Baking Co., Inc.",
         "date": "01/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.74",
@@ -3699,6 +3882,9 @@
     {
         "company": "Cargill",
         "date": "05/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.61",
         "product_description": "Animal feed",
@@ -3708,6 +3894,9 @@
     {
         "company": "Jones Natural Chews Co",
         "date": "06/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.65",
@@ -3738,6 +3927,9 @@
     {
         "company": "Bumble Bee Foods, LLC",
         "date": "06/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.64",
@@ -3773,6 +3965,9 @@
     {
         "company": "Tri-Union Seafoods LLC",
         "date": "06/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.67",
@@ -3803,6 +3998,9 @@
     {
         "company": "Steve&#39;s Real Food",
         "date": "07/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.66",
@@ -3833,6 +4031,9 @@
     {
         "company": "Diggin&#39; Your Dog",
         "date": "07/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.76",
@@ -3858,6 +4059,9 @@
     {
         "company": "Bumble Bee Foods, LLC",
         "date": "07/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.68",
@@ -3883,6 +4087,9 @@
     {
         "company": "Tri-Union Seafoods, LLC",
         "date": "08/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.70",
@@ -3903,6 +4110,9 @@
     {
         "company": "Diamond Pet Foods",
         "date": "10/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.76",
@@ -3918,6 +4128,9 @@
     {
         "company": "La Preferida Inc.",
         "date": "11/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.83",
@@ -3933,6 +4146,9 @@
     {
         "company": "Green Planet, Inc.",
         "date": "11/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [
             {
                 "name": "03.80",
@@ -3953,6 +4169,9 @@
     {
         "company": "Bravo!",
         "date": "13/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "04.91",
@@ -3968,6 +4187,9 @@
     {
         "company": "Grippo Foods, Inc",
         "date": "15/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.73",
         "product_description": "Potato Chips (various flavors)",
@@ -3977,6 +4199,9 @@
     {
         "company": "Nishimoto Trading Co.",
         "date": "15/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.79",
@@ -4032,6 +4257,9 @@
     {
         "company": "Vascular Solutions Zerusa Ltd subsidiary of Vascular Solutions, Inc.",
         "date": "15/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.75",
         "product_description": "Hemostasis valves used in catheterization procedures",
@@ -4041,6 +4269,9 @@
     {
         "company": "Natura Pet Products",
         "date": "18/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.77",
@@ -4061,6 +4292,9 @@
     {
         "company": "Pro-Amino International Inc., Saint-Eustache, Quebec, Canada",
         "date": "18/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "03.77",
         "product_description": "High Protein Chocolate Dream Bars",
@@ -4070,6 +4304,9 @@
     {
         "company": "Clinical Specialties",
         "date": "18/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.78",
         "product_description": "Avastin unit dose syringes",
@@ -4079,6 +4316,9 @@
     {
         "company": "Daesang America Inc.",
         "date": "19/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.80",
@@ -4124,6 +4364,9 @@
     {
         "company": "New Chapter, Inc.",
         "date": "20/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.81",
@@ -4169,6 +4412,9 @@
     {
         "company": "Gold Standard Baking",
         "date": "23/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.84",
@@ -4204,6 +4450,9 @@
     {
         "company": "Publix Super Markets",
         "date": "26/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "03.82",
         "product_description": "Fruit and Grain Salad",
@@ -4213,6 +4462,9 @@
     {
         "company": "La Preferida Inc.",
         "date": "26/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.83",
         "product_description": "Canned Pinto beans",
@@ -4222,6 +4474,9 @@
     {
         "company": "Lisy Corporation",
         "date": "27/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.85",
@@ -4257,6 +4512,9 @@
     {
         "company": "Buffalo Trace Distillery",
         "date": "27/03/2013",
+        "has_similar_both": true,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.86",
@@ -4282,6 +4540,9 @@
     {
         "company": "Lifestyle Evolution, Inc.",
         "date": "28/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.88",
@@ -4307,6 +4568,9 @@
     {
         "company": "Rich Products Corporation",
         "date": "28/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "03.88",
@@ -4327,6 +4591,9 @@
     {
         "company": "Heartland Gourmet, LLC",
         "date": "28/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "04.98",
@@ -4347,6 +4614,9 @@
     {
         "company": "Natura Pet Products",
         "date": "29/03/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [],
         "name": "03.89",
         "product_description": "Pet food",
@@ -4356,6 +4626,9 @@
     {
         "company": "Consumer Concepts, Inc.",
         "date": "01/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "04.96",
@@ -4371,6 +4644,9 @@
     {
         "company": "Bravo!",
         "date": "03/04/2013",
+        "has_similar_both": true,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "04.91",
         "product_description": "Chicken Balance, Chicken Blend and Beef Blend Burgers - Raw Frozen Food Diet for Dogs and Cats",
@@ -4380,6 +4656,9 @@
     {
         "company": "Centerville Pie Company",
         "date": "04/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": false,
         "imports": [],
         "name": "04.92",
         "product_description": "Clam Pies",
@@ -4389,6 +4668,9 @@
     {
         "company": "Rich Products Corporation",
         "date": "04/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "04.93",
         "product_description": "Mozzarella bites, quesadillas, pizza slices and more",
@@ -4398,6 +4680,9 @@
     {
         "company": "Little Mermaid Smoke House",
         "date": "04/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "04.94",
         "product_description": "Smoked Herring and Pickled Herring fish",
@@ -4407,6 +4692,9 @@
     {
         "company": "Stryker Corporation",
         "date": "10/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "04.95",
         "product_description": "ShapeMatch Cutting Guides",
@@ -4416,6 +4704,9 @@
     {
         "company": "Affirm XL",
         "date": "10/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": true,
+        "has_similar_reason": true,
         "imports": [],
         "name": "04.96",
         "product_description": "Dietary supplement",
@@ -4425,6 +4716,9 @@
     {
         "company": "Winn Dixie",
         "date": "12/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": false,
         "imports": [],
         "name": "04.97",
         "product_description": "Apple Juice",
@@ -4434,6 +4728,9 @@
     {
         "company": "Wild Blue Yonder Foods",
         "date": "12/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [
             {
                 "name": "04.99",
@@ -4449,6 +4746,9 @@
     {
         "company": "Cedarlane Natural Foods, Inc.",
         "date": "15/04/2013",
+        "has_similar_both": false,
+        "has_similar_product": false,
+        "has_similar_reason": true,
         "imports": [],
         "name": "04.99",
         "product_description": "Enchiladas",
