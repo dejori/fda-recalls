@@ -181,7 +181,7 @@
   //     .attr("d", d3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
   //     .on("mousedown", mousedown);
 
-  d3.json("data/recalls_by_type_2012.json", function(classes) {
+  d3.json("data/recalls_by_type_2013.json", function(classes) {
     var nodes = cluster.nodes(packages.root(classes)),
         links = packages.imports(nodes),
         splines = bundle(links);
@@ -230,7 +230,6 @@
         .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
         .attr("rel","tooltip")
         .text(function(d) { 
-            
             if(d.x <45) placement = "top";
             else if(d.x > 45 && d.x < 135) placement = "right";
             else if(d.x > 135 && d.x < 225) placement = "bottom";
@@ -245,10 +244,7 @@
         .on("mouseover", mouseover)
         .on("mouseout", mouseout)
         .on("click", mouseclicked)
-     
-  
-
-
+    
     d3.select("input[type=range]").on("change", function() {
       line.tension(this.value / 100);
       path.attr("d", function(d, i) { return line(splines[i]); });
