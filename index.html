@@ -79,18 +79,18 @@
         stroke: red;
       }
 
-      .node.type-product, .has_similar_product  {
-        fill-opacity: 0.9;
+      .node.type-product, .similar_products  {
+        /*fill-opacity: 0.9;*/
         fill: #F57800;
       }
 
-      .node.type-reason, .has_similar_reason {
-        fill-opacity: 0.9;
+      .node.type-reason, .similar_reasons {
+        /*fill-opacity: 0.9;*/
         fill: green;
       }
 
-      .node.type-both, .has_similar_both  {
-        fill-opacity: 0.9;
+      .node.type-both, .similar_both  {
+/*        fill-opacity: 0.9;*/
         fill: red;
       }
 
@@ -126,7 +126,7 @@
 
             <ul class="nav">
               <li class="active">
-                <a href="">2012</a>
+                <a href="">2013 - Food</a>
               </li>
             </ul>
                 <ul class="nav pull-right">
@@ -180,11 +180,6 @@
     .attr("height", w)
     .append("svg:g")
     .attr("transform", "translate(" + rx + "," + ry + ")");
-
-  // svg.append("svg:path")
-  //     .attr("class", "arc")
-  //     .attr("d", d3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
-  //     .on("mousedown", mousedown);
 
   d3.json("data/recalls_by_type_2013.json", function(classes) {
     var nodes = cluster.nodes(packages.root(classes)),
@@ -267,84 +262,71 @@
             .append("textPath")
                 .attr("xlink:href", function(d){return "#group-"+d.id})
                 .text(function(d){return getMonth(d.id)}); 
+
+    $('#loading').css('visibility', 'hidden');
   });
-
-  // d3.select(window)
-  //     .on("mousemove", mousemove)
-  //     .on("mouseup", mouseup);
-
-  // function mouse(e) {
-  //   return [e.pageX - rx, e.pageY - ry];
-  // }
-
-  // function mousedown() {
-  //   m0 = mouse(d3.event);
-  //   d3.event.preventDefault();
-  // }
-
-  // function mousemove() {
-  //   if (m0) {
-  //     var m1 = mouse(d3.event),
-  //         dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
-  //     div.style("-webkit-transform", "translate3d(0," + (ry - rx) + "px,0)rotate3d(0,0,0," + dm + "deg)translate3d(0," + (rx - ry) + "px,0)");
-  //   }
-  // }
-
-  // function mouseup() {
-  //   if (m0) {
-  //     var m1 = mouse(d3.event),
-  //         dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
-
-  //     rotate += dm;
-  //     if (rotate > 360) rotate -= 360;
-  //     else if (rotate < 0) rotate += 360;
-  //     m0 = null;
-
-  //     div.style("-webkit-transform", "rotate3d(0,0,0,0deg)");
-
-  //     svg.attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
-  //       .selectAll("g.node text")
-  //         .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 25 : -25; })
-  //         .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
-  //         .attr("transform", function(d) { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; });
-  //   }
-  // }
 
 
   function drawNode(d){
-    console.log(d.has_similar_reason)
-    console.log(d)
-    if(d.has_similar_both){
-      var rectangle = svg.append("rect")
+
+    if(d.x <45) placement = "right";
+      else if(d.x > 45 && d.x < 135) placement = "bottom";
+      else if(d.x > 135 && d.x < 225) placement = "left";
+      else if(d.x > 225 && d.x < 315) placement = "bottom";
+      else placement = "left";
+    if(d.similar_both>0){
+      var rect = svg.append("rect")
         .attr("x", 35)
         .attr("y", 0)
+        .attr("id","similar-both-"+d.key)
         .attr("width", 8)
         .attr("height", 8)
-        .attr("class", "has_similar_both")
-        .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
-        ;
+        .attr("class", "similar_both")
+        .attr("rel","tooltip")
+        .attr("rel","tooltip")
+        .attr("fill-opacity", function(dd) {return d.similar_both >= 5 ? 1: 0.5})
+        .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; });
+
+      $("#similar-both-"+d.key).tooltip({"html": 'true',
+          "placement":placement, 
+          "title": d.similar_both+" similar products were recalled for a similar reason"
+      }) 
     }
 
-    if(d.has_similar_reason){
+    if(d.similar_reasons>0){
       var rectangle = svg.append("rect")
         .attr("x", 35+8)
         .attr("y", 0)
+        .attr("id","similar-reasons-"+d.key)
         .attr("width", 8)
         .attr("height", 8)
-        .attr("class", "has_similar_reason")
+        .attr("class", "similar_reasons")
+        .attr("fill-opacity", function(dd) {return d.similar_reasons >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
         ;
+
+      $("#similar-reasons-"+d.key).tooltip({"html": 'true',
+          "placement":placement, 
+          "title": d.similar_reasons+" other products were recalled for a similar reason"
+      }) 
     }
 
-    if(d.has_similar_product){
+    if(d.similar_products >0){
       var rectangle = svg.append("rect")
         .attr("x", 35+2*8)
         .attr("y", 0)
+        .attr("id","similar-products-"+d.key)
         .attr("width", 8)
         .attr("height", 8)
-        .attr("class", "has_similar_product")
+        .attr("class", "similar_products")
+        .attr("fill-opacity", function(dd) {return d.similar_products >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
         ;
+
+      $("#similar-products-"+d.key).tooltip({"html": 'true',
+          "placement":placement, 
+          "title": d.similar_products+" similar products were recalled for different reasons"
+      }) 
     }
   }
 
@@ -364,47 +346,7 @@
     highlightNodesAndLinks(d,"type-reason",true);
     highlightNodesAndLinks(d,"type-product",true);
     highlightNodesAndLinks(d,"type-both",true);
-    
-    // svg.selectAll("path.link.source-" + d.key+".type-reason")
-    //     .classed("source", true)
-    //     .each(updateNodes("target", true,"type-reason"));  
 
-    // svg.selectAll("path.link.target-" + d.key+".type-reason")
-    //     .classed("target", true)
-    //     .each(updateNodes("source", true,"type-reason"));
-
-
-    // if(targetNodes instanceof Array){
-    //     targetNodes.forEach(function(t){
-    //       svg.append("svg:g")
-    //       .attr("id", "text-source-" + d.key + "_target-" + t.key)
-    //       .attr("fill", "#333")
-    //       .append("text")
-    //           .attr("dx", function(d) { return 250; })
-    //           .attr("dy", ".31em")
-    //           .attr("font-size", "14")
-    //           .attr('background-color','#000')
-    //           .attr("text-align","center")
-    //           .append("textPath")
-    //               .attr("xlink:href", "#"+"source-" + d.key + " target-" + t.key)
-    //               .text(d.reason);  
-    //     });
-    // }
-    // if(sourceNodes instanceof Array){
-    //     sourceNodes.forEach(function(s){
-    //       svg.append("svg:g")
-    //       .attr("id", "text-source-" + s.key + "_target-" + d.key)
-    //       .attr("fill", "#333")
-    //       .append("text")
-    //           .attr("dy", ".31em")
-    //           .attr("font-size", "14")
-    //           .attr('background-color','#000')
-    //           .attr("text-align","center")
-    //           .append("textPath")
-    //               .attr("xlink:href", "#source-" + s.key + " target-" + d.key)
-    //               .text(d.reason);  
-    //     });
-    // }
     }
 
   function mouseout(d,sourceNodes, targetNodes) {
@@ -414,24 +356,6 @@
     highlightNodesAndLinks(d,"type-product",false);
     highlightNodesAndLinks(d,"type-both",false);
 
-    // svg.selectAll("path.link.source-" + d.key+".type-reason")
-    //   .classed("source", false)
-    //   .each(updateNodes("target", false,"type-reason"));
-
-    // svg.selectAll("path.link.target-" + d.key+".type-reason")
-    //   .classed("target", false)
-    //   .each(updateNodes("source", false,"type-reason"));
-
-    // if(sourceNodes instanceof Array){
-    //   sourceNodes.forEach(function(s){
-    //     $("#text-source-" + s.key + "_target-" + d.key).remove();
-    //   });
-    // }
-    // if(targetNodes instanceof Array){ 
-    //   targetNodes.forEach(function(t){
-    //     $("#text-source-" + d.key + "_target-" + t.key).remove();
-    //   });
-    // }
   }
 
   function mouseclicked(d) {
