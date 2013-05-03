@@ -1429,7 +1429,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm286535.htm"
     },
     {
-        "company": "Bloch&#39;s Best Inc.",
+        "company": "Bloch's Best Inc.",
         "date": "06/01/2012",
         "imports": [
             {
@@ -2103,8 +2103,8 @@
             },
             {
                 "name": "04.69",
-                "score": 1.0,
-                "type": "reason"
+                "score": 0.8333333333333334,
+                "type": "both"
             },
             {
                 "name": "04.72",
@@ -2160,9 +2160,9 @@
         "name": "01.17",
         "product_description": "Torta de Pan",
         "reason": "Undeclared Milk",
-        "similar_both": 0,
+        "similar_both": 1,
         "similar_products": 0,
-        "similar_reasons": 17,
+        "similar_reasons": 16,
         "url": "http://www.fda.gov/Safety/Recalls/ucm288478.htm"
     },
     {
@@ -3807,11 +3807,11 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm288403.htm"
     },
     {
-        "company": "Jones&#39; Seasoning Blends LLC",
+        "company": "Jones' Seasoning Blends LLC",
         "date": "23/01/2012",
         "imports": [],
         "name": "01.22",
-        "product_description": "Jones&#39; Mock Salt Original &amp;  Jones&#39; Mock Salt Spicy Southwest Blend",
+        "product_description": "Jones' Mock Salt Original &  Jones' Mock Salt Spicy Southwest Blend",
         "reason": "Potential Contamination of Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -3874,7 +3874,7 @@
             },
             {
                 "name": "04.89",
-                "score": 0.8333333333333334,
+                "score": 0.8,
                 "type": "both"
             },
             {
@@ -4209,7 +4209,7 @@
             }
         ],
         "name": "01.23",
-        "product_description": "Turkey &amp; Ham Sub Footlong Sandwich",
+        "product_description": "Turkey & Ham Sub Footlong Sandwich",
         "reason": "Listeria monocytogenes",
         "similar_both": 1,
         "similar_products": 0,
@@ -4610,7 +4610,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm291086.htm"
     },
     {
-        "company": "Johnson &amp; Johnson Consumer Companies, Inc.",
+        "company": "Johnson & Johnson Consumer Companies, Inc.",
         "date": "27/01/2012",
         "imports": [],
         "name": "01.25",
@@ -5269,7 +5269,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm289775.htm"
     },
     {
-        "company": "W&amp;C International Import, Inc.",
+        "company": "W&C International Import, Inc.",
         "date": "01/02/2012",
         "imports": [
             {
@@ -5287,7 +5287,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm290067.htm"
     },
     {
-        "company": "W&amp;C International Import, Inc.",
+        "company": "W&C International Import, Inc.",
         "date": "01/02/2012",
         "imports": [],
         "name": "02.33",
@@ -5299,7 +5299,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm290084.htm"
     },
     {
-        "company": "S&amp;M USA Enterprise",
+        "company": "S&M USA Enterprise",
         "date": "01/02/2012",
         "imports": [
             {
@@ -5710,7 +5710,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm290198.htm"
     },
     {
-        "company": "Allison&#39;s Gourmet Kitchens",
+        "company": "Allison's Gourmet Kitchens",
         "date": "02/02/2012",
         "imports": [
             {
@@ -7257,7 +7257,7 @@
             }
         ],
         "name": "02.42",
-        "product_description": "Caramel Cob Junior &amp; Chewy Popcorn",
+        "product_description": "Caramel Cob Junior & Chewy Popcorn",
         "reason": "Undeclared Peanut",
         "similar_both": 0,
         "similar_products": 0,
@@ -7839,14 +7839,14 @@
         "imports": [],
         "name": "03.50",
         "product_description": "Goat Pellets",
-        "reason": "Error in labeling (does not include &quot;Decoquinate&quot; on label)",
+        "reason": "Error in labeling (does not include \"Decoquinate\" on label)",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm295430.htm"
     },
     {
-        "company": "Franck&#39;s Compounding Lab",
+        "company": "Franck's Compounding Lab",
         "date": "09/03/2012",
         "imports": [
             {
@@ -7869,7 +7869,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm296326.htm"
     },
     {
-        "company": "McCormick &amp; Company",
+        "company": "McCormick & Company",
         "date": "09/03/2012",
         "imports": [
             {
@@ -9958,7 +9958,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm297520.htm"
     },
     {
-        "company": "Topnotch Cookies &amp; Cakes",
+        "company": "Topnotch Cookies & Cakes",
         "date": "29/03/2012",
         "imports": [
             {
@@ -11244,7 +11244,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm298129.htm"
     },
     {
-        "company": "Franck&#39;s Compounding Lab",
+        "company": "Franck's Compounding Lab",
         "date": "31/03/2012",
         "imports": [
             {
@@ -11262,7 +11262,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm300712.htm"
     },
     {
-        "company": "Fung Shing Int&#39;l Corp.",
+        "company": "Fung Shing Int'l Corp.",
         "date": "04/04/2012",
         "imports": [
             {
@@ -11335,7 +11335,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm298809.htm"
     },
     {
-        "company": "Fung Shing Int&#39;l Corp.",
+        "company": "Fung Shing Int'l Corp.",
         "date": "04/04/2012",
         "imports": [
             {
@@ -11498,11 +11498,11 @@
             }
         ],
         "name": "04.69",
-        "product_description": "&quot;Pan de Torta&quot; bread",
+        "product_description": "\"Pan de Torta\" bread",
         "reason": "Undeclared Milk",
-        "similar_both": 0,
+        "similar_both": 1,
         "similar_products": 0,
-        "similar_reasons": 17,
+        "similar_reasons": 16,
         "url": "http://www.fda.gov/Safety/Recalls/ucm299032.htm"
     },
     {
@@ -11531,7 +11531,7 @@
             }
         ],
         "name": "04.70",
-        "product_description": "Pistachio cookie, Almond Cookie, Coconut Cookie &amp; Almond Cake Rusk",
+        "product_description": "Pistachio cookie, Almond Cookie, Coconut Cookie & Almond Cake Rusk",
         "reason": "Undeclared milk and almond",
         "similar_both": 0,
         "similar_products": 0,
@@ -11711,11 +11711,6 @@
                 "name": "09.246",
                 "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "09.251",
-                "score": 0.75,
-                "type": "product"
             },
             {
                 "name": "09.252",
@@ -12119,7 +12114,7 @@
             }
         ],
         "name": "04.71",
-        "product_description": "Lamb Meal &amp; Rice",
+        "product_description": "Lamb Meal & Rice",
         "reason": "Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -12127,7 +12122,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm299606.htm"
     },
     {
-        "company": "Food Lion, Harveys and Reid&amp;rsquo;s stores",
+        "company": "Food Lion, Harveys and Reid&rsquo;s stores",
         "date": "06/04/2012",
         "imports": [
             {
@@ -12232,7 +12227,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm299516.htm"
     },
     {
-        "company": "Central Garden &amp;amp; Pet Company",
+        "company": "Central Garden &amp; Pet Company",
         "date": "09/04/2012",
         "imports": [],
         "name": "04.76",
@@ -12333,7 +12328,7 @@
             }
         ],
         "name": "04.80",
-        "product_description": "Dried Mackerel &amp; Dried Round Scad",
+        "product_description": "Dried Mackerel & Dried Round Scad",
         "reason": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores",
         "similar_both": 1,
         "similar_products": 0,
@@ -12341,7 +12336,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm299670.htm"
     },
     {
-        "company": "John B. Sanfilippo &amp; Son Inc",
+        "company": "John B. Sanfilippo & Son Inc",
         "date": "11/04/2012",
         "imports": [
             {
@@ -12361,7 +12356,7 @@
             }
         ],
         "name": "04.81",
-        "product_description": "Vanilla Bean &amp; Cocoa Mocha Almonds",
+        "product_description": "Vanilla Bean & Cocoa Mocha Almonds",
         "reason": "Undeclared Soy",
         "similar_both": 0,
         "similar_products": 0,
@@ -12373,7 +12368,7 @@
         "date": "11/04/2012",
         "imports": [],
         "name": "04.82",
-        "product_description": "Dried Mackerel &amp; Dried Round Scad",
+        "product_description": "Dried Mackerel & Dried Round Scad",
         "reason": "Uneviscerated fish that may be contaminated with Clostridium botulinum spores",
         "similar_both": 1,
         "similar_products": 0,
@@ -12381,7 +12376,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm300197.htm"
     },
     {
-        "company": "John B. Sanfilippo &amp; Son Inc.",
+        "company": "John B. Sanfilippo & Son Inc.",
         "date": "12/04/2012",
         "imports": [
             {
@@ -12858,7 +12853,7 @@
             }
         ],
         "name": "04.89",
-        "product_description": "Turkey &amp; Ham Sub Footlong, Italian Footlong &amp; Classic Cuban Sandwiches",
+        "product_description": "Turkey & Ham Sub Footlong, Italian Footlong & Classic Cuban Sandwiches",
         "reason": "Listeria monocytogenes",
         "similar_both": 1,
         "similar_products": 0,
@@ -13244,7 +13239,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302049.htm"
     },
     {
-        "company": "Reser&#39;s Fine Foods, Inc.",
+        "company": "Reser's Fine Foods, Inc.",
         "date": "25/04/2012",
         "imports": [
             {
@@ -13917,7 +13912,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302053.htm"
     },
     {
-        "company": "Belgium&#39;s Chocolate Source",
+        "company": "Belgium's Chocolate Source",
         "date": "26/04/2012",
         "imports": [
             {
@@ -13942,7 +13937,7 @@
             }
         ],
         "name": "04.98",
-        "product_description": "Caf&amp;eacute; Tasse Noir",
+        "product_description": "Caf&eacute; Tasse Noir",
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
@@ -15659,7 +15654,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302514.htm"
     },
     {
-        "company": "Henry&#39;s Farm, Inc.",
+        "company": "Henry's Farm, Inc.",
         "date": "30/04/2012",
         "imports": [
             {
@@ -16009,7 +16004,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302588.htm"
     },
     {
-        "company": "Figi&#39;s Inc.",
+        "company": "Figi's Inc.",
         "date": "02/05/2012",
         "imports": [
             {
@@ -16027,7 +16022,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302896.htm"
     },
     {
-        "company": "Franck&#39;s Compounding Lab",
+        "company": "Franck's Compounding Lab",
         "date": "02/05/2012",
         "imports": [],
         "name": "05.105",
@@ -16051,7 +16046,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm302903.htm"
     },
     {
-        "company": "Church &amp; Dwight Co., Inc.",
+        "company": "Church & Dwight Co., Inc.",
         "date": "03/05/2012",
         "imports": [],
         "name": "05.107",
@@ -22870,7 +22865,7 @@
             }
         ],
         "name": "05.128",
-        "product_description": "Diamond Naturals Small Breed Adult Dog Lamb &amp; Rice Formula dry dog food.",
+        "product_description": "Diamond Naturals Small Breed Adult Dog Lamb & Rice Formula dry dog food.",
         "reason": "Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -24672,7 +24667,7 @@
             }
         ],
         "name": "06.142",
-        "product_description": "Red Pepper with Onion &amp; Garlic Cheddar",
+        "product_description": "Red Pepper with Onion & Garlic Cheddar",
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
@@ -28510,7 +28505,7 @@
             }
         ],
         "name": "07.165",
-        "product_description": "",
+        "product_description": " ",
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
@@ -29926,7 +29921,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm312991.htm"
     },
     {
-        "company": "Land O&#39;Lakes Purina Feed LLC",
+        "company": "Land O'Lakes Purina Feed LLC",
         "date": "20/07/2012",
         "imports": [
             {
@@ -29956,7 +29951,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm312988.htm"
     },
     {
-        "company": "Spillson&#39;s LTD.",
+        "company": "Spillson's LTD.",
         "date": "23/07/2012",
         "imports": [
             {
@@ -30267,7 +30262,7 @@
             }
         ],
         "name": "07.178",
-        "product_description": "",
+        "product_description": " ",
         "reason": "Undeclared Milk",
         "similar_both": 0,
         "similar_products": 0,
@@ -31073,7 +31068,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313507.htm"
     },
     {
-        "company": "Huxtable&#39;s Kitchen",
+        "company": "Huxtable's Kitchen",
         "date": "27/07/2012",
         "imports": [
             {
@@ -31579,7 +31574,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313576.htm"
     },
     {
-        "company": "Busch&#39;s Fresh Food Market",
+        "company": "Busch's Fresh Food Market",
         "date": "27/07/2012",
         "imports": [
             {
@@ -32062,7 +32057,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313578.htm"
     },
     {
-        "company": "Stop &amp;amp; Shop Supermarket Company LLC",
+        "company": "Stop &amp; Shop Supermarket Company LLC",
         "date": "27/07/2012",
         "imports": [
             {
@@ -32513,7 +32508,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313589.htm"
     },
     {
-        "company": "Wimberger&#39;s Old World Bakery, Inc.",
+        "company": "Wimberger's Old World Bakery, Inc.",
         "date": "27/07/2012",
         "imports": [
             {
@@ -33187,7 +33182,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313661.htm"
     },
     {
-        "company": "Clif Bar &amp; Company",
+        "company": "Clif Bar & Company",
         "date": "30/07/2012",
         "imports": [
             {
@@ -33205,7 +33200,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm313744.htm"
     },
     {
-        "company": "Ken&#39;s Foods, Inc.",
+        "company": "Ken's Foods, Inc.",
         "date": "30/07/2012",
         "imports": [
             {
@@ -36082,7 +36077,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm316022.htm"
     },
     {
-        "company": "Tanimura &amp; Antle, Inc.",
+        "company": "Tanimura & Antle, Inc.",
         "date": "19/08/2012",
         "imports": [
             {
@@ -36747,7 +36742,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm316681.htm"
     },
     {
-        "company": "Spence &amp; Co Ltd",
+        "company": "Spence & Co Ltd",
         "date": "22/08/2012",
         "imports": [
             {
@@ -36955,7 +36950,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm316891.htm"
     },
     {
-        "company": "Stop &amp; Shop",
+        "company": "Stop & Shop",
         "date": "27/08/2012",
         "imports": [
             {
@@ -38770,7 +38765,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm317836.htm"
     },
     {
-        "company": "Food Lion, Harveys Reid&#39;s",
+        "company": "Food Lion, Harveys Reid's",
         "date": "30/08/2012",
         "imports": [
             {
@@ -39203,7 +39198,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm318035.htm"
     },
     {
-        "company": "Triple B Corp. dba Real Foods and Charlie&#39;s Produce",
+        "company": "Triple B Corp. dba Real Foods and Charlie's Produce",
         "date": "30/08/2012",
         "imports": [
             {
@@ -40729,7 +40724,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm317946.htm"
     },
     {
-        "company": "F&amp;S Produce Co., Inc.",
+        "company": "F&S Produce Co., Inc.",
         "date": "01/09/2012",
         "imports": [
             {
@@ -40744,7 +40739,7 @@
             }
         ],
         "name": "09.243",
-        "product_description": "",
+        "product_description": " ",
         "reason": "may be contaminated with Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -41648,7 +41643,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm318844.htm"
     },
     {
-        "company": "Breeder&#39;s Choice Pet Food",
+        "company": "Breeder's Choice Pet Food",
         "date": "11/09/2012",
         "imports": [
             {
@@ -41658,10 +41653,10 @@
             }
         ],
         "name": "09.251",
-        "product_description": "Natural Lamb Meal &amp;amp; Brown Rice Adult Dog Formula",
+        "product_description": "Natural Lamb Meal &amp; Brown Rice Adult Dog Formula",
         "reason": "Possible contamination with Salmonella",
         "similar_both": 0,
-        "similar_products": 1,
+        "similar_products": 0,
         "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm319021.htm"
     },
@@ -45142,7 +45137,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm320818.htm"
     },
     {
-        "company": "Fresh &amp;amp; Easy",
+        "company": "Fresh &amp; Easy",
         "date": "24/09/2012",
         "imports": [
             {
@@ -45883,7 +45878,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm321716.htm"
     },
     {
-        "company": "Trader Joe&#39;s",
+        "company": "Trader Joe's",
         "date": "24/09/2012",
         "imports": [
             {
@@ -46972,7 +46967,7 @@
             }
         ],
         "name": "09.273",
-        "product_description": "Cinnamon apple &amp; almond butter sandwich and almond butter",
+        "product_description": "Cinnamon apple & almond butter sandwich and almond butter",
         "reason": "Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -47671,7 +47666,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm320974.htm"
     },
     {
-        "company": "Justin&#39;s",
+        "company": "Justin's",
         "date": "26/09/2012",
         "imports": [
             {
@@ -49119,7 +49114,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm321416.htm"
     },
     {
-        "company": "Newman&#39;s Own Organics",
+        "company": "Newman's Own Organics",
         "date": "28/09/2012",
         "imports": [
             {
@@ -50146,7 +50141,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm321783.htm"
     },
     {
-        "company": "Stop&amp;Shop",
+        "company": "Stop&Shop",
         "date": "28/09/2012",
         "imports": [
             {
@@ -50765,7 +50760,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm321757.htm"
     },
     {
-        "company": "Jer&#39;s Chocolates",
+        "company": "Jer's Chocolates",
         "date": "28/09/2012",
         "imports": [
             {
@@ -51346,7 +51341,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm321776.htm"
     },
     {
-        "company": "Kenny&#39;s Farmhouse Cheese",
+        "company": "Kenny's Farmhouse Cheese",
         "date": "02/10/2012",
         "imports": [
             {
@@ -53782,7 +53777,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm323150.htm"
     },
     {
-        "company": "Kellogg&#39;s",
+        "company": "Kellogg's",
         "date": "08/10/2012",
         "imports": [
             {
@@ -54285,7 +54280,7 @@
             }
         ],
         "name": "10.311",
-        "product_description": "Crunchy Almond &amp; Peanut Butter,Banana Peanut Spread and More",
+        "product_description": "Crunchy Almond & Peanut Butter,Banana Peanut Spread and More",
         "reason": "Salmonella",
         "similar_both": 0,
         "similar_products": 0,
@@ -55443,7 +55438,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm323232.htm"
     },
     {
-        "company": "Clemmy&#39;s Ice Cream",
+        "company": "Clemmy's Ice Cream",
         "date": "09/10/2012",
         "imports": [
             {
@@ -55661,7 +55656,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm323146.htm"
     },
     {
-        "company": "Belfonte Ice Cream &amp; Dairy Foods Company",
+        "company": "Belfonte Ice Cream & Dairy Foods Company",
         "date": "09/10/2012",
         "imports": [
             {
@@ -56735,7 +56730,7 @@
         ],
         "name": "10.324",
         "product_description": "Snack",
-        "reason": "iSalmonella/i",
+        "reason": "<i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 1,
         "similar_reasons": 3,
@@ -57607,7 +57602,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm323535.htm"
     },
     {
-        "company": "Justin&#39;s",
+        "company": "Justin's",
         "date": "11/10/2012",
         "imports": [
             {
@@ -58225,7 +58220,7 @@
         ],
         "name": "10.334",
         "product_description": "Nut Butter",
-        "reason": "iSalmonella/i",
+        "reason": "<i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 3,
@@ -58388,7 +58383,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm323805.htm"
     },
     {
-        "company": "S&amp;P Company, Limited",
+        "company": "S&P Company, Limited",
         "date": "12/10/2012",
         "imports": [
             {
@@ -59535,7 +59530,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm324315.htm"
     },
     {
-        "company": "Buck&#39;s Ice Cream",
+        "company": "Buck's Ice Cream",
         "date": "17/10/2012",
         "imports": [
             {
@@ -59670,7 +59665,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm330780.htm"
     },
     {
-        "company": "Rudi&#39;s Organic Bakery",
+        "company": "Rudi's Organic Bakery",
         "date": "22/10/2012",
         "imports": [],
         "name": "10.354",
@@ -59682,7 +59677,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm325623.htm"
     },
     {
-        "company": "Wildwood Seed &amp; Specialties",
+        "company": "Wildwood Seed & Specialties",
         "date": "23/10/2012",
         "imports": [
             {
@@ -59859,7 +59854,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm326057.htm"
     },
     {
-        "company": "Schoep&#39;s Ice Cream Company",
+        "company": "Schoep's Ice Cream Company",
         "date": "26/10/2012",
         "imports": [
             {
@@ -59888,7 +59883,7 @@
         ],
         "name": "10.361",
         "product_description": "Peanut Butter Candy",
-        "reason": "iSalmonella/i",
+        "reason": "<i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 3,
@@ -60111,7 +60106,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm326782.htm"
     },
     {
-        "company": "Kenny&#39;s Farmhouse Cheese",
+        "company": "Kenny's Farmhouse Cheese",
         "date": "05/11/2012",
         "imports": [
             {
@@ -60252,7 +60247,7 @@
         "imports": [],
         "name": "11.372",
         "product_description": "Spinach",
-        "reason": "iSalmonella/i",
+        "reason": "<i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 2,
         "similar_reasons": 3,
@@ -60420,7 +60415,7 @@
         "date": "12/11/2012",
         "imports": [],
         "name": "11.377",
-        "product_description": "French Toast &amp; Sausage Sandwich",
+        "product_description": "French Toast & Sausage Sandwich",
         "reason": "Undeclared egg and soy",
         "similar_both": 0,
         "similar_products": 0,
@@ -60717,7 +60712,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm329216.htm"
     },
     {
-        "company": "Newman&#39;s Own, Inc.",
+        "company": "Newman's Own, Inc.",
         "date": "23/11/2012",
         "imports": [],
         "name": "11.392",
@@ -60759,7 +60754,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm329969.htm"
     },
     {
-        "company": "Stop &amp;amp; Shop Supermarket Company LLC",
+        "company": "Stop &amp; Shop Supermarket Company LLC",
         "date": "30/11/2012",
         "imports": [
             {
@@ -60894,11 +60889,11 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm331584.htm"
     },
     {
-        "company": "Claudia&#39;s Canine Cuisine",
+        "company": "Claudia's Canine Cuisine",
         "date": "12/12/2012",
         "imports": [],
         "name": "12.401",
-        "product_description": "Holiday &amp; Blueberry Hound Cake for dogs",
+        "product_description": "Holiday & Blueberry Hound Cake for dogs",
         "reason": "Due to the potential of product become moldy",
         "similar_both": 0,
         "similar_products": 0,
@@ -60964,14 +60959,14 @@
         "imports": [],
         "name": "12.405",
         "product_description": "Smoked Fish",
-        "reason": "emClostridium botulinumem/",
+        "reason": "<em>Clostridium botulinum<em/>",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm332784.htm"
     },
     {
-        "company": "Udi&#39;s Healthy Foods, LLC",
+        "company": "Udi's Healthy Foods, LLC",
         "date": "19/12/2012",
         "imports": [],
         "name": "12.406",
@@ -60995,12 +60990,12 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm333093.htm"
     },
     {
-        "company": "S&amp;M INTERNATIONAL INC",
+        "company": "S&M INTERNATIONAL INC",
         "date": "21/12/2012",
         "imports": [],
         "name": "12.408",
         "product_description": "Cooked salted duck eggs",
-        "reason": "iUnder processing potential Clostridium botulinum/i.",
+        "reason": "<i>Under processing potential Clostridium botulinum</i>.",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 0,
