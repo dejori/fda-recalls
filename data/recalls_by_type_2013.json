@@ -26,7 +26,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.84",
+                "name": "03.83",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -40,7 +40,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm334243.htm"
     },
     {
-        "company": "Giant Food Stores, LLC and Martin&#39;s Food Markets",
+        "company": "Giant Food Stores, LLC and Martin's Food Markets",
         "date": "07/01/2013",
         "imports": [
             {
@@ -50,11 +50,6 @@
             },
             {
                 "name": "01.14",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "01.17",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -84,7 +79,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -94,7 +89,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335112.htm"
     },
     {
@@ -102,12 +97,12 @@
         "date": "07/01/2013",
         "imports": [
             {
-                "name": "02.53",
+                "name": "02.52",
                 "score": 0.8,
                 "type": "reason"
             },
             {
-                "name": "02.55",
+                "name": "02.54",
                 "score": 0.8,
                 "type": "reason"
             }
@@ -130,7 +125,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.84",
+                "name": "03.83",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -163,27 +158,22 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
+                "name": "02.51",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.74",
+                "name": "03.73",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -193,7 +183,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334631.htm"
     },
     {
@@ -211,27 +201,22 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
+                "name": "02.51",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.74",
+                "name": "03.73",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -241,11 +226,11 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335717.htm"
     },
     {
-        "company": "Milo&#39;s Kitchen",
+        "company": "Milo's Kitchen",
         "date": "09/01/2013",
         "imports": [],
         "name": "01.7",
@@ -262,11 +247,6 @@
         "imports": [
             {
                 "name": "01.14",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "01.17",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -291,7 +271,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -301,7 +281,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334956.htm"
     },
     {
@@ -314,27 +294,22 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
+                "name": "02.51",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.74",
+                "name": "03.73",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -344,7 +319,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335232.htm"
     },
     {
@@ -353,7 +328,7 @@
         "imports": [],
         "name": "01.10",
         "product_description": "Artisan Cheeses",
-        "reason": "Contaminated with Shiga-Toxin producing iE.colii",
+        "reason": "Contaminated with Shiga-Toxin producing <i>E.coli<i>",
         "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 0,
@@ -364,7 +339,7 @@
         "date": "15/01/2013",
         "imports": [],
         "name": "01.11",
-        "product_description": "Cookies &amp; cream bars and brownie bars",
+        "product_description": "Cookies & cream bars and brownie bars",
         "reason": "Undeclared peanuts",
         "similar_both": 0,
         "similar_products": 0,
@@ -381,12 +356,7 @@
                 "type": "reason"
             },
             {
-                "name": "02.44",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.49",
+                "name": "02.48",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -396,7 +366,7 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 3,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336565.htm"
     },
     {
@@ -418,14 +388,9 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm336104.htm"
     },
     {
-        "company": "Knott&#39;s Fine Foods Inc.",
+        "company": "Knott's Fine Foods Inc.",
         "date": "21/01/2013",
         "imports": [
-            {
-                "name": "01.17",
-                "score": 1.0,
-                "type": "reason"
-            },
             {
                 "name": "01.19",
                 "score": 1.0,
@@ -447,7 +412,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -457,7 +422,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336282.htm"
     },
     {
@@ -465,12 +430,7 @@
         "date": "22/01/2013",
         "imports": [
             {
-                "name": "02.44",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.49",
+                "name": "02.48",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -480,7 +440,7 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 3,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336376.htm"
     },
     {
@@ -488,12 +448,12 @@
         "date": "23/01/2013",
         "imports": [
             {
-                "name": "02.53",
+                "name": "02.52",
                 "score": 1.0,
                 "type": "product"
             },
             {
-                "name": "02.55",
+                "name": "02.54",
                 "score": 1.0,
                 "type": "product"
             }
@@ -511,37 +471,32 @@
         "date": "25/01/2013",
         "imports": [
             {
-                "name": "01.19",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
                 "name": "01.21",
                 "score": 1.0,
-                "type": "both"
+                "type": "product"
             },
             {
-                "name": "02.25",
-                "score": 1.0,
+                "name": "01.22",
+                "score": 0.8,
                 "type": "reason"
             },
             {
-                "name": "02.40",
-                "score": 1.0,
+                "name": "02.24",
+                "score": 0.8,
                 "type": "reason"
             },
             {
-                "name": "03.82",
-                "score": 1.0,
+                "name": "02.29",
+                "score": 0.8,
                 "type": "reason"
             }
         ],
         "name": "01.17",
         "product_description": "Alaskan Sockeye Salmon",
-        "reason": "Listeria monocytogenes",
-        "similar_both": 1,
+        "reason": "<>Listeria monocytogenes<>",
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 7,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336951.htm"
     },
     {
@@ -549,12 +504,12 @@
         "date": "28/01/2013",
         "imports": [
             {
-                "name": "02.59",
+                "name": "02.58",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.79",
+                "name": "03.78",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -587,7 +542,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -597,7 +552,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337098.htm"
     },
     {
@@ -627,7 +582,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -635,8 +590,8 @@
         "name": "01.21",
         "product_description": "Wild Alaskan Sockeye Salmon",
         "reason": "Listeria monocytogenes",
-        "similar_both": 1,
-        "similar_products": 0,
+        "similar_both": 0,
+        "similar_products": 1,
         "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337382.htm"
     },
@@ -650,17 +605,27 @@
                 "type": "reason"
             },
             {
+                "name": "02.27",
+                "score": 0.75,
+                "type": "reason"
+            },
+            {
                 "name": "02.29",
                 "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.87",
+                "score": 0.8,
                 "type": "reason"
             }
         ],
         "name": "01.22",
         "product_description": "Bagels with Cream Cheese, Cream Cheese",
-        "reason": "iListeria monocytogenes/i",
+        "reason": "<i>Listeria monocytogenes</i>",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 2,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337723.htm"
     },
     {
@@ -673,12 +638,12 @@
                 "type": "reason"
             },
             {
-                "name": "02.53",
+                "name": "02.52",
                 "score": 0.75,
                 "type": "reason"
             },
             {
-                "name": "02.55",
+                "name": "02.54",
                 "score": 0.75,
                 "type": "reason"
             }
@@ -696,17 +661,27 @@
         "date": "01/02/2013",
         "imports": [
             {
+                "name": "02.27",
+                "score": 0.75,
+                "type": "reason"
+            },
+            {
                 "name": "02.29",
                 "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.87",
+                "score": 0.8,
                 "type": "reason"
             }
         ],
         "name": "02.24",
         "product_description": "Blue crab spread",
-        "reason": "iListeria monocytogenes/i",
+        "reason": "<i>Listeria monocytogenes</i>",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 2,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338606.htm"
     },
     {
@@ -719,7 +694,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -729,7 +704,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337785.htm"
     },
     {
@@ -752,12 +727,12 @@
                 "type": "reason"
             },
             {
-                "name": "02.51",
+                "name": "02.50",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.56",
+                "name": "02.55",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -775,22 +750,22 @@
         "date": "06/02/2013",
         "imports": [
             {
-                "name": "03.72",
-                "score": 0.8333333333333334,
+                "name": "02.29",
+                "score": 0.75,
                 "type": "reason"
             },
             {
-                "name": "04.91",
-                "score": 0.8333333333333334,
+                "name": "04.89",
+                "score": 0.9,
                 "type": "reason"
             }
         ],
         "name": "02.27",
         "product_description": "Atlantic Smoked Salmon",
-        "reason": "Potential to be contaminated with iListeria monocytogenes/i",
+        "reason": "Potential to be contaminated with <i>Listeria monocytogenes</i>",
         "similar_both": 0,
         "similar_products": 1,
-        "similar_reasons": 2,
+        "similar_reasons": 4,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340249.htm"
     },
     {
@@ -808,13 +783,19 @@
     {
         "company": "Sprouters Northwest",
         "date": "07/02/2013",
-        "imports": [],
+        "imports": [
+            {
+                "name": "03.87",
+                "score": 0.8,
+                "type": "reason"
+            }
+        ],
         "name": "02.29",
         "product_description": "Sprout products, wheatgrass and pea shoots",
-        "reason": "iListeria monocytogenes/i",
+        "reason": "<i>Listeria monocytogenes</i>",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 2,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338741.htm"
     },
     {
@@ -830,7 +811,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm339140.htm"
     },
     {
-        "company": "DZH Import &amp; Export Inc.",
+        "company": "DZH Import & Export Inc.",
         "date": "08/02/2013",
         "imports": [
             {
@@ -844,12 +825,12 @@
                 "type": "reason"
             },
             {
-                "name": "02.51",
+                "name": "02.50",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.56",
+                "name": "02.55",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -863,7 +844,7 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm338978.htm"
     },
     {
-        "company": "DZH Import &amp;amp; Export, Inc.",
+        "company": "DZH Import &amp; Export, Inc.",
         "date": "11/02/2013",
         "imports": [
             {
@@ -872,12 +853,12 @@
                 "type": "reason"
             },
             {
-                "name": "02.51",
+                "name": "02.50",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.56",
+                "name": "02.55",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -895,12 +876,12 @@
         "date": "13/02/2013",
         "imports": [
             {
-                "name": "02.51",
+                "name": "02.50",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.56",
+                "name": "02.55",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -918,27 +899,22 @@
         "date": "14/02/2013",
         "imports": [
             {
-                "name": "02.52",
+                "name": "02.51",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.74",
+                "name": "03.73",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -948,7 +924,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339891.htm"
     },
     {
@@ -968,12 +944,12 @@
         "date": "14/02/2013",
         "imports": [
             {
-                "name": "02.53",
+                "name": "02.52",
                 "score": 0.75,
                 "type": "reason"
             },
             {
-                "name": "02.55",
+                "name": "02.54",
                 "score": 0.75,
                 "type": "reason"
             }
@@ -987,11 +963,11 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm339904.htm"
     },
     {
-        "company": "The Muffin &amp;quot;Mam&amp;quot; Inc.",
+        "company": "The Muffin &quot;Mam&quot; Inc.",
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "03.81",
+                "name": "03.80",
                 "score": 1.0,
                 "type": "product"
             }
@@ -1005,16 +981,16 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm340045.htm"
     },
     {
-        "company": "Nature&#39;s Variety",
+        "company": "Nature's Variety",
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "02.46",
+                "name": "02.45",
                 "score": 1.0,
                 "type": "product"
             },
             {
-                "name": "03.89",
+                "name": "03.87",
                 "score": 1.0,
                 "type": "product"
             }
@@ -1032,7 +1008,7 @@
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "03.84",
+                "name": "03.83",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -1050,7 +1026,7 @@
         "date": "18/02/2013",
         "imports": [
             {
-                "name": "03.82",
+                "name": "03.81",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -1060,7 +1036,7 @@
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340644.htm"
     },
     {
@@ -1069,6 +1045,11 @@
         "imports": [
             {
                 "name": "02.42",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "02.44",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1083,17 +1064,17 @@
                 "type": "reason"
             },
             {
-                "name": "02.47",
+                "name": "02.57",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.58",
+                "name": "03.61",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.62",
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1103,12 +1084,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.66",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -1126,6 +1102,11 @@
         "date": "19/02/2013",
         "imports": [
             {
+                "name": "02.44",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
                 "name": "02.45",
                 "score": 1.0,
                 "type": "reason"
@@ -1133,20 +1114,20 @@
             {
                 "name": "02.46",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.47",
-                "score": 1.0,
                 "type": "both"
             },
             {
-                "name": "02.58",
+                "name": "02.57",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.62",
+                "name": "03.61",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1156,12 +1137,7 @@
                 "type": "reason"
             },
             {
-                "name": "03.66",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
@@ -1179,7 +1155,7 @@
         "date": "19/02/2013",
         "imports": [
             {
-                "name": "02.57",
+                "name": "02.56",
                 "score": 1.0,
                 "type": "both"
             }
@@ -1193,64 +1169,46 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm340245.htm"
     },
     {
-        "company": "Heartland Brands",
-        "date": "20/02/2013",
-        "imports": [
-            {
-                "name": "02.49",
-                "score": 1.0,
-                "type": "reason"
-            }
-        ],
-        "name": "02.44",
-        "product_description": "Granola cereal",
-        "reason": "Metal fragments",
-        "similar_both": 0,
-        "similar_products": 0,
-        "similar_reasons": 3,
-        "url": "http://www.fda.gov/Safety/Recalls/ucm340717.htm"
-    },
-    {
         "company": "Nutri-Vet, LLC",
         "date": "20/02/2013",
         "imports": [
+            {
+                "name": "02.45",
+                "score": 1.0,
+                "type": "reason"
+            },
             {
                 "name": "02.46",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.47",
+                "name": "02.57",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.58",
+                "name": "03.61",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.62",
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
             {
                 "name": "03.65",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.66",
-                "score": 1.0,
                 "type": "both"
             },
             {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.45",
+        "name": "02.44",
         "product_description": "Pet Treats",
         "reason": "Salmonella",
         "similar_both": 1,
@@ -1263,17 +1221,22 @@
         "date": "21/02/2013",
         "imports": [
             {
-                "name": "02.47",
+                "name": "02.46",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.58",
+                "name": "02.57",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.62",
+                "name": "03.61",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1283,22 +1246,17 @@
                 "type": "reason"
             },
             {
-                "name": "03.66",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.76",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.89",
+                "name": "03.87",
                 "score": 1.0,
                 "type": "product"
             }
         ],
-        "name": "02.46",
+        "name": "02.45",
         "product_description": "Pet food products",
         "reason": "Salmonella",
         "similar_both": 0,
@@ -1311,12 +1269,17 @@
         "date": "21/02/2013",
         "imports": [
             {
-                "name": "02.58",
+                "name": "02.57",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.62",
+                "name": "03.61",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1326,17 +1289,12 @@
                 "type": "reason"
             },
             {
-                "name": "03.66",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.47",
+        "name": "02.46",
         "product_description": "Dog Treats",
         "reason": "Salmonella",
         "similar_both": 1,
@@ -1348,7 +1306,7 @@
         "company": "Mandy Star Trading Inc.",
         "date": "21/02/2013",
         "imports": [],
-        "name": "02.48",
+        "name": "02.47",
         "product_description": "Preserved fruits",
         "reason": "Undeclared Sulfites",
         "similar_both": 0,
@@ -1360,19 +1318,19 @@
         "company": "Mondel\u0113z Global LLC",
         "date": "21/02/2013",
         "imports": [],
-        "name": "02.49",
+        "name": "02.48",
         "product_description": "Biscuits",
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 3,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340676.htm"
     },
     {
         "company": "Hy-Vee, Inc.",
         "date": "22/02/2013",
         "imports": [],
-        "name": "02.50",
+        "name": "02.49",
         "product_description": "Dog Food",
         "reason": "Elevated levels of a chemical contaminant",
         "similar_both": 0,
@@ -1385,12 +1343,12 @@
         "date": "22/02/2013",
         "imports": [
             {
-                "name": "02.56",
+                "name": "02.55",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.51",
+        "name": "02.50",
         "product_description": "Ginger Slices",
         "reason": "Undeclared sulfites",
         "similar_both": 0,
@@ -1403,32 +1361,27 @@
         "date": "22/02/2013",
         "imports": [
             {
-                "name": "03.74",
+                "name": "03.73",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.52",
+        "name": "02.51",
         "product_description": "Nutritional shake",
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340886.htm"
     },
     {
@@ -1436,12 +1389,12 @@
         "date": "22/02/2013",
         "imports": [
             {
-                "name": "02.55",
+                "name": "02.54",
                 "score": 1.0,
                 "type": "both"
             }
         ],
-        "name": "02.53",
+        "name": "02.52",
         "product_description": "Sauce",
         "reason": "Undeclared wheat and soy",
         "similar_both": 1,
@@ -1453,7 +1406,7 @@
         "company": "King Arthur Flour Company, Inc.",
         "date": "22/02/2013",
         "imports": [],
-        "name": "02.54",
+        "name": "02.53",
         "product_description": "Flour",
         "reason": "Presence of a foreign object",
         "similar_both": 0,
@@ -1465,7 +1418,7 @@
         "company": "Bruce Foods Corporation",
         "date": "23/02/2013",
         "imports": [],
-        "name": "02.55",
+        "name": "02.54",
         "product_description": "Sauce",
         "reason": "Undeclared wheat and soy",
         "similar_both": 1,
@@ -1477,7 +1430,7 @@
         "company": "Domega NY International Co., Ltd.",
         "date": "25/02/2013",
         "imports": [],
-        "name": "02.56",
+        "name": "02.55",
         "product_description": "White Melon Seeds",
         "reason": "Undeclared sulfites",
         "similar_both": 0,
@@ -1489,7 +1442,7 @@
         "company": "The Kroger Co.",
         "date": "26/02/2013",
         "imports": [],
-        "name": "02.57",
+        "name": "02.56",
         "product_description": "Bread",
         "reason": "Foreign object",
         "similar_both": 1,
@@ -1502,7 +1455,12 @@
         "date": "27/02/2013",
         "imports": [
             {
-                "name": "03.62",
+                "name": "03.61",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
+                "name": "03.64",
                 "score": 1.0,
                 "type": "reason"
             },
@@ -1512,17 +1470,12 @@
                 "type": "reason"
             },
             {
-                "name": "03.66",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.58",
+        "name": "02.57",
         "product_description": "Bird Food",
         "reason": "Salmonella",
         "similar_both": 0,
@@ -1535,12 +1488,12 @@
         "date": "28/02/2013",
         "imports": [
             {
-                "name": "03.79",
+                "name": "03.78",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "02.59",
+        "name": "02.58",
         "product_description": "Easter Egg with Walnuts",
         "reason": "Undeclared Peanuts",
         "similar_both": 0,
@@ -1553,12 +1506,12 @@
         "date": "01/03/2013",
         "imports": [
             {
-                "name": "04.98",
+                "name": "04.95",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.60",
+        "name": "03.59",
         "product_description": "Variety of Sprouted Whole Grain Cereals",
         "reason": "Undeclared Almonds",
         "similar_both": 0,
@@ -1570,7 +1523,7 @@
         "company": "Cargill",
         "date": "05/03/2013",
         "imports": [],
-        "name": "03.61",
+        "name": "03.60",
         "product_description": "Animal feed",
         "reason": "Deficient in vitamin A, D, and E",
         "similar_both": 0,
@@ -1583,22 +1536,22 @@
         "date": "06/03/2013",
         "imports": [
             {
+                "name": "03.64",
+                "score": 1.0,
+                "type": "reason"
+            },
+            {
                 "name": "03.65",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.66",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.62",
+        "name": "03.61",
         "product_description": "Woofers (beef patties) dog treats",
         "reason": "Salmonella",
         "similar_both": 0,
@@ -1611,22 +1564,22 @@
         "date": "06/03/2013",
         "imports": [
             {
-                "name": "03.64",
+                "name": "03.63",
                 "score": 1.0,
                 "type": "product"
             },
             {
-                "name": "03.67",
+                "name": "03.66",
                 "score": 1.0,
                 "type": "both"
             },
             {
-                "name": "03.68",
+                "name": "03.67",
                 "score": 1.0,
                 "type": "product"
             }
         ],
-        "name": "03.63",
+        "name": "03.62",
         "product_description": "Canned tuna",
         "reason": "Loose can seals",
         "similar_both": 1,
@@ -1639,17 +1592,17 @@
         "date": "06/03/2013",
         "imports": [
             {
-                "name": "03.67",
+                "name": "03.66",
                 "score": 1.0,
                 "type": "product"
             },
             {
-                "name": "03.68",
+                "name": "03.67",
                 "score": 1.0,
                 "type": "product"
             }
         ],
-        "name": "03.64",
+        "name": "03.63",
         "product_description": "Canned tuna",
         "reason": "Seal quality out of specification",
         "similar_both": 0,
@@ -1658,21 +1611,21 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm342650.htm"
     },
     {
-        "company": "Steve&#39;s Real Food",
+        "company": "Steve's Real Food",
         "date": "07/03/2013",
         "imports": [
             {
-                "name": "03.66",
+                "name": "03.65",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.65",
+        "name": "03.64",
         "product_description": "Frozen pet food",
         "reason": "Salmonella",
         "similar_both": 0,
@@ -1681,16 +1634,16 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm342902.htm"
     },
     {
-        "company": "Diggin&#39; Your Dog",
+        "company": "Diggin' Your Dog",
         "date": "07/03/2013",
         "imports": [
             {
-                "name": "03.76",
+                "name": "03.75",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.66",
+        "name": "03.65",
         "product_description": "Pet Treats",
         "reason": "Salmonella",
         "similar_both": 1,
@@ -1703,12 +1656,12 @@
         "date": "07/03/2013",
         "imports": [
             {
-                "name": "03.68",
+                "name": "03.67",
                 "score": 1.0,
                 "type": "product"
             }
         ],
-        "name": "03.67",
+        "name": "03.66",
         "product_description": "Canned tuna",
         "reason": "Loose can seals",
         "similar_both": 1,
@@ -1720,7 +1673,7 @@
         "company": "Tri-Union Seafoods, LLC",
         "date": "08/03/2013",
         "imports": [],
-        "name": "03.68",
+        "name": "03.67",
         "product_description": "Canned tuna",
         "reason": "Can seams do not meet standard",
         "similar_both": 0,
@@ -1732,7 +1685,7 @@
         "company": "Diamond Pet Foods",
         "date": "10/03/2013",
         "imports": [],
-        "name": "03.69",
+        "name": "03.68",
         "product_description": "Dry Cat Food",
         "reason": "Low level of thiamine (Vitamin B1)",
         "similar_both": 0,
@@ -1745,12 +1698,12 @@
         "date": "11/03/2013",
         "imports": [
             {
-                "name": "03.83",
+                "name": "03.82",
                 "score": 1.0,
                 "type": "both"
             }
         ],
-        "name": "03.70",
+        "name": "03.69",
         "product_description": "Canned Pinto beans",
         "reason": "Spoilage organisms or Pathogens",
         "similar_both": 1,
@@ -1763,12 +1716,12 @@
         "date": "11/03/2013",
         "imports": [
             {
-                "name": "04.96",
+                "name": "04.93",
                 "score": 1.0,
                 "type": "product"
             }
         ],
-        "name": "03.71",
+        "name": "03.70",
         "product_description": "Dietary supplement",
         "reason": "Product contains trace amounts of Sulfohydroxyhomosildenafil and Aminotadalafil.",
         "similar_both": 0,
@@ -1781,24 +1734,24 @@
         "date": "13/03/2013",
         "imports": [
             {
-                "name": "04.91",
-                "score": 0.8333333333333334,
+                "name": "04.89",
+                "score": 0.75,
                 "type": "reason"
             }
         ],
-        "name": "03.72",
+        "name": "03.71",
         "product_description": "Chicken Blend-Raw Frozen Food Diet for Dogs and Cats",
         "reason": "Potential to be contaminated with Salmonella",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 2,
+        "similar_reasons": 1,
         "url": "http://www.fda.gov/Safety/Recalls/ucm343716.htm"
     },
     {
         "company": "Grippo Foods, Inc",
         "date": "15/03/2013",
         "imports": [],
-        "name": "03.73",
+        "name": "03.72",
         "product_description": "Potato Chips (various flavors)",
         "reason": "Potential to contain metal fragments",
         "similar_both": 0,
@@ -1811,34 +1764,29 @@
         "date": "15/03/2013",
         "imports": [
             {
-                "name": "03.86",
+                "name": "03.85",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.74",
-        "product_description": "Rice Cracker &quot;Kotsubukko&quot;",
+        "name": "03.73",
+        "product_description": "Rice Cracker \"Kotsubukko\"",
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344017.htm"
     },
     {
         "company": "Vascular Solutions Zerusa Ltd subsidiary of Vascular Solutions, Inc.",
         "date": "15/03/2013",
         "imports": [],
-        "name": "03.75",
+        "name": "03.74",
         "product_description": "Hemostasis valves used in catheterization procedures",
         "reason": "Pose a slightly increased risk of air leakage that may lead to an air embolism, which could result in serious injury or death",
         "similar_both": 0,
@@ -1850,7 +1798,7 @@
         "company": "Natura Pet Products",
         "date": "18/03/2013",
         "imports": [],
-        "name": "03.76",
+        "name": "03.75",
         "product_description": "Pet Food",
         "reason": "Salmonella",
         "similar_both": 0,
@@ -1862,7 +1810,7 @@
         "company": "Pro-Amino International Inc., Saint-Eustache, Quebec, Canada",
         "date": "18/03/2013",
         "imports": [],
-        "name": "03.77",
+        "name": "03.76",
         "product_description": "High Protein Chocolate Dream Bars",
         "reason": "May contain Salmonella",
         "similar_both": 0,
@@ -1874,7 +1822,7 @@
         "company": "Clinical Specialties",
         "date": "18/03/2013",
         "imports": [],
-        "name": "03.78",
+        "name": "03.77",
         "product_description": "Avastin unit dose syringes",
         "reason": "The product has or potentially could result in an infection within the eye",
         "similar_both": 0,
@@ -1886,7 +1834,7 @@
         "company": "Daesang America Inc.",
         "date": "19/03/2013",
         "imports": [],
-        "name": "03.79",
+        "name": "03.78",
         "product_description": "Soy Bean Paste",
         "reason": "Undeclared Peanuts",
         "similar_both": 0,
@@ -1898,7 +1846,7 @@
         "company": "New Chapter, Inc.",
         "date": "20/03/2013",
         "imports": [],
-        "name": "03.80",
+        "name": "03.79",
         "product_description": "Dietary Supplement",
         "reason": "Undeclared Soy",
         "similar_both": 0,
@@ -1910,7 +1858,7 @@
         "company": "Gold Standard Baking",
         "date": "23/03/2013",
         "imports": [],
-        "name": "03.81",
+        "name": "03.80",
         "product_description": "Coffee Cake",
         "reason": "Undeclared walnuts",
         "similar_both": 0,
@@ -1922,19 +1870,19 @@
         "company": "Publix Super Markets",
         "date": "26/03/2013",
         "imports": [],
-        "name": "03.82",
+        "name": "03.81",
         "product_description": "Fruit and Grain Salad",
         "reason": "Listeria monocytogenes",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345853.htm"
     },
     {
         "company": "La Preferida Inc.",
         "date": "26/03/2013",
         "imports": [],
-        "name": "03.83",
+        "name": "03.82",
         "product_description": "Canned Pinto beans",
         "reason": "Spoilage organisms or Pathogens",
         "similar_both": 1,
@@ -1946,7 +1894,7 @@
         "company": "Lisy Corporation",
         "date": "27/03/2013",
         "imports": [],
-        "name": "03.84",
+        "name": "03.83",
         "product_description": "Seasoning blends",
         "reason": "Undeclared soy",
         "similar_both": 0,
@@ -1958,7 +1906,7 @@
         "company": "Buffalo Trace Distillery",
         "date": "27/03/2013",
         "imports": [],
-        "name": "03.85",
+        "name": "03.84",
         "product_description": "Marinade and Sauces",
         "reason": "Undeclared soy, anchovy, milk, and/or wheat",
         "similar_both": 0,
@@ -1971,22 +1919,17 @@
         "date": "28/03/2013",
         "imports": [
             {
-                "name": "03.88",
-                "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
+                "name": "04.96",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.86",
+        "name": "03.85",
         "product_description": "Dessert Bars",
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345921.htm"
     },
     {
@@ -1994,12 +1937,12 @@
         "date": "28/03/2013",
         "imports": [
             {
-                "name": "04.93",
+                "name": "04.91",
                 "score": 1.0,
                 "type": "reason"
             }
         ],
-        "name": "03.87",
+        "name": "03.86",
         "product_description": "Mozzarella Bites, Quesadillas, Pizza",
         "reason": "Escherichia coli O121",
         "similar_both": 0,
@@ -2008,40 +1951,28 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm345896.htm"
     },
     {
-        "company": "Heartland Gourmet, LLC",
-        "date": "28/03/2013",
+        "company": "Natura Pet Products",
+        "date": "29/03/2013",
         "imports": [
             {
-                "name": "04.99",
-                "score": 1.0,
+                "name": "04.89",
+                "score": 0.7142857142857143,
                 "type": "reason"
             }
         ],
-        "name": "03.88",
-        "product_description": "Cookie mix, Pizza mix",
-        "reason": "Undeclared milk",
-        "similar_both": 0,
-        "similar_products": 0,
-        "similar_reasons": 8,
-        "url": "http://www.fda.gov/Safety/Recalls/ucm345785.htm"
-    },
-    {
-        "company": "Natura Pet Products",
-        "date": "29/03/2013",
-        "imports": [],
-        "name": "03.89",
+        "name": "03.87",
         "product_description": "Pet food",
-        "reason": "iSalmonella/i",
+        "reason": "<i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 2,
-        "similar_reasons": 0,
+        "similar_reasons": 4,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345971.htm"
     },
     {
         "company": "Consumer Concepts, Inc.",
         "date": "01/04/2013",
         "imports": [],
-        "name": "04.90",
+        "name": "04.88",
         "product_description": "Male sexual enhancement capsules",
         "reason": "Product contains hydroxythiohomosildenafil, an analogue of sildenafil",
         "similar_both": 0,
@@ -2053,19 +1984,19 @@
         "company": "Bravo!",
         "date": "03/04/2013",
         "imports": [],
-        "name": "04.91",
+        "name": "04.89",
         "product_description": "Chicken Balance, Chicken Blend and Beef Blend Burgers - Raw Frozen Food Diet for Dogs and Cats",
-        "reason": "Potential to be contaminated with iSalmonella/i",
+        "reason": "Potential to be contaminated with <i>Salmonella</i>",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 2,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm346496.htm"
     },
     {
         "company": "Centerville Pie Company",
         "date": "04/04/2013",
         "imports": [],
-        "name": "04.92",
+        "name": "04.90",
         "product_description": "Clam Pies",
         "reason": "Undeclared fish (anchovies)",
         "similar_both": 0,
@@ -2077,7 +2008,7 @@
         "company": "Rich Products Corporation",
         "date": "04/04/2013",
         "imports": [],
-        "name": "04.93",
+        "name": "04.91",
         "product_description": "Mozzarella bites, quesadillas, pizza slices and more",
         "reason": "Escherichia coli O121",
         "similar_both": 0,
@@ -2089,7 +2020,7 @@
         "company": "Little Mermaid Smoke House",
         "date": "04/04/2013",
         "imports": [],
-        "name": "04.94",
+        "name": "04.92",
         "product_description": "Smoked Herring and Pickled Herring fish",
         "reason": "Products were found to be uneviscerated, and have the potential to be contaminated with Clostridium botulinum",
         "similar_both": 0,
@@ -2098,22 +2029,10 @@
         "url": "http://www.fda.gov/Safety/Recalls/ucm346674.htm"
     },
     {
-        "company": "Stryker Corporation",
-        "date": "10/04/2013",
-        "imports": [],
-        "name": "04.95",
-        "product_description": "ShapeMatch Cutting Guides",
-        "reason": "Due to the potential that ShapeMatch Cutting Guides may not have been manufactured in accordance with surgeon preoperative planning parameters or may have been manufactured outside of the planning ranges specified in the 510(k) clearance",
-        "similar_both": 0,
-        "similar_products": 0,
-        "similar_reasons": 0,
-        "url": "http://www.fda.gov/Safety/Recalls/ucm347552.htm"
-    },
-    {
         "company": "Affirm XL",
         "date": "10/04/2013",
         "imports": [],
-        "name": "04.96",
+        "name": "04.93",
         "product_description": "Dietary supplement",
         "reason": "Contain an analogue of sildenafil",
         "similar_both": 0,
@@ -2125,7 +2044,7 @@
         "company": "Winn Dixie",
         "date": "12/04/2013",
         "imports": [],
-        "name": "04.97",
+        "name": "04.94",
         "product_description": "Apple Juice",
         "reason": "May contain elevated levels of patulin.",
         "similar_both": 0,
@@ -2137,7 +2056,7 @@
         "company": "Wild Blue Yonder Foods",
         "date": "12/04/2013",
         "imports": [],
-        "name": "04.98",
+        "name": "04.95",
         "product_description": "Simply Granola with Flax and Fruit (Gluten Free)",
         "reason": "Undeclared Almonds",
         "similar_both": 0,
@@ -2149,12 +2068,12 @@
         "company": "Cedarlane Natural Foods, Inc.",
         "date": "15/04/2013",
         "imports": [],
-        "name": "04.99",
+        "name": "04.96",
         "product_description": "Enchiladas",
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 8,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm348235.htm"
     }
 ]
