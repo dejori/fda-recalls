@@ -181,7 +181,7 @@
     .append("svg:g")
     .attr("transform", "translate(" + rx + "," + ry + ")");
 
-  d3.json("data/recalls_by_type_2012.json", function(classes) {
+  d3.json("data/recalls_by_type_2013.json", function(classes) {
     var nodes = cluster.nodes(packages.root(classes)),
         links = packages.imports(nodes),
         splines = bundle(links);
@@ -195,7 +195,7 @@
       .attr("stroke-width", function(d, i) { return 2*d.score; });
 
     var groupData = svg.selectAll("g.group")
-      .data(nodes.filter(function(d) { return $.inArray(d.key, ['01','02','03','04','05','06','07','08','09','10','11','12']) > -1 && d.children }))
+      .data(nodes.filter(function(d) { return $.inArray(d.key, ['01']) > -1 && d.children }))
       .enter().append("group")
       .attr("class", "group")
       .attr("id",function(d){return d.key});
