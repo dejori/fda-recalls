@@ -2,164 +2,13 @@
     {
         "company": "Gilster-Mary Lee",
         "date": "03/01/2013",
-        "imports": [
-            {
-                "name": "01.1",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.4",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.5",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.6",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.9",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "01.0",
         "product_description": "Brownie Mix",
         "reason": "Undeclared Walnuts",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334104.htm"
     },
     {
@@ -167,83 +16,8 @@
         "date": "04/01/2013",
         "imports": [
             {
-                "name": "01.3",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "01.4",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "01.5",
-                "score": 0.5,
-                "type": "both"
-            },
-            {
-                "name": "01.6",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.9",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -252,102 +26,17 @@
                 "type": "reason"
             },
             {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.53",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.55",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.84",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
         "name": "01.1",
         "product_description": "Hot Fries Snack",
         "reason": "Undeclared soy",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 35,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334243.htm"
     },
     {
@@ -366,8 +55,8 @@
             },
             {
                 "name": "01.17",
-                "score": 0.75,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "01.19",
@@ -403,35 +92,15 @@
         "name": "01.2",
         "product_description": "Smoked Salmon",
         "reason": "Listeria monocytogenes",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 7,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335112.htm"
     },
     {
         "company": "Southwest Ice Cream Specialties",
         "date": "07/01/2013",
         "imports": [
-            {
-                "name": "01.4",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
             {
                 "name": "02.53",
                 "score": 0.8,
@@ -440,16 +109,6 @@
             {
                 "name": "02.55",
                 "score": 0.8,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.6666666666666666,
                 "type": "reason"
             }
         ],
@@ -458,7 +117,7 @@
         "reason": "Undeclared soy, pecan, and wheat",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 9,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334440.htm"
     },
     {
@@ -466,168 +125,13 @@
         "date": "08/01/2013",
         "imports": [
             {
-                "name": "01.5",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.6",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.9",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.39",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.53",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.55",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.84",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -636,7 +140,7 @@
         "reason": "Undeclared soy",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 36,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334689.htm"
     },
     {
@@ -654,73 +158,8 @@
                 "type": "reason"
             },
             {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.34",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -729,48 +168,8 @@
                 "type": "reason"
             },
             {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.74",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -784,11 +183,6 @@
                 "type": "reason"
             },
             {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "04.99",
                 "score": 1.0,
                 "type": "reason"
@@ -797,9 +191,9 @@
         "name": "01.5",
         "product_description": "Snack",
         "reason": "Undeclared milk",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 32,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm334631.htm"
     },
     {
@@ -812,73 +206,8 @@
                 "type": "reason"
             },
             {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.34",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -887,48 +216,8 @@
                 "type": "reason"
             },
             {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.74",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -939,11 +228,6 @@
             {
                 "name": "03.88",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -957,7 +241,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335717.htm"
     },
     {
@@ -1025,73 +309,8 @@
         "date": "11/01/2013",
         "imports": [
             {
-                "name": "01.11",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.23",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.34",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -1100,48 +319,8 @@
                 "type": "reason"
             },
             {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.74",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -1155,11 +334,6 @@
                 "type": "reason"
             },
             {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "04.99",
                 "score": 1.0,
                 "type": "reason"
@@ -1170,7 +344,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335232.htm"
     },
     {
@@ -1188,134 +362,13 @@
     {
         "company": "Belmont Confections Inc.",
         "date": "15/01/2013",
-        "imports": [
-            {
-                "name": "01.13",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "01.11",
         "product_description": "Cookies &amp; cream bars and brownie bars",
         "reason": "Undeclared peanuts",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm335747.htm"
     },
     {
@@ -1325,11 +378,6 @@
             {
                 "name": "01.15",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.30",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -1348,7 +396,7 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 4,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336565.htm"
     },
     {
@@ -1356,123 +404,8 @@
         "date": "17/01/2013",
         "imports": [
             {
-                "name": "01.18",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.37",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.92",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -1481,7 +414,7 @@
         "reason": "Undeclared eggs",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 1,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336104.htm"
     },
     {
@@ -1532,11 +465,6 @@
         "date": "22/01/2013",
         "imports": [
             {
-                "name": "02.30",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.44",
                 "score": 1.0,
                 "type": "reason"
@@ -1552,7 +480,7 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 4,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336376.htm"
     },
     {
@@ -1567,11 +495,6 @@
             {
                 "name": "02.55",
                 "score": 1.0,
-                "type": "product"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "product"
             }
         ],
@@ -1616,9 +539,9 @@
         "name": "01.17",
         "product_description": "Alaskan Sockeye Salmon",
         "reason": "Listeria monocytogenes",
-        "similar_both": 2,
+        "similar_both": 1,
         "similar_products": 0,
-        "similar_reasons": 6,
+        "similar_reasons": 7,
         "url": "http://www.fda.gov/Safety/Recalls/ucm336951.htm"
     },
     {
@@ -1626,113 +549,13 @@
         "date": "28/01/2013",
         "imports": [
             {
-                "name": "02.26",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.59",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.79",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -1741,7 +564,7 @@
         "reason": "Undeclared Peanuts",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337780.htm"
     },
     {
@@ -1827,11 +650,6 @@
                 "type": "reason"
             },
             {
-                "name": "02.27",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.29",
                 "score": 1.0,
                 "type": "reason"
@@ -1842,7 +660,7 @@
         "reason": "iListeria monocytogenes/i",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 3,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337723.htm"
     },
     {
@@ -1850,23 +668,8 @@
         "date": "30/01/2013",
         "imports": [
             {
-                "name": "02.34",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
                 "name": "02.36",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.6666666666666666,
                 "type": "reason"
             },
             {
@@ -1878,41 +681,6 @@
                 "name": "02.55",
                 "score": 0.75,
                 "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.84",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.6,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.6666666666666666,
-                "type": "reason"
             }
         ],
         "name": "01.23",
@@ -1920,18 +688,13 @@
         "reason": "Undeclared milk and soy",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 18,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm337837.htm"
     },
     {
         "company": "GoldCoast Salads",
         "date": "01/02/2013",
         "imports": [
-            {
-                "name": "02.27",
-                "score": 0.5,
-                "type": "reason"
-            },
             {
                 "name": "02.29",
                 "score": 1.0,
@@ -1943,18 +706,13 @@
         "reason": "iListeria monocytogenes/i",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 3,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338606.htm"
     },
     {
         "company": "Sprouters Northwest",
         "date": "01/02/2013",
         "imports": [
-            {
-                "name": "02.29",
-                "score": 0.5,
-                "type": "product"
-            },
             {
                 "name": "02.40",
                 "score": 1.0,
@@ -1979,43 +737,18 @@
         "date": "04/02/2013",
         "imports": [
             {
-                "name": "02.28",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
                 "name": "02.31",
-                "score": 0.75,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "02.32",
-                "score": 0.75,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "02.33",
-                "score": 0.75,
-                "type": "both"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             },
             {
@@ -2024,93 +757,23 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.56",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
         "name": "02.26",
         "product_description": "Dried coconut",
         "reason": "Undeclared sulfites",
-        "similar_both": 3,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 27,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338374.htm"
     },
     {
         "company": "MKG Provisions",
         "date": "06/02/2013",
         "imports": [
-            {
-                "name": "02.29",
-                "score": 0.5,
-                "type": "reason"
-            },
             {
                 "name": "03.72",
                 "score": 0.8333333333333334,
@@ -2127,34 +790,18 @@
         "reason": "Potential to be contaminated with iListeria monocytogenes/i",
         "similar_both": 0,
         "similar_products": 1,
-        "similar_reasons": 5,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340249.htm"
     },
     {
         "company": "ZIP International Group LLC",
         "date": "07/02/2013",
-        "imports": [
-            {
-                "name": "02.31",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "02.32",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "02.33",
-                "score": 0.5,
-                "type": "product"
-            }
-        ],
+        "imports": [],
         "name": "02.28",
         "product_description": "Dry salted fish",
         "reason": "Uneviscerated fish",
         "similar_both": 0,
-        "similar_products": 1,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339735.htm"
     },
@@ -2166,31 +813,20 @@
         "product_description": "Sprout products, wheatgrass and pea shoots",
         "reason": "iListeria monocytogenes/i",
         "similar_both": 0,
-        "similar_products": 1,
-        "similar_reasons": 3,
+        "similar_products": 0,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338741.htm"
     },
     {
         "company": "Nestle Prepared Foods Company",
         "date": "08/02/2013",
-        "imports": [
-            {
-                "name": "02.44",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.49",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "02.30",
         "product_description": "Ravioli",
         "reason": "Glass fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 4,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339140.htm"
     },
     {
@@ -2204,27 +840,7 @@
             },
             {
                 "name": "02.33",
-                "score": 0.75,
-                "type": "both"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             },
             {
@@ -2233,82 +849,17 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.56",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
         "name": "02.31",
         "product_description": "Dried Mushrooms",
         "reason": "Undeclared sulfites",
-        "similar_both": 3,
-        "similar_products": 1,
-        "similar_reasons": 27,
+        "similar_both": 1,
+        "similar_products": 0,
+        "similar_reasons": 4,
         "url": "http://www.fda.gov/Safety/Recalls/ucm338978.htm"
     },
     {
@@ -2317,27 +868,7 @@
         "imports": [
             {
                 "name": "02.33",
-                "score": 0.75,
-                "type": "both"
-            },
-            {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             },
             {
@@ -2346,82 +877,17 @@
                 "type": "reason"
             },
             {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.56",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
         "name": "02.32",
         "product_description": "Dried Mushrooms",
         "reason": "Undeclared sulfites",
-        "similar_both": 3,
-        "similar_products": 1,
-        "similar_reasons": 27,
+        "similar_both": 1,
+        "similar_products": 0,
+        "similar_reasons": 4,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339341.htm"
     },
     {
@@ -2429,107 +895,22 @@
         "date": "13/02/2013",
         "imports": [
             {
-                "name": "02.34",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.51",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
                 "type": "reason"
             },
             {
                 "name": "02.56",
                 "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
             }
         ],
         "name": "02.33",
         "product_description": "Dried Coconut",
         "reason": "Undeclared sulfites",
-        "similar_both": 3,
-        "similar_products": 1,
-        "similar_reasons": 27,
+        "similar_both": 0,
+        "similar_products": 0,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339754.htm"
     },
     {
@@ -2537,78 +918,13 @@
         "date": "14/02/2013",
         "imports": [
             {
-                "name": "02.36",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.37",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.52",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.74",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -2619,11 +935,6 @@
             {
                 "name": "03.88",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -2637,7 +948,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339891.htm"
     },
     {
@@ -2657,16 +968,6 @@
         "date": "14/02/2013",
         "imports": [
             {
-                "name": "02.39",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
                 "name": "02.53",
                 "score": 0.75,
                 "type": "reason"
@@ -2675,36 +976,6 @@
                 "name": "02.55",
                 "score": 0.75,
                 "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.6,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.6666666666666666,
-                "type": "reason"
             }
         ],
         "name": "02.36",
@@ -2712,7 +983,7 @@
         "reason": "Undeclared milk and soy",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 18,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm339904.htm"
     },
     {
@@ -2720,92 +991,17 @@
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "02.39",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.81",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
+                "score": 1.0,
+                "type": "product"
             }
         ],
         "name": "02.37",
         "product_description": "Cake",
         "reason": "Undeclared egg",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 29,
+        "similar_reasons": 1,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340045.htm"
     },
     {
@@ -2813,28 +1009,8 @@
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "02.45",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
                 "name": "02.46",
                 "score": 1.0,
-                "type": "product"
-            },
-            {
-                "name": "03.65",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.66",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.76",
-                "score": 0.5,
                 "type": "product"
             },
             {
@@ -2856,102 +1032,17 @@
         "date": "15/02/2013",
         "imports": [
             {
-                "name": "02.48",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.53",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.55",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.84",
-                "score": 0.75,
-                "type": "both"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             }
         ],
         "name": "02.39",
         "product_description": "Taco Seasoning",
         "reason": "Undeclared soy",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 35,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340084.htm"
     },
     {
@@ -2998,8 +1089,8 @@
             },
             {
                 "name": "02.58",
-                "score": 0.6666666666666666,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "03.62",
@@ -3020,17 +1111,12 @@
                 "name": "03.76",
                 "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
-                "type": "reason"
             }
         ],
         "name": "02.41",
         "product_description": "Bird treats",
         "reason": "Salmonella",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
         "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340596.htm"
@@ -3041,8 +1127,8 @@
         "imports": [
             {
                 "name": "02.45",
-                "score": 0.6666666666666666,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "02.46",
@@ -3053,11 +1139,6 @@
                 "name": "02.47",
                 "score": 1.0,
                 "type": "both"
-            },
-            {
-                "name": "02.50",
-                "score": 0.5,
-                "type": "product"
             },
             {
                 "name": "02.58",
@@ -3076,26 +1157,21 @@
             },
             {
                 "name": "03.66",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.76",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.77",
-                "score": 0.5,
+                "name": "03.76",
+                "score": 1.0,
                 "type": "reason"
             }
         ],
         "name": "02.42",
         "product_description": "Dog Treats",
         "reason": "Salmonella",
-        "similar_both": 3,
+        "similar_both": 1,
         "similar_products": 0,
-        "similar_reasons": 7,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340337.htm"
     },
     {
@@ -3131,7 +1207,7 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 4,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340717.htm"
     },
     {
@@ -3140,13 +1216,13 @@
         "imports": [
             {
                 "name": "02.46",
-                "score": 0.6666666666666666,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "02.47",
-                "score": 0.6666666666666666,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "02.58",
@@ -3170,26 +1246,16 @@
             },
             {
                 "name": "03.76",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "03.89",
-                "score": 0.5,
-                "type": "product"
             }
         ],
         "name": "02.45",
         "product_description": "Pet Treats",
         "reason": "Salmonella",
-        "similar_both": 5,
-        "similar_products": 1,
-        "similar_reasons": 5,
+        "similar_both": 1,
+        "similar_products": 0,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340468.htm"
     },
     {
@@ -3218,17 +1284,12 @@
             },
             {
                 "name": "03.66",
-                "score": 0.6666666666666666,
-                "type": "both"
+                "score": 1.0,
+                "type": "reason"
             },
             {
                 "name": "03.76",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             },
             {
@@ -3240,20 +1301,15 @@
         "name": "02.46",
         "product_description": "Pet food products",
         "reason": "Salmonella",
-        "similar_both": 3,
+        "similar_both": 0,
         "similar_products": 1,
-        "similar_reasons": 7,
+        "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340669.htm"
     },
     {
         "company": "Kasel Associated Industries",
         "date": "21/02/2013",
         "imports": [
-            {
-                "name": "02.50",
-                "score": 0.5,
-                "type": "product"
-            },
             {
                 "name": "02.58",
                 "score": 1.0,
@@ -3271,109 +1327,33 @@
             },
             {
                 "name": "03.66",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.76",
                 "score": 1.0,
                 "type": "reason"
             },
             {
-                "name": "03.77",
-                "score": 0.5,
+                "name": "03.76",
+                "score": 1.0,
                 "type": "reason"
             }
         ],
         "name": "02.47",
         "product_description": "Dog Treats",
         "reason": "Salmonella",
-        "similar_both": 3,
+        "similar_both": 1,
         "similar_products": 0,
-        "similar_reasons": 7,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340552.htm"
     },
     {
         "company": "Mandy Star Trading Inc.",
         "date": "21/02/2013",
-        "imports": [
-            {
-                "name": "02.51",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "02.48",
         "product_description": "Preserved fruits",
         "reason": "Undeclared Sulfites",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340637.htm"
     },
     {
@@ -3385,34 +1365,18 @@
         "reason": "Metal fragments",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 4,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340676.htm"
     },
     {
         "company": "Hy-Vee, Inc.",
         "date": "22/02/2013",
-        "imports": [
-            {
-                "name": "02.58",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.76",
-                "score": 0.5,
-                "type": "product"
-            }
-        ],
+        "imports": [],
         "name": "02.50",
         "product_description": "Dog Food",
         "reason": "Elevated levels of a chemical contaminant",
         "similar_both": 0,
-        "similar_products": 2,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340891.htm"
     },
@@ -3421,68 +1385,8 @@
         "date": "22/02/2013",
         "imports": [
             {
-                "name": "02.52",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "02.56",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -3491,7 +1395,7 @@
         "reason": "Undeclared sulfites",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm341338.htm"
     },
     {
@@ -3499,48 +1403,8 @@
         "date": "22/02/2013",
         "imports": [
             {
-                "name": "02.56",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.74",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -3551,11 +1415,6 @@
             {
                 "name": "03.88",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -3569,7 +1428,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340886.htm"
     },
     {
@@ -3580,24 +1439,14 @@
                 "name": "02.55",
                 "score": 1.0,
                 "type": "both"
-            },
-            {
-                "name": "03.84",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.7142857142857143,
-                "type": "both"
             }
         ],
         "name": "02.53",
         "product_description": "Sauce",
         "reason": "Undeclared wheat and soy",
-        "similar_both": 2,
+        "similar_both": 1,
         "similar_products": 1,
-        "similar_reasons": 7,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340723.htm"
     },
     {
@@ -3615,92 +1464,25 @@
     {
         "company": "Bruce Foods Corporation",
         "date": "23/02/2013",
-        "imports": [
-            {
-                "name": "03.84",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.7142857142857143,
-                "type": "both"
-            }
-        ],
+        "imports": [],
         "name": "02.55",
         "product_description": "Sauce",
         "reason": "Undeclared wheat and soy",
-        "similar_both": 2,
+        "similar_both": 1,
         "similar_products": 1,
-        "similar_reasons": 7,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm340892.htm"
     },
     {
         "company": "Domega NY International Co., Ltd.",
         "date": "25/02/2013",
-        "imports": [
-            {
-                "name": "02.59",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "02.56",
         "product_description": "White Melon Seeds",
         "reason": "Undeclared sulfites",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 5,
         "url": "http://www.fda.gov/Safety/Recalls/ucm341348.htm"
     },
     {
@@ -3735,27 +1517,17 @@
                 "type": "reason"
             },
             {
-                "name": "03.69",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
                 "name": "03.76",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
             }
         ],
         "name": "02.58",
         "product_description": "Bird Food",
         "reason": "Salmonella",
-        "similar_both": 2,
-        "similar_products": 1,
-        "similar_reasons": 8,
+        "similar_both": 0,
+        "similar_products": 0,
+        "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm341527.htm"
     },
     {
@@ -3763,53 +1535,8 @@
         "date": "28/02/2013",
         "imports": [
             {
-                "name": "03.60",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.79",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -3818,7 +1545,7 @@
         "reason": "Undeclared Peanuts",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm342034.htm"
     },
     {
@@ -3826,48 +1553,8 @@
         "date": "01/03/2013",
         "imports": [
             {
-                "name": "03.74",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "04.98",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
                 "type": "reason"
             }
         ],
@@ -3876,7 +1563,7 @@
         "reason": "Undeclared Almonds",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 1,
         "url": "http://www.fda.gov/Safety/Recalls/ucm342025.htm"
     },
     {
@@ -3909,11 +1596,6 @@
                 "name": "03.76",
                 "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
-                "type": "reason"
             }
         ],
         "name": "03.62",
@@ -3921,7 +1603,7 @@
         "reason": "Salmonella",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 10,
+        "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345009.htm"
     },
     {
@@ -3941,16 +1623,6 @@
             {
                 "name": "03.68",
                 "score": 1.0,
-                "type": "product"
-            },
-            {
-                "name": "03.70",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.83",
-                "score": 0.5,
                 "type": "product"
             }
         ],
@@ -3975,16 +1647,6 @@
                 "name": "03.68",
                 "score": 1.0,
                 "type": "product"
-            },
-            {
-                "name": "03.70",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.83",
-                "score": 0.5,
-                "type": "product"
             }
         ],
         "name": "03.64",
@@ -4008,24 +1670,14 @@
                 "name": "03.76",
                 "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.89",
-                "score": 0.5,
-                "type": "product"
             }
         ],
         "name": "03.65",
         "product_description": "Frozen pet food",
         "reason": "Salmonella",
         "similar_both": 0,
-        "similar_products": 1,
-        "similar_reasons": 10,
+        "similar_products": 0,
+        "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm342902.htm"
     },
     {
@@ -4034,26 +1686,16 @@
         "imports": [
             {
                 "name": "03.76",
-                "score": 0.6666666666666666,
-                "type": "both"
-            },
-            {
-                "name": "03.77",
-                "score": 0.5,
+                "score": 1.0,
                 "type": "reason"
-            },
-            {
-                "name": "03.89",
-                "score": 0.5,
-                "type": "product"
             }
         ],
         "name": "03.66",
         "product_description": "Pet Treats",
         "reason": "Salmonella",
-        "similar_both": 5,
-        "similar_products": 1,
-        "similar_reasons": 5,
+        "similar_both": 1,
+        "similar_products": 0,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm342968.htm"
     },
     {
@@ -4063,16 +1705,6 @@
             {
                 "name": "03.68",
                 "score": 1.0,
-                "type": "product"
-            },
-            {
-                "name": "03.70",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.83",
-                "score": 0.5,
                 "type": "product"
             }
         ],
@@ -4087,18 +1719,7 @@
     {
         "company": "Tri-Union Seafoods, LLC",
         "date": "08/03/2013",
-        "imports": [
-            {
-                "name": "03.70",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "03.83",
-                "score": 0.5,
-                "type": "product"
-            }
-        ],
+        "imports": [],
         "name": "03.68",
         "product_description": "Canned tuna",
         "reason": "Can seams do not meet standard",
@@ -4110,18 +1731,12 @@
     {
         "company": "Diamond Pet Foods",
         "date": "10/03/2013",
-        "imports": [
-            {
-                "name": "03.76",
-                "score": 0.5,
-                "type": "product"
-            }
-        ],
+        "imports": [],
         "name": "03.69",
         "product_description": "Dry Cat Food",
         "reason": "Low level of thiamine (Vitamin B1)",
         "similar_both": 0,
-        "similar_products": 6,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm343084.htm"
     },
@@ -4139,7 +1754,7 @@
         "product_description": "Canned Pinto beans",
         "reason": "Spoilage organisms or Pathogens",
         "similar_both": 1,
-        "similar_products": 4,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344732.htm"
     },
@@ -4147,11 +1762,6 @@
         "company": "Green Planet, Inc.",
         "date": "11/03/2013",
         "imports": [
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "product"
-            },
             {
                 "name": "04.96",
                 "score": 1.0,
@@ -4172,16 +1782,16 @@
         "imports": [
             {
                 "name": "04.91",
-                "score": 0.7222222222222222,
-                "type": "both"
+                "score": 0.8333333333333334,
+                "type": "reason"
             }
         ],
         "name": "03.72",
         "product_description": "Chicken Blend-Raw Frozen Food Diet for Dogs and Cats",
         "reason": "Potential to be contaminated with Salmonella",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 1,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm343716.htm"
     },
     {
@@ -4201,31 +1811,6 @@
         "date": "15/03/2013",
         "imports": [
             {
-                "name": "03.79",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.85",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "03.86",
                 "score": 1.0,
                 "type": "reason"
@@ -4233,11 +1818,6 @@
             {
                 "name": "03.88",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -4251,7 +1831,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344017.htm"
     },
     {
@@ -4269,24 +1849,13 @@
     {
         "company": "Natura Pet Products",
         "date": "18/03/2013",
-        "imports": [
-            {
-                "name": "03.77",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.89",
-                "score": 0.5,
-                "type": "product"
-            }
-        ],
+        "imports": [],
         "name": "03.76",
         "product_description": "Pet Food",
         "reason": "Salmonella",
-        "similar_both": 4,
-        "similar_products": 3,
-        "similar_reasons": 6,
+        "similar_both": 0,
+        "similar_products": 0,
+        "similar_reasons": 9,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344421.htm"
     },
     {
@@ -4298,7 +1867,7 @@
         "reason": "May contain Salmonella",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 10,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344353.htm"
     },
     {
@@ -4316,135 +1885,37 @@
     {
         "company": "Daesang America Inc.",
         "date": "19/03/2013",
-        "imports": [
-            {
-                "name": "03.80",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "03.79",
         "product_description": "Soy Bean Paste",
         "reason": "Undeclared Peanuts",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344657.htm"
     },
     {
         "company": "New Chapter, Inc.",
         "date": "20/03/2013",
-        "imports": [
-            {
-                "name": "03.81",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.96",
-                "score": 0.5,
-                "type": "product"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "03.80",
         "product_description": "Dietary Supplement",
         "reason": "Undeclared Soy",
         "similar_both": 0,
-        "similar_products": 2,
-        "similar_reasons": 30,
+        "similar_products": 0,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm344782.htm"
     },
     {
         "company": "Gold Standard Baking",
         "date": "23/03/2013",
-        "imports": [
-            {
-                "name": "03.84",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "03.81",
         "product_description": "Coffee Cake",
         "reason": "Undeclared walnuts",
-        "similar_both": 1,
-        "similar_products": 0,
-        "similar_reasons": 29,
+        "similar_both": 0,
+        "similar_products": 1,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345197.htm"
     },
     {
@@ -4467,74 +1938,32 @@
         "product_description": "Canned Pinto beans",
         "reason": "Spoilage organisms or Pathogens",
         "similar_both": 1,
-        "similar_products": 4,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345464.htm"
     },
     {
         "company": "Lisy Corporation",
         "date": "27/03/2013",
-        "imports": [
-            {
-                "name": "03.85",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "03.84",
         "product_description": "Seasoning blends",
         "reason": "Undeclared soy",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 35,
+        "similar_reasons": 3,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345857.htm"
     },
     {
         "company": "Buffalo Trace Distillery",
         "date": "27/03/2013",
-        "imports": [
-            {
-                "name": "03.86",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "03.85",
         "product_description": "Marinade and Sauces",
         "reason": "Undeclared soy, anchovy, milk, and/or wheat",
-        "similar_both": 2,
-        "similar_products": 1,
-        "similar_reasons": 16,
+        "similar_both": 0,
+        "similar_products": 0,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345602.htm"
     },
     {
@@ -4544,11 +1973,6 @@
             {
                 "name": "03.88",
                 "score": 1.0,
-                "type": "reason"
-            },
-            {
-                "name": "04.98",
-                "score": 0.5,
                 "type": "reason"
             },
             {
@@ -4562,18 +1986,13 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345921.htm"
     },
     {
         "company": "Rich Products Corporation",
         "date": "28/03/2013",
         "imports": [
-            {
-                "name": "03.88",
-                "score": 0.5,
-                "type": "product"
-            },
             {
                 "name": "04.93",
                 "score": 1.0,
@@ -4593,11 +2012,6 @@
         "date": "28/03/2013",
         "imports": [
             {
-                "name": "04.98",
-                "score": 0.5,
-                "type": "reason"
-            },
-            {
                 "name": "04.99",
                 "score": 1.0,
                 "type": "reason"
@@ -4607,8 +2021,8 @@
         "product_description": "Cookie mix, Pizza mix",
         "reason": "Undeclared milk",
         "similar_both": 0,
-        "similar_products": 1,
-        "similar_reasons": 33,
+        "similar_products": 0,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345785.htm"
     },
     {
@@ -4619,26 +2033,20 @@
         "product_description": "Pet food",
         "reason": "iSalmonella/i",
         "similar_both": 0,
-        "similar_products": 6,
+        "similar_products": 2,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm345971.htm"
     },
     {
         "company": "Consumer Concepts, Inc.",
         "date": "01/04/2013",
-        "imports": [
-            {
-                "name": "04.96",
-                "score": 0.6666666666666666,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "04.90",
         "product_description": "Male sexual enhancement capsules",
         "reason": "Product contains hydroxythiohomosildenafil, an analogue of sildenafil",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 1,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm347026.htm"
     },
     {
@@ -4648,9 +2056,9 @@
         "name": "04.91",
         "product_description": "Chicken Balance, Chicken Blend and Beef Blend Burgers - Raw Frozen Food Diet for Dogs and Cats",
         "reason": "Potential to be contaminated with iSalmonella/i",
-        "similar_both": 1,
+        "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 1,
+        "similar_reasons": 2,
         "url": "http://www.fda.gov/Safety/Recalls/ucm346496.htm"
     },
     {
@@ -4661,7 +2069,7 @@
         "product_description": "Clam Pies",
         "reason": "Undeclared fish (anchovies)",
         "similar_both": 0,
-        "similar_products": 1,
+        "similar_products": 0,
         "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm346792.htm"
     },
@@ -4709,8 +2117,8 @@
         "product_description": "Dietary supplement",
         "reason": "Contain an analogue of sildenafil",
         "similar_both": 0,
-        "similar_products": 2,
-        "similar_reasons": 1,
+        "similar_products": 1,
+        "similar_reasons": 0,
         "url": "http://www.fda.gov/Safety/Recalls/ucm347558.htm"
     },
     {
@@ -4728,19 +2136,13 @@
     {
         "company": "Wild Blue Yonder Foods",
         "date": "12/04/2013",
-        "imports": [
-            {
-                "name": "04.99",
-                "score": 0.5,
-                "type": "reason"
-            }
-        ],
+        "imports": [],
         "name": "04.98",
         "product_description": "Simply Granola with Flax and Fruit (Gluten Free)",
         "reason": "Undeclared Almonds",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 30,
+        "similar_reasons": 1,
         "url": "http://www.fda.gov/Safety/Recalls/ucm347863.htm"
     },
     {
@@ -4752,7 +2154,7 @@
         "reason": "Undeclared milk",
         "similar_both": 0,
         "similar_products": 0,
-        "similar_reasons": 33,
+        "similar_reasons": 8,
         "url": "http://www.fda.gov/Safety/Recalls/ucm348235.htm"
     }
 ]
