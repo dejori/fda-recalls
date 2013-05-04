@@ -195,7 +195,7 @@
       .attr("stroke-width", function(d, i) { return 2*d.score; });
 
     var groupData = svg.selectAll("g.group")
-      .data(nodes.filter(function(d) { return $.inArray(d.key, ['01']) > -1 && d.children }))
+      .data(nodes.filter(function(d) { return $.inArray(d.key, ['01','02','03','04','05','06','07','08','09','10','11','12']) > -1 && d.children }))
       .enter().append("group")
       .attr("class", "group")
       .attr("id",function(d){return d.key});
@@ -203,8 +203,8 @@
     var groupArc = d3.svg.arc()
       .innerRadius(ry - 176)
       .outerRadius(ry - 157)
-      .startAngle(function(d) { return (findStartAngle(d.__data__.children)-2) * pi / 180;})
-      .endAngle(function(d) { return (findEndAngle(d.__data__.children)+2) * pi / 180});
+      .startAngle(function(d) { return (findStartAngle(d.__data__.children)-0.5) * pi / 180;})
+      .endAngle(function(d) { return (findEndAngle(d.__data__.children)+0.5) * pi / 180});
       
     svg.selectAll("g.arc")
       .data(groupData[0])
@@ -256,11 +256,11 @@
     svg.selectAll("g.arc")
         .data(groupData[0])
         .enter().append("svg:g")
-        .attr("fill", "#fff")
         .append("text")
             .attr("dx", "1em")
             .attr("dy", "1.1em")
             .attr("font-size", "12")
+            .attr("fill", "#fff")
             .append("textPath")
                 .attr("xlink:href", function(d){return "#group-"+d.id})
                 .text(function(d){return getMonth(d.id)}); 
