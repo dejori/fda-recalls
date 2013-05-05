@@ -48,7 +48,7 @@
       .link {
         fill: none;
         stroke: #DDD;
-        stroke-opacity: .4;
+        stroke-opacity: 0;
         pointer-events: none;
       }
 
@@ -59,39 +59,42 @@
       }
 
       .link.source, .link.target {
-        stroke-opacity: 1;
+        stroke-opacity: 0.9;
       }
 
       .node.target, .node.source {
         fill: #F57800;
       }
 
-      .link.target.type-product, .link.source.type-product{
+      .link.target.type-product, .link.source.type-product, .node.type-product{
         stroke: #F57800;
       }
 
-      .link.target.type-reason, .link.source.type-reason{
+      .link.target.type-reason, .link.source.type-reason, .node.type-reason{
         stroke: green;
 
       }
 
-      .link.source.type-both, .link.target.type-both{
+      .link.source.type-both, .link.target.type-both, .node.type-both{
         stroke: red;
       }
 
-      .node.type-product, .similar_products  {
-        /*fill-opacity: 0.9;*/
+      .similar_products  {
         fill: #F57800;
+        stroke: white;
+        cursor: pointer;
       }
 
-      .node.type-reason, .similar_reasons {
-        /*fill-opacity: 0.9;*/
+      .similar_reasons {
         fill: green;
+        stroke: white;
+        cursor: pointer;
       }
 
-      .node.type-both, .similar_both  {
-/*        fill-opacity: 0.9;*/
+      .similar_both  {
         fill: red;
+        stroke: white;
+        cursor: pointer;
       }
 
 
