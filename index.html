@@ -62,6 +62,10 @@
         stroke-opacity: 0.9;
       }
 
+      .link.preview{
+        stroke-opacity: 0.5;
+      }
+
       .node.target, .node.source {
         fill: #F57800;
       }
@@ -72,12 +76,12 @@
 
       .link.target.type-reason, .link.source.type-reason, .node.type-reason{
         stroke: green;
-
       }
 
       .link.source.type-both, .link.target.type-both, .node.type-both{
         stroke: red;
       }
+      
 
       .similar_products  {
         fill: #F57800;
@@ -153,15 +157,17 @@
       rx = w / 2,
       ry = h / 2,
       m0,
-      rotate = 0
-      pi = Math.PI;
+      rotate = 0,
+      pi = Math.PI,
+      outter_radius = ry - 128,
+      arc_width = 20;
 
   var selected_node;
 
   var splines = [];
 
   var cluster = d3.layout.cluster()
-      .size([360, ry - 188])
+      .size([360, outter_radius])
       .sort(function(a, b) { return d3.ascending(a.key, b.key); });
 
   var bundle = d3.layout.bundle();
@@ -204,8 +210,8 @@
       .attr("id",function(d){return d.key});
     
     var groupArc = d3.svg.arc()
-      .innerRadius(ry - 176)
-      .outerRadius(ry - 157)
+      .innerRadius(outter_radius + 12)
+      .outerRadius(outter_radius + 32)
       .startAngle(function(d) { return (findStartAngle(d.__data__.children)-0.5) * pi / 180;})
       .endAngle(function(d) { return (findEndAngle(d.__data__.children)+0.5) * pi / 180});
       
@@ -234,7 +240,6 @@
         .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
         .attr("rel","tooltip")
         .text(function(d) { 
-            console.log(d.name+"\t"+d.date+"\t"+d.company+"\t"+d.product_description); 
             if(d.x <45) placement = "right";
             else if(d.x > 45 && d.x < 135) placement = "bottom";
             else if(d.x > 135 && d.x < 225) placement = "left";
@@ -335,7 +340,7 @@
     }
   }
 
-  function highlightNodesAndLinks(d, type, highlight){
+  function highlightNodesAndLinks(d, highlight, type){
     svg.selectAll("path.link.source-" + d.key+"."+type)
         .classed("source", highlight)
         .each(updateNodes("target", highlight,type));  
@@ -345,22 +350,40 @@
         .each(updateNodes("source", highlight,type));
   }
 
+  function previewNodesAndLinks(d, highlight, type){
+    svg.selectAll("path.link.source-" + d.key+"."+type)
+        .classed("preview", highlight) 
 
-  function mouseover(d, sourceNodes, targetNodes) {
-    
-    highlightNodesAndLinks(d,"type-reason",true);
-    highlightNodesAndLinks(d,"type-product",true);
-    highlightNodesAndLinks(d,"type-both",true);
+    svg.selectAll("path.link.target-" + d.key+"."+type)
+        .classed("preview", highlight)
+  }
 
+
+  function mouseover(d) {
+    if (selected_node == null){
+      highlightNodesAndLinks(d,true, "type-reason");
+      highlightNodesAndLinks(d,true, "type-product");
+      highlightNodesAndLinks(d,true, "type-both");
+    }else{
+      previewNodesAndLinks(d,true, "type-reason");
+      previewNodesAndLinks(d,true, "type-product");
+      previewNodesAndLinks(d,true, "type-both");
     }
+  }
+
 
   function mouseout(d,sourceNodes, targetNodes) {
-    if( d === selected_node) return;
+    previewNodesAndLinks(d,false, "type-reason");
+    previewNodesAndLinks(d,false, "type-product");
+    previewNodesAndLinks(d,false, "type-both");
+    
 
-    highlightNodesAndLinks(d,"type-reason",false);
-    highlightNodesAndLinks(d,"type-product",false);
-    highlightNodesAndLinks(d,"type-both",false);
+    if(selected_node == null){
+      highlightNodesAndLinks(d,false, "type-reason");
+      highlightNodesAndLinks(d,false, "type-product");
+      highlightNodesAndLinks(d,false, "type-both");
 
+    }
   }
 
   function mouseclicked(d) {
@@ -371,22 +394,23 @@
         if(selected_node != null){
           svg.select("#node-"+selected_node.key).classed("selected",false)
           helper = selected_node
-          selected_node = d;
+          selected_node = null;
           getSourceAndTargetNodes(helper.key,sourceNodes,targetNodes)
-          mouseout(helper,sourceNodes,targetNodes)
+          mouseout(helper)
         }
 
         sourceNodes =[]
         targetNodes = []
         getSourceAndTargetNodes(d.key,sourceNodes,targetNodes)
+        
+        mouseover(d)
         selected_node = d;
         svg.select("#node-"+d.key).classed("selected",true)
-        mouseover(selected_node,sourceNodes,targetNodes)
     }else{
       svg.select("#node-"+d.key).classed("selected",false)
       getSourceAndTargetNodes(d.key,sourceNodes,targetNodes)
       selected_node = null;
-      mouseout(d,sourceNodes,targetNodes)
+      mouseout(d)
     }
   }
 
@@ -400,7 +424,6 @@
     )
   }
 
-  // function getTagCloud
   function getNodes(name,relatedNodes) {
     return function(d) {
       relatedNodes.push(d[name]);
