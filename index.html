@@ -137,8 +137,9 @@
               </li>
             </ul>
                 <ul class="nav pull-right">
-                    <li ><a id='about' href="#" data-toggle="modal" data-target="#myModal"><i class="icon-hand-right"></i> About</a></li>
-                    <li ><a id='loading' href="#" data-toggle="modal" data-target="#myModal"><i class="icon-spinner icon-spin"></i> loading data ...</a></li>
+                  <li ></li>
+                  <li ><a id='about' href="#" data-toggle="modal" data-target="#myModal"><i class="icon-hand-right"></i> About</a></li>
+                  <li ><a id='loading' href="#" data-toggle="modal" data-target="#myModal"><i class="icon-spinner icon-spin"></i> loading data ...</a></li>
                 </ul>
           </div>
         </div>
@@ -149,6 +150,7 @@
     </div>
 </div>
 <script type="text/javascript">
+
   var monthNumberFormat = d3.time.format("%m");
   var monthNameFormat = d3.time.format("%B");
 
@@ -159,7 +161,7 @@
       m0,
       rotate = 0,
       pi = Math.PI,
-      outter_radius = ry - 128,
+      outter_radius = ry - 138,
       arc_width = 20;
 
   var selected_node;
@@ -287,12 +289,9 @@
     if(d.similar_both>0){
       var rect = svg.append("rect")
         .attr("x", 35)
-        .attr("y", 0)
         .attr("id","similar-both-"+d.key)
-        .attr("width", 8)
-        .attr("height", 8)
+        .attr("width", 8).attr("height", 8)
         .attr("class", "similar_both")
-        .attr("rel","tooltip")
         .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_both >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; });
@@ -306,11 +305,10 @@
     if(d.similar_reasons>0){
       var rectangle = svg.append("rect")
         .attr("x", 35+8)
-        .attr("y", 0)
         .attr("id","similar-reasons-"+d.key)
-        .attr("width", 8)
-        .attr("height", 8)
+        .attr("width", 8).attr("height", 8)
         .attr("class", "similar_reasons")
+        .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_reasons >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
         ;
@@ -324,11 +322,11 @@
     if(d.similar_products >0){
       var rectangle = svg.append("rect")
         .attr("x", 35+2*8)
-        .attr("y", 0)
         .attr("id","similar-products-"+d.key)
         .attr("width", 8)
         .attr("height", 8)
         .attr("class", "similar_products")
+        .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_products >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
         ;
@@ -376,8 +374,6 @@
     previewNodesAndLinks(d,false, "type-reason");
     previewNodesAndLinks(d,false, "type-product");
     previewNodesAndLinks(d,false, "type-both");
-    
-
     if(selected_node == null){
       highlightNodesAndLinks(d,false, "type-reason");
       highlightNodesAndLinks(d,false, "type-product");
@@ -484,21 +480,63 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
 </script>
 
 <!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" height="400">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="myModalLabel">About</h3>
   </div>
   <div class="modal-body">
-    
+    <p>The FDA recalls ...</p>
+    <div id="modal"> 
+    </div>
+    <p>asdkljasdkljsa</p>
   </div>
   <div class="modal-footer">
+    
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
 </div>
+
+<script type="text/javascript">
+  var modal_div =  d3.select("#modal")
+    .style("width", "200px")
+    .style("height", "200px");
+    // .style("position", "absolute");
+
+  var modal_svg = modal_div.append("svg")
+    .attr("width", 200)
+    .attr("height", 200)
+    .attr("background-color","#DDD")
+    // .append("g")
+    ;
+
+    var radius = 50,
+    padding = 10,
+    radians = 2 * Math.PI;
+
+  var dimension = (2 * radius) + (2 * padding),
+      points = 50;
+
+  var angle = d3.scale.linear()
+      .domain([0, points-1])
+      .range([0, radians]);
+
+  // var line = d3.svg.line.radial()
+  //     .interpolate("basis")
+  //     .tension(0)
+  //     .radius(radius)
+  //     .angle(function(d, i) { return angle(i); });
+
+
+  // modal_svg.append("path").datum(d3.range(points))
+  //     .attr("class", "line")
+  //     .attr("d", line)
+  //     .attr("fill","#fff")
+  //     .attr("stroke","#333")
+  //     .attr("transform", "translate(" + (radius + padding) + ", " + (radius + padding) + ")");
+</script>
 </body>
 </html>
