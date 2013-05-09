@@ -31,7 +31,7 @@
       }
 
       .node {
-        font-size: 8px;
+        font-size: 10px;
         cursor: pointer;
       }
 
@@ -70,15 +70,27 @@
         fill: #F57800;
       }
 
-      .link.target.type-product, .link.source.type-product, .node.type-product{
+      .node.type-product{
+        fill: #F57800;
+      }
+
+      .node.type-reason{
+        fill: green;
+      }
+
+      .node.type-both{
+        fill: red;
+      }
+
+      .link.target.type-product, .link.source.type-product{
         stroke: #F57800;
       }
 
-      .link.target.type-reason, .link.source.type-reason, .node.type-reason{
+      .link.target.type-reason, .link.source.type-reason{
         stroke: green;
       }
 
-      .link.source.type-both, .link.target.type-both, .node.type-both{
+      .link.source.type-both, .link.target.type-both{
         stroke: red;
       }
       
