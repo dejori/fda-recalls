@@ -153,7 +153,7 @@
               </li>
             </ul>
             <form class="navbar-search pull-left">
-              <input type="text" class="search-query" placeholder="Type in a brand name, e.g. Wholefoods" onchange="filter()" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();">
+              <input type="text" class="search-query" placeholder="Type in a brand name, e.g. Wholefoods" onchange="filter()" oninput="this.onchange();">
             </form>
             <ul class="nav pull-right">
               <li ></li>
@@ -488,7 +488,14 @@
   } 
 
   function filter(){
-    
+    searchString = event.currentTarget.value;
+    console.log(searchString)
+
+    svg.selectAll("g.node")
+      .data(nodes.filter(function(n) { 
+        console.log(n)
+        return !n.children; 
+      }))
   }
 
   var _gaq = _gaq || [];
