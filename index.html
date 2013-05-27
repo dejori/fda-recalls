@@ -30,7 +30,7 @@
         stroke-width: 50;
       }
 
-      .node {
+      .node{
         fill: none;
         font-size: 10px;
         cursor: pointer;
@@ -38,6 +38,11 @@
 
       .node:hover {
         fill: #000;
+      }
+
+      .node.filtered {
+        fill: #333;
+        font-weight: bold;
       }
 
       .node.selected {
@@ -94,21 +99,24 @@
         stroke: red;
       }
       
+      .similar_node {
+        fill: #DDD;
+      }
 
-      .similar_products  {
-        fill: #F57800;
+      .similar_products.filtered  {
+        fill: #F57800 !important;
         stroke: white;
         cursor: pointer;
       }
 
-      .similar_reasons {
-        fill: green;
+      .similar_reasons.filtered {
+        fill: green !important;
         stroke: white;
         cursor: pointer;
       }
 
-      .similar_both  {
-        fill: red;
+      .similar_both.filtered  {
+        fill: red !important;
         stroke: white;
         cursor: pointer;
       }
@@ -153,7 +161,7 @@
               </li>
             </ul>
             <form class="navbar-search pull-left">
-              <input type="text" class="search-query" placeholder="Type in a brand name, e.g. Wholefoods" onchange="filter()" oninput="this.onchange();">
+              <input type="text" class="search-query" placeholder="Type in a company name, e.g. Publix" onchange="filter()" oninput="this.onchange();">
             </form>
             <ul class="nav pull-right">
               <li ></li>
@@ -312,7 +320,7 @@
         .attr("x", 35)
         .attr("id","similar-both-"+d.key)
         .attr("width", 8).attr("height", 8)
-        .attr("class", "similar_both")
+        .attr("class", "similar_node similar_both")
         .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_both >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; });
@@ -328,7 +336,7 @@
         .attr("x", 35+8)
         .attr("id","similar-reasons-"+d.key)
         .attr("width", 8).attr("height", 8)
-        .attr("class", "similar_reasons")
+        .attr("class", "similar_node similar_reasons")
         .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_reasons >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
@@ -346,7 +354,7 @@
         .attr("id","similar-products-"+d.key)
         .attr("width", 8)
         .attr("height", 8)
-        .attr("class", "similar_products")
+        .attr("class", "similar_node similar_products")
         .attr("rel","tooltip")
         .attr("fill-opacity", function(dd) {return d.similar_products >= 5 ? 1: 0.5})
         .attr("transform", function(dd) { return "rotate(" + (d.x -90.5) + ")translate(" + d.y + ")"; })
@@ -495,12 +503,17 @@
 
     svg.selectAll("g.node")
       .data(nodes.filter(function(n) { 
-        
-        if(n.company ==null || n.company.toLowerCase().indexOf(searchString) !== -1){
-          console.log(n.company)
-          return true;
-        }else return false;
-        // return !n.children; 
+        if(n.company == null) return;
+        show = false
+        if($.trim(searchString).length <=1 ){
+          show=false;
+        }else if(n.company.toLowerCase().indexOf(searchString) !== -1){
+          show=true
+        }
+        svg.select("#node-"+n.key).classed("filtered",show)
+        svg.select("#similar-reasons-"+n.key).classed("filtered",show);
+        svg.select("#similar-products-"+n.key).classed("filtered",show);
+        svg.select("#similar-both-"+n.key).classed("filtered",show);
       }))
   }
 
