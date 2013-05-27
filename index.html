@@ -101,6 +101,7 @@
       
       .similar_node {
         fill: #DDD;
+        cursor: default;
       }
 
       .similar_products.filtered  {
@@ -160,8 +161,9 @@
                 <a href="">2012 - Food</a>
               </li>
             </ul>
-            <form class="navbar-search pull-left">
-              <input type="text" class="search-query" placeholder="Type in a company name, e.g. Publix" onchange="filter()" oninput="this.onchange();">
+            <form class="navbar-search pull-left" onsubmit="return false;">
+              <input type="text" class="search-query" placeholder="Type in a company name, e.g. Publix" 
+              onchange="return filter()" oninput="this.onchange();">
             </form>
             <ul class="nav pull-right">
               <li ></li>
@@ -498,12 +500,13 @@
   } 
 
   function filter(){
+
     searchString = event.currentTarget.value.toLowerCase();
-    console.log(searchString)
+    console.log("search "+searchString)
 
     svg.selectAll("g.node")
       .data(nodes.filter(function(n) { 
-        if(n.company == null) return;
+        if(n.company == null) return false;
         show = false
         if($.trim(searchString).length <=1 ){
           show=false;
@@ -514,7 +517,9 @@
         svg.select("#similar-reasons-"+n.key).classed("filtered",show);
         svg.select("#similar-products-"+n.key).classed("filtered",show);
         svg.select("#similar-both-"+n.key).classed("filtered",show);
+        return false;
       }))
+    return false;
   }
 
   var _gaq = _gaq || [];
