@@ -183,10 +183,12 @@
   var monthNumberFormat = d3.time.format("%m");
   var monthNameFormat = d3.time.format("%B");
 
-  var w = 1200,
-      h = 1200,
-      rx = w / 2,
-      ry = h / 2,
+  var containerWidth = 1400,
+      containerHeight = 1400,
+      circleWidth = 1200,
+      circleHeight = 1200,
+      rx = circleWidth / 2,
+      ry = circleHeight / 2,
       m0,
       rotate = 0,
       pi = Math.PI,
@@ -211,13 +213,13 @@
 
   // Chrome 15 bug: <http://code.google.com/p/chromium/issues/detail?id=98951>
   var div = d3.select("#main-container")
-    .style("width", w + "px")
-    .style("height", w + "px")
+    .style("width", containerWidth + "px")
+    .style("height", containerHeight + "px")
     .style("position", "absolute");
 
   var svg = div.append("svg:svg")
-    .attr("width", w)
-    .attr("height", w)
+    .attr("width", circleWidth)
+    .attr("height", circleHeight)
     .append("svg:g")
     .attr("transform", "translate(" + rx + "," + ry + ")");
 
@@ -513,6 +515,10 @@
         }else if(n.company.toLowerCase().indexOf(searchString) !== -1){
           show=true
         }
+        if(n == selected_node){
+          mouseclicked(n)
+        }
+        // svg.select("#node-"+n.key).classed("selected",false)
         svg.select("#node-"+n.key).classed("filtered",show)
         svg.select("#similar-reasons-"+n.key).classed("filtered",show);
         svg.select("#similar-products-"+n.key).classed("filtered",show);
